@@ -9,7 +9,7 @@ const Seo = () => {
         <>
             <Navbar />
             <main>
-                <section class="hero-section">
+                <section class="seo-hero-section">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-8">

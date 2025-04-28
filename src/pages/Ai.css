@@ -14,3 +14,13 @@
     margin-bottom: 1rem;
     color: var(--primary);
 }
+
+.feature-badge {
+    background-color: rgba(124, 58, 237, 0.1);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1rem;
+}

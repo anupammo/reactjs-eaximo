@@ -32,13 +32,13 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/seo" element={<Seo />} />
-        <Route path="/ai" element={<Ai />} />
-        <Route path="/brand" element={<Brand />} />
+        <Route path="/ai-solutions" element={<Ai />} />
+        <Route path="/branding" element={<Brand />} />
         <Route path="/digital-marketing" element={<Dm />} />
         <Route path="/sem" element={<Sem />} />
         <Route path="/media" element={<Media />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/web" element={<Web />} />
+        <Route path="/it-support" element={<Support />} />
+        <Route path="/web-development" element={<Web />} />
       </Routes>
     </Router>
   );

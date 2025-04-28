@@ -29,23 +29,30 @@ const Navbar = () => {
                                 Services
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/">IT &amp; Tech Support</a></li>
-                                <li><a className="dropdown-item" href="/">Digital Marketing</a></li>
-                                <li><a className="dropdown-item" href="/">Web Development</a></li>
-                                <li><a className="dropdown-item" href="/">AI Solutions</a></li>
+                                <li><a className="dropdown-item" href="/seo">SEO</a></li>
+                                <li><a className="dropdown-item" href="/sem">SEM</a></li>
+                                <li><a className="dropdown-item" href="/branding">Branding</a></li>
+                                <li><a className="dropdown-item" href="/media">Media Solutions</a></li>
+                                <li><a className="dropdown-item" href="/ai-solutions">AI Solutions</a></li>
+                                <li><a className="dropdown-item" href="/it-support">IT & Tech Support</a></li>
+                                <li><a className="dropdown-item" href="/web-development">Web Development</a></li>
+                                <li><a className="dropdown-item" href="/digital-marketing">Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-primary" href="/about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-primary" href="/why-us">Why Us</a>
+                            <a className="nav-link text-primary" href="/careers">Careers</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-primary" href="/testimonials">Testimonials</a>
+                            <a className="nav-link text-primary" href="/academics">Academics</a>
                         </li>
-                        <li className="nav-item ms-lg-3">
-                            <a className="btn btn-primary" href="/contact">Contact us</a>
+                        <li className="nav-item">
+                            <a className="nav-link text-primary" href="/contact">Contact us</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-primary" href="/blog">Blog</a>
                         </li>
                     </ul>
                 </div>

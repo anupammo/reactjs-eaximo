@@ -10,7 +10,7 @@ const Careers = () => {
         <>
             <Navbar />
             <main>
-                <header className="hero-section">
+                <header className="careers-hero-section">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">
@@ -425,7 +425,7 @@ const Careers = () => {
                     </div>
                 </section>
                 
-                <section className="py-5" id="apply">
+                <section className="hero-section py-5" id="apply">
                     <div className="container">
                         <div className="apply-section">
                             <div className="row justify-content-center">

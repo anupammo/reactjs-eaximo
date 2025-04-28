@@ -65,10 +65,10 @@ const Services = () => {
                                         <h3 className="h4">IT & Tech <br />Support</h3>
                                         <p className="text-muted">Reliable technology solutions to keep your business running smoothly.</p>
                                         <ul className="list-unstyled mb-4">
-                                            <li className="text-primary mb-1"><i className="fas fa-check-circle me-2"></i>App Development</li>
-                                            <li className="text-primary mb-1"><i className="fas fa-check-circle me-2"></i>Software Solutions</li>
-                                            <li className="text-primary mb-1"><i className="fas fa-check-circle me-2"></i>Technical Support</li>
-                                            <li className="text-primary mb-1"><i className="fas fa-check-circle me-2"></i>Cybersecurity</li>
+                                            <li className="mb-1"><i className="fas fa-check-circle me-2"></i>App Development</li>
+                                            <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Software Solutions</li>
+                                            <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Technical Support</li>
+                                            <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Cybersecurity</li>
                                         </ul>
                                         <a href="it-tech-support.html" className="btn btn-outline-dark rounded-0 w-100">Explore IT Services</a>
                                     </div>

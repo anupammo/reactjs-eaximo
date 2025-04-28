@@ -8,7 +8,7 @@ const Contact = () => {
         <>
             <Navbar />
             <main>
-                <header className="hero-section py-5">
+                <header className="hero-section">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8 my-5">
@@ -79,7 +79,7 @@ const Contact = () => {
                     </div>
                 </section>
                 
-                <section className="form-section" id="contact-form">
+                <section className="form-section py-5" id="contact-form">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8">

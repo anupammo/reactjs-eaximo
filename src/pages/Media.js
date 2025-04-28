@@ -12,7 +12,7 @@ const Media = () => {
         <>
             <Navbar />
             <main>
-                <header className="hero-section">
+                <header className="media-hero-section">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">

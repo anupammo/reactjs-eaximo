@@ -12,7 +12,7 @@ const Web = () => {
         <>
             <Navbar />
             <main>
-                <header className="hero-section">
+                <header className="web-hero-section">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">

@@ -29,7 +29,7 @@ const Ai = () => {
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-10 text-center">
-                                <span className="feature-badge">AI-Powered Services</span>
+                                <span className="feature-badge">AI-Powered Services</span><br />
                                 <h2 className="section-title">Our AI-Powered Services</h2>
                                 <p className="lead">Transform your business with cutting-edge artificial intelligence solutions</p>
                             </div>

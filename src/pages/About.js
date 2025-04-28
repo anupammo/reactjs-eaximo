@@ -1,5 +1,6 @@
 import React from "react";
 import Consultation from "../components/Consultation";
+import Team from "../components/Team";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./About.css";
@@ -107,82 +108,83 @@ const About = () => {
                     </div>
                 </section>
 
-                <section className="py-5 bg-light" id="team">
+                <Team />
+
+                <section className="py-5 my-5">
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Meet Our Team</h2>
-                                <p className="lead">Passionate experts dedicated to your digital success</p>
+                                <h2 className="section-title">Why Choose Eaximo?</h2>
+                                <p className="lead">What sets us apart in the digital marketing landscape</p>
                             </div>
                         </div>
                         <div className="row g-4">
-                            <div className="col-lg-3 col-md-6">
-                                <div className="team-card card h-100">
-                                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                                        className="team-img" alt="Founder & CEO" />
-                                    <div className="card-body text-center">
-                                        <h4 className="mb-1">Alex Johnson</h4>
-                                        <p className="text-muted">Founder & CEO</p>
-                                        <p className="small">Visionary leader driving strategic growth and innovation.</p>
-                                        <div className="team-social">
-                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fas fa-envelope"></i></a>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="why-card">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-rocket fa-2x"></i>
                                         </div>
+                                        <h3 className="h4 mb-0">Proven Track Record</h3>
                                     </div>
+                                    <p>We have helped businesses achieve <strong>higher rankings</strong>, <strong>better conversions</strong>, and <strong>stronger brand presence</strong> through our data-backed strategies.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="team-card card h-100">
-                                    <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                                        className="team-img" alt="Digital Marketing Strategist" />
-                                    <div className="card-body text-center">
-                                        <h4 className="mb-1">Sarah Chen</h4>
-                                        <p className="text-muted">Digital Marketing Strategist</p>
-                                        <p className="small">Expert in SEO, paid ads, and lead generation strategies.</p>
-                                        <div className="team-social">
-                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fas fa-envelope"></i></a>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="why-card">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-graduation-cap fa-2x"></i>
                                         </div>
+                                        <h3 className="h4 mb-0">Industry Expertise</h3>
                                     </div>
+                                    <p>Specialized knowledge in <strong>SEO, web solutions, social media marketing, and AI-powered automation</strong> to give you a competitive edge.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="team-card card h-100">
-                                    <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                                        className="team-img" alt="Creative Designer" />
-                                    <div className="card-body text-center">
-                                        <h4 className="mb-1">Michael Rodriguez</h4>
-                                        <p className="text-muted">Creative Designer</p>
-                                        <p className="small">Crafting visual brand identities & UI/UX solutions.</p>
-                                        <div className="team-social">
-                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fas fa-envelope"></i></a>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="why-card">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-database fa-2x"></i>
                                         </div>
+                                        <h3 className="h4 mb-0">Data-Driven Strategies</h3>
                                     </div>
+                                    <p>Every decision we make is backed by <strong>analytics, research, and customer insights</strong> to ensure maximum impact for your business.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="team-card card h-100">
-                                    <img src="https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                                        className="team-img" alt="AI & Automation Specialist" />
-                                    <div className="card-body text-center">
-                                        <h4 className="mb-1">David Kim</h4>
-                                        <p className="text-muted">AI & Automation Specialist</p>
-                                        <p className="small">Optimizing marketing workflows through AI-driven insights.</p>
-                                        <div className="team-social">
-                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fas fa-envelope"></i></a>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="why-card">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-tools fa-2x"></i>
                                         </div>
+                                        <h3 className="h4 mb-0">Comprehensive Services</h3>
                                     </div>
+                                    <p>From <strong>branding &amp; web design</strong> to <strong>PPC ads &amp; lead generation</strong>, we offer end-to-end digital solutions under one roof.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="text-center mt-5">
-                            <a href="contact.html" className="btn btn-primary btn-lg">Work With Our Team</a>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="why-card">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-users fa-2x"></i>
+                                        </div>
+                                        <h3 className="h4 mb-0">Dedicated Team</h3>
+                                    </div>
+                                    <p>Our <strong>passionate experts</strong> work closely with you to understand your goals and deliver customized solutions that drive results.</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="why-card">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-headset fa-2x"></i>
+                                        </div>
+                                        <h3 className="h4 mb-0">Ongoing Support</h3>
+                                    </div>
+                                    <p>We provide <strong>continuous optimization</strong> and support to ensure your digital presence keeps growing and evolving with your business.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

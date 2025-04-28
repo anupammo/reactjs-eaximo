@@ -35,14 +35,18 @@ const Dm = () => {
                 
                 <section className="py-5 bg-light" id="services">
                     <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <h2 className="section-title mb-5">Branding, Design & Printing</h2>
+                            </div>
+                        </div>
                         <div className="row mb-5">
                             <div className="col-lg-6 mb-4 mb-lg-0">
                                 <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                                     alt="Branding and design services" className="img-fluid rounded-3 shadow" />
                             </div>
                             <div className="col-lg-6">
-                                <h2 className="section-title">Branding, Design & Printing</h2>
-                                <p className="lead mb-4">Build a powerful brand identity that resonates with your audience.</p>
+                                <p className="lead mt-4">Build a powerful brand identity that resonates with your audience.</p>
                                 <div className="service-feature">
                                     <i className="fas fa-check-circle"></i>
                                     <div>
@@ -67,9 +71,9 @@ const Dm = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 mb-5">
-                                <p className="text-center">
-                                    <a href="contact.html" className="btn btn-primary">Create a Unique Brand Identity Today!</a>
+                            <div className="col-12">
+                                <p className="text-center pb-4">
+                                    <a href="contact.html" className="btn btn-primary my-4">Create a Unique Brand Identity Today!</a>
                                 </p>
                             </div>
                         </div>
@@ -103,7 +107,9 @@ const Dm = () => {
                                         <p className="mb-0">YouTube video strategy, voiceovers, and promotional content.</p>
                                     </div>
                                 </div>
-                                <a href="contact.html" className="btn btn-primary mt-4">Enhance Brand Engagement with Premium Media Solutions!</a>
+                            </div>
+                            <div className="col-12 text-center pt-4">
+                                <a href="contact.html" className="btn btn-primary my-5">Enhance Brand Engagement with Premium Media Solutions!</a>
                             </div>
                         </div>
                         
@@ -136,7 +142,9 @@ const Dm = () => {
                                         <p className="mb-0">Security, backups, and performance optimization.</p>
                                     </div>
                                 </div>
-                                <a href="contact.html" className="btn btn-primary mt-4">Launch a High-Performance Website Today!</a>
+                            </div>
+                            <div className="col-12 text-center pt-4">
+                                <a href="contact.html" className="btn btn-primary my-5">Launch a High-Performance Website Today!</a>
                             </div>
                         </div>
                         
@@ -169,7 +177,9 @@ const Dm = () => {
                                         <p className="mb-0">Google Ads, retargeting, and conversion strategies.</p>
                                     </div>
                                 </div>
-                                <a href="contact.html" className="btn btn-primary mt-4">Get More Leads with Advanced Marketing Solutions!</a>
+                            </div>
+                            <div className="col-12 text-center pt-4">
+                                <a href="contact.html" className="btn btn-primary my-5">Get More Leads with Advanced Marketing Solutions!</a>
                             </div>
                         </div>
                         
@@ -202,6 +212,8 @@ const Dm = () => {
                                         <p className="mb-0">DevOps, cloud-based CRM, and AI-driven tech integration.</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div className="col-12 pt-4 text-center">
                                 <a href="contact.html" className="btn btn-primary mt-4">Scale Your Business with Cutting-Edge Tech!</a>
                             </div>
                         </div>
@@ -235,6 +247,8 @@ const Dm = () => {
                                         <p className="mb-0">Data-driven insights, sales forecasting, and AI-enhanced CRM.</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div className="col-12 pt-4 text-center">
                                 <a href="contact.html" className="btn btn-primary mt-4">Revolutionize Your Strategy with AI Automation!</a>
                             </div>
                         </div>

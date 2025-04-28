@@ -6,7 +6,7 @@
 }
 
 .text-ai-purple {
-    color: var(--ai-purple);
+    color: var(--primary);
 }
 
 .text-tech-blue {
@@ -48,11 +48,11 @@
     border-left: 4px solid var(--web-green);
 }
 
-.ai-service .service-icon {
+.ai-service .service-icon, .ai-service ul li i, .ai-service ul li {
     color: var(--ai-purple);
 }
 
-.tech-service .service-icon {
+.tech-service .service-icon, .tech-service ul li i, .tech-service ul li {
     color: var(--tech-blue);
 }
 
@@ -60,36 +60,6 @@
     color: var(--marketing-orange);
 }
 
-.web-service .service-icon {
+.web-service .service-icon, .web-service ul li i, .web-service ul li {
     color: var(--web-green);
-}
-
-.category-badge {
-    background-color: rgba(37, 99, 235, 0.1);
-    color: var(--primary);
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
-    font-weight: 600;
-    display: inline-block;
-    margin-bottom: 1rem;
-}
-
-.process-step {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-}
-
-.step-number {
-    background-color: var(--primary);
-    color: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-    font-weight: 700;
-    flex-shrink: 0;
 }
