@@ -5,9 +5,9 @@ import Consultation from "../components/Consultation";
 // import Counter from "../components/Counter"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Sem.css";
+import "./Web.css";
 
-const Sem = () => {
+const Web = () => {
     return (
         <>
             <Navbar />
@@ -16,23 +16,23 @@ const Sem = () => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold">Fuel Your Business Growth</h1>
-                                <p className="lead mb-4">We craft <strong>performance-driven digital marketing strategies</strong> that increase brand awareness, improve search rankings, and maximize lead conversions.</p>
-                                <div className="d-flex flex-wrap gap-3">
+                                <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Transform Your Online Presence</h1>
+                                <p className="lead mb-4">A well-designed website is the <strong>foundation of digital success</strong>. We specialize in custom solutions that engage audiences and drive conversions.</p>
+                                <div className="d-flex flex-wrap gap-3 mb-5">
                                     <a href="#services" className="btn btn-primary btn-lg">Explore Services</a>
-                                    <a href="#contact" className="btn btn-outline-light btn-lg">Get Free Consultation</a>
+                                    <a href="#contact" className="btn btn-outline-light btn-lg">Get Started</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </header>
-
+                
                 <section className="py-5 my-5" id="services">
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Our Digital Marketing Services</h2>
-                                <p className="lead">Comprehensive solutions to <strong>grow your online presence</strong> and drive business results</p>
+                                <h2 className="section-title">Our Web Solutions Services</h2>
+                                <p className="lead">Custom websites designed for <strong>performance, aesthetics, and results</strong></p>
                             </div>
                         </div>
                         
@@ -41,11 +41,11 @@ const Sem = () => {
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
                                         <div className="service-icon">
-                                            <i className="fas fa-search"></i>
+                                            <i className="fas fa-paint-brush"></i>
                                         </div>
-                                        <h3 className="h4">SEO Services</h3>
-                                        <p>Improve search rankings and drive organic traffic with our proven strategies.</p>
-                                        <a href="#seo" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <h3 className="h4">Website Design</h3>
+                                        <p>Beautiful, functional designs tailored to your brand identity and business goals.</p>
+                                        <a href="#design" className="btn btn-outline-primary mt-3">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -53,11 +53,11 @@ const Sem = () => {
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
                                         <div className="service-icon">
-                                            <i className="fas fa-ad"></i>
+                                            <i className="fas fa-code"></i>
                                         </div>
-                                        <h3 className="h4">Paid Advertising</h3>
-                                        <p>Targeted PPC campaigns that deliver measurable results.</p>
-                                        <a href="#ppc" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <h3 className="h4">Website Development</h3>
+                                        <p>Robust, scalable websites built with clean code and modern technologies.</p>
+                                        <a href="#development" className="btn btn-outline-primary mt-3">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,11 +65,11 @@ const Sem = () => {
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
                                         <div className="service-icon">
-                                            <i className="fas fa-users"></i>
+                                            <i className="fas fa-shopping-cart"></i>
                                         </div>
-                                        <h3 className="h4">Social Media Marketing</h3>
-                                        <p>Grow your audience and engagement across platforms.</p>
-                                        <a href="#social" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <h3 className="h4">E-Commerce Solutions</h3>
+                                        <p>Powerful online stores designed to convert visitors into customers.</p>
+                                        <a href="#ecommerce" className="btn btn-outline-primary mt-3">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -77,90 +77,90 @@ const Sem = () => {
                     </div>
                 </section>
                 
-                <section className="py-5 bg-light" id="seo">
+                <section className="py-5 bg-light" id="design">
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Search Engine Optimization (SEO)</h2>
-                                <p className="lead">Improve your <strong>search visibility</strong> and attract quality traffic</p>
+                                <h2 className="section-title">Website Design Services</h2>
+                                <p className="lead">Custom designs that <strong>captivate visitors</strong> and reflect your brand identity</p>
                             </div>
                         </div>
                         
                         <div className="row g-4">
                             <div className="col-md-6 col-lg-4">
-                                <div className="marketing-category">
+                                <div className="web-category">
                                     <div className="d-flex align-items-start mb-3">
                                         <div className="me-3 text-primary">
-                                            <i className="fas fa-file-alt fa-2x"></i>
+                                            <i className="fas fa-palette fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h3 className="h4 mb-0">On-Page & Off-Page SEO</h3>
-                                            <p className="mb-0">Content structuring, backlinking, and keyword strategy</p>
+                                            <h3 className="h4 mb-0">Custom Website Design</h3>
+                                            <p className="mb-0">Tailored aesthetics that match your brand identity</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="marketing-category">
+                                <div className="web-category">
                                     <div className="d-flex align-items-start mb-3">
                                         <div className="me-3 text-primary">
-                                            <i className="fas fa-cog fa-2x"></i>
+                                            <i className="fas fa-mobile-alt fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h3 className="h4 mb-0">Technical SEO</h3>
-                                            <p className="mb-0">Faster website load time & indexing improvements</p>
+                                            <h3 className="h4 mb-0">Responsive Web Design</h3>
+                                            <p className="mb-0">Mobile-optimized layouts for all devices</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="marketing-category">
+                                <div className="web-category">
                                     <div className="d-flex align-items-start mb-3">
                                         <div className="me-3 text-primary">
-                                            <i className="fas fa-map-marker-alt fa-2x"></i>
+                                            <i className="fas fa-window-maximize fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h3 className="h4 mb-0">Local SEO</h3>
-                                            <p className="mb-0">Google My Business optimization</p>
+                                            <h3 className="h4 mb-0">Landing Page <br />Design</h3>
+                                            <p className="mb-0">High-converting designs for campaigns</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="marketing-category">
+                                <div className="web-category">
                                     <div className="d-flex align-items-start mb-3">
                                         <div className="me-3 text-primary">
-                                            <i className="fas fa-shopping-cart fa-2x"></i>
+                                            <i className="fas fa-user-friends fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h3 className="h4 mb-0">E-commerce SEO</h3>
-                                            <p className="mb-0">Product listing optimization</p>
+                                            <h3 className="h4 mb-0">UI/UX Design</h3>
+                                            <p className="mb-0">Enhancing the user engagement</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="marketing-category">
+                                <div className="web-category">
                                     <div className="d-flex align-items-start mb-3">
                                         <div className="me-3 text-primary">
-                                            <i className="fas fa-play fa-2x"></i>
+                                            <i className="fas fa-sync-alt fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h3 className="h4 mb-0">YouTube SEO</h3>
-                                            <p className="mb-0">Video optimization strategies</p>
+                                            <h3 className="h4 mb-0">Website Redesign</h3>
+                                            <p className="mb-0">Modernizing outdated designs</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="marketing-category">
+                                <div className="web-category">
                                     <div className="d-flex align-items-start mb-3">
                                         <div className="me-3 text-primary">
-                                            <i className="fas fa-chart-bar fa-2x"></i>
+                                            <i className="fas fa-search fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h3 className="h4 mb-0">SEO Audits</h3>
-                                            <p className="mb-0">Data-driven growth insights</p>
+                                            <h3 className="h4 mb-0">SEO-Focused Design</h3>
+                                            <p className="mb-0">Structuring for search visibility</p>
                                         </div>
                                     </div>
                                 </div>
@@ -168,41 +168,43 @@ const Sem = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Rank Higher on Google & Drive More Traffic!</a>
+                            <a href="#contact" className="btn btn-primary btn-lg px-5">Create a Website That Drives Growth!</a>
                         </div>
                     </div>
                 </section>
                 
-                <section className="py-5 my-5" id="social">
+                <section className="py-5 my-5" id="development">
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Social Media & Influencer Marketing</h2>
-                                <p className="lead">Grow your <strong>audience engagement</strong> and brand awareness</p>
+                                <h2 className="section-title">Website Development Services</h2>
+                                <p className="lead">Robust, <strong>high-performance</strong> websites built with modern technologies</p>
                             </div>
                         </div>
                         
                         <div className="row">
                             <div className="col-lg-6 mb-4 mb-lg-0">
+                                <h3 className="h2 mb-4">Comprehensive Development Solutions</h3>
                                 <div className="h-100">
-                                    <img src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                                        alt="Social media marketing" className="img-fluid rounded-3 shadow" />
+                                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                                        alt="Website development" className="img-fluid rounded-3 shadow" />
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4 p-lg-5">
-                                        <div className="service-icon">
-                                            <i className="fas fa-hashtag"></i>
+                                        <div className="service-icon text-center display-1">
+                                            <i className="fas fa-laptop-code"></i>
                                         </div>
-                                        <h3 className="h2 mb-4">Social Media Solutions</h3>
                                         <ul className="feature-list">
-                                            <li><strong>Social Media Strategy</strong> - Custom campaigns across platforms</li>
-                                            <li><strong>Organic Growth</strong> - Posting schedules & engagement techniques</li>
-                                            <li><strong>Reel & Story Marketing</strong> - Short-form content for engagement</li>
-                                            <li><strong>LinkedIn B2B Outreach</strong> - Professional networking strategies</li>
-                                            <li><strong>Influencer Marketing</strong> - Brand collaborations & promotions</li>
-                                            <li><strong>Community Engagement</strong> - Hashtag optimization & reach</li>
+                                            <li><strong>WordPress Development</strong> - Custom themes & plugins</li>
+                                            <li><strong>Custom Website Development</strong> - Scalable solutions</li>
+                                            <li><strong>CMS Integration</strong> - Easy content management</li>
+                                            <li><strong>Web Applications</strong> - Portals, CRM & admin tools</li>
+                                            <li><strong>API Integration</strong> - Third-party connectivity</li>
+                                            <li><strong>Website Maintenance</strong> - Updates & security</li>
+                                            <li><strong>Performance Optimization</strong> - Speed enhancements</li>
+                                            <li><strong>Security Implementation</strong> - Data protection</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -210,17 +212,17 @@ const Sem = () => {
                         </div>
                         
                         <div className="text-center mt-4">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Expand Your Social Presence!</a>
+                            <a href="#contact" className="btn btn-primary btn-lg px-5">Build a High-Performance Website Today!</a>
                         </div>
                     </div>
                 </section>
                 
-                <section className="py-5 bg-light" id="ppc">
+                <section className="py-5 bg-light">
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Paid Advertising (PPC & Social Ads)</h2>
-                                <p className="lead">Drive <strong>targeted traffic</strong> and conversions with strategic ad campaigns</p>
+                                <h2 className="section-title">Website Types We Develop</h2>
+                                <p className="lead">Custom solutions for <strong>every business need</strong></p>
                             </div>
                         </div>
                         
@@ -228,15 +230,15 @@ const Sem = () => {
                             <div className="col-md-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
-                                        <h3 className="h4 mb-4">Paid Search & Display</h3>
+                                        <h3 className="h4 mb-4">Business & Informational Websites</h3>
                                         <ul className="feature-list">
-                                            <li>Google Search & Display Ads</li>
-                                            <li>Shopping & YouTube Campaigns</li>
-                                            <li>Meta Ads (Facebook & Instagram)</li>
-                                            <li>LinkedIn B2B Lead Generation</li>
-                                            <li>Retargeting & Remarketing</li>
-                                            <li>Campaign Testing & Optimization</li>
-                                            <li>Budget Planning & Tracking</li>
+                                            <li>Corporate Business Websites</li>
+                                            <li>Portfolio & Personal Websites</li>
+                                            <li>Landing Pages & One-Page Sites</li>
+                                            <li>News/Magazine Platforms</li>
+                                            <li>Educational/Institutional Sites</li>
+                                            <li>Nonprofit/Charity Websites</li>
+                                            <li>Forum & Community Platforms</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -244,18 +246,19 @@ const Sem = () => {
                             <div className="col-md-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
-                                        <h3 className="h4 mb-4">Content & Lead Generation</h3>
+                                        <h3 className="h4 mb-4">E-Commerce Websites</h3>
                                         <ul className="feature-list">
-                                            <li>SEO-Optimized Blog Writing</li>
-                                            <li>Website & Landing Page Copy</li>
-                                            <li>Infographics & Carousels</li>
-                                            <li>Short Video Marketing</li>
-                                            <li>YouTube Script Writing</li>
-                                            <li>Lead Funnel Strategy</li>
-                                            <li>CRM Setup & Automation</li>
+                                            <li>WooCommerce/Shopify/Magento</li>
+                                            <li>Product Catalog Optimization</li>
+                                            <li>Payment Gateway Integration</li>
+                                            <li>Shopping Cart Systems</li>
+                                            <li>Inventory Management</li>
+                                            <li>Shipping & Tax Configuration</li>
+                                            <li>Customer Account Features</li>
+                                            <li>Sales Analytics & Reporting</li>
                                         </ul>
                                         <div className="mt-3">
-                                            <a href="#contact" className="btn btn-outline-primary">Generate More Leads!</a>
+                                            <a href="#contact" className="btn btn-outline-primary">Launch Your Online Store</a>
                                         </div>
                                     </div>
                                 </div>
@@ -266,9 +269,9 @@ const Sem = () => {
                 
                 <section className="benefits-section">
                     <div className="container">
-                        <div className="row justify-content-center mb-5">
+                        <div className="row justify-content-center my-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Why Choose Eaximo for Digital Marketing?</h2>
+                                <h2 className="section-title">Why Choose Eaximo for Web Solutions?</h2>
                             </div>
                         </div>
                         
@@ -276,37 +279,37 @@ const Sem = () => {
                             <div className="col-md-6 col-lg-3">
                                 <div className="benefit-item">
                                     <div className="benefit-icon">
-                                        <i className="fas fa-bullseye"></i>
+                                        <i className="fas fa-search"></i>
                                     </div>
-                                    <h3 className="h5">Tailored Strategies</h3>
-                                    <p>Custom marketing plans aligned with your business goals</p>
+                                    <h3 className="h5">SEO-Optimized</h3>
+                                    <p>Designed to rank higher in search results from day one</p>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
                                 <div className="benefit-item">
                                     <div className="benefit-icon">
-                                        <i className="fas fa-chart-line"></i>
+                                        <i className="fas fa-mobile-alt"></i>
                                     </div>
-                                    <h3 className="h5">Data-Driven</h3>
-                                    <p>Performance tracking and actionable insights</p>
+                                    <h3 className="h5">Mobile-Friendly</h3>
+                                    <p>Perfect experience on all devices and screen sizes</p>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
                                 <div className="benefit-item">
                                     <div className="benefit-icon">
-                                        <i className="fas fa-robot"></i>
+                                        <i className="fas fa-bolt"></i>
                                     </div>
-                                    <h3 className="h5">AI-Powered</h3>
-                                    <p>Smart automation for efficient campaigns</p>
+                                    <h3 className="h5">Fast & Secure</h3>
+                                    <p>Speed-enhanced platforms with robust security</p>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
                                 <div className="benefit-item">
                                     <div className="benefit-icon">
-                                        <i className="fas fa-globe"></i>
+                                        <i className="fas fa-expand"></i>
                                     </div>
-                                    <h3 className="h5">Comprehensive</h3>
-                                    <p>Full-spectrum digital presence building</p>
+                                    <h3 className="h5">Scalable</h3>
+                                    <p>Tailored solutions that grow with your business</p>
                                 </div>
                             </div>
                         </div>
@@ -324,4 +327,4 @@ const Sem = () => {
     );
 };
 
-export default Sem;
+export default Web;

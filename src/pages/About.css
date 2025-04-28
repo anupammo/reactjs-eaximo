@@ -1,19 +1,19 @@
-:root {
+/* :root {
     --primary: #2563eb;
     --secondary: #1e40af;
     --accent: #3b82f6;
     --dark: #1f2937;
     --light: #f9fafb;
-}
+} */
 
-body {
+/* body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     color: var(--dark);
     overflow-x: hidden;
-}
+} */
 
-.navbar {
+/* .navbar {
     transition: all 0.3s ease;
     padding: 1.5rem 0;
 }
@@ -28,7 +28,7 @@ body {
     font-weight: 800;
     font-size: 1.75rem;
     color: var(--primary);
-}
+} */
 
 .hero-about {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
@@ -41,7 +41,7 @@ body {
     color: white;
 }
 
-.hero-title {
+/* .hero-title {
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 1.5rem;
@@ -59,9 +59,9 @@ body {
     background-color: var(--secondary);
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
-}
+} */
 
-.section-title {
+/* .section-title {
     position: relative;
     display: inline-block;
     margin-bottom: 2rem;
@@ -76,9 +76,9 @@ body {
     height: 4px;
     background: var(--primary);
     border-radius: 2px;
-}
+} */
 
-.value-card {
+/* .value-card {
     border: none;
     border-radius: 12px;
     overflow: hidden;
@@ -97,7 +97,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: var(--primary);
-}
+} */
 
 .team-card {
     border: none;

@@ -1,18 +1,3 @@
-/* Reusing existing styles from main page */
-:root {
-    --primary: #2563eb;
-    --secondary: #1e40af;
-    --accent: #3b82f6;
-    --dark: #1f2937;
-    --light: #f9fafb;
-}
-
-body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    line-height: 1.6;
-    color: var(--dark);
-}
-
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
                 url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
@@ -22,43 +7,6 @@ body {
     display: flex;
     align-items: center;
     color: white;
-}
-
-.hero-title {
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-}
-
-.btn-primary {
-    background-color: var(--primary);
-    border: none;
-    padding: 0.75rem 2rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: var(--secondary);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
-}
-
-.section-title {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 2rem;
-}
-
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 50px;
-    height: 4px;
-    background: var(--primary);
-    border-radius: 2px;
 }
 
 .program-card {
@@ -83,19 +31,6 @@ body {
     color: var(--primary);
 }
 
-.feature-icon {
-    width: 50px;
-    height: 50px;
-    background: rgba(37, 99, 235, 0.1);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    color: var(--primary);
-    font-size: 1.5rem;
-}
-
 .highlight-badge {
     background-color: rgba(37, 99, 235, 0.1);
     color: var(--primary);
@@ -118,15 +53,4 @@ body {
     background-color: var(--light);
     padding: 5rem 0;
     border-radius: 12px;
-}
-
-@media (max-width: 768px) {
-    .hero-section {
-        min-height: auto;
-        padding: 5rem 0;
-    }
-    
-    .hero-title {
-        font-size: 2.25rem;
-    }
 }

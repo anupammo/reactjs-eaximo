@@ -16,23 +16,29 @@ import Brand from "./pages/Brand";
 import Careers from "./pages/Careers";
 import Dm from "./pages/Dm";
 import Sem from "./pages/Sem";
+import Media from "./pages/Media";
+import Support from "./pages/Support";
+import Web from "./pages/Web";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/academics" element={<Academics />} />
+        <Route path="/careers" element={<Careers />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/seo" element={<Seo />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/academics" element={<Academics />} />
+        <Route path="/seo" element={<Seo />} />
         <Route path="/ai" element={<Ai />} />
         <Route path="/brand" element={<Brand />} />
-        <Route path="/careers" element={<Careers />} />
         <Route path="/digital-marketing" element={<Dm />} />
         <Route path="/sem" element={<Sem />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/web" element={<Web />} />
       </Routes>
     </Router>
   );

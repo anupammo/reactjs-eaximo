@@ -1,9 +1,4 @@
 :root {
-    --primary: #2563eb;
-    --secondary: #1e40af;
-    --accent: #3b82f6;
-    --dark: #1f2937;
-    --light: #f9fafb;
     --ai-purple: #7c3aed;
     --tech-blue: #1a56db;
     --marketing-orange: #f97316;
@@ -26,13 +21,6 @@
     color: var(--web-green);
 }
 
-body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    line-height: 1.6;
-    color: var(--dark);
-    overflow-x: hidden;
-}
-
 .services-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
                 url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
@@ -42,25 +30,6 @@ body {
     display: flex;
     align-items: center;
     color: white;
-}
-
-.service-card {
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    height: 100%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
-.service-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
 }
 
 .ai-service {
@@ -95,23 +64,6 @@ body {
     color: var(--web-green);
 }
 
-.section-title {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 2rem;
-}
-
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 50px;
-    height: 4px;
-    background: var(--primary);
-    border-radius: 2px;
-}
-
 .category-badge {
     background-color: rgba(37, 99, 235, 0.1);
     color: var(--primary);
@@ -140,29 +92,4 @@ body {
     margin-right: 1rem;
     font-weight: 700;
     flex-shrink: 0;
-}
-
-.testimonial-card {
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
-    height: 100%;
-}
-
-.testimonial-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-    .services-hero {
-        min-height: auto;
-        padding: 5rem 0;
-    }
 }
