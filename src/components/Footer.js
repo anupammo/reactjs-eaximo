@@ -9,10 +9,22 @@ const Footer = () => {
                         <h3 className="h5 text-white mb-4">Eaximo</h3>
                         <p>Your trusted partner for digital marketing, web development, and AI-powered business solutions.</p>
                         <div className="d-flex mt-4">
-                            <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
-                            <a href="/" className="social-icon"><i className="fab fa-twitter"></i></a>
-                            <a href="/" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                            <a href="/" className="social-icon"><i className="fab fa-instagram"></i></a>
+                            <a href="/" className="social-icon">
+                                <i className="fab fa-facebook-f"></i>
+                                <span>facebook</span>
+                            </a>
+                            <a href="/" className="social-icon">
+                                <i className="fab fa-twitter"></i>
+                                <span>twitter</span>
+                            </a>
+                            <a href="/" className="social-icon">
+                                <i className="fab fa-linkedin-in"></i>
+                                <span>linkedin</span>
+                            </a>
+                            <a href="/" className="social-icon">
+                                <i className="fab fa-instagram"></i>
+                                <span>instagram</span>
+                            </a>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
@@ -52,7 +64,7 @@ const Footer = () => {
                         <p className="small nav-link text-white-50 mb-0">© 2025 Eaximo. All rights reserved.</p>
                     </div>
                     <div className="col-md-6 text-center text-md-end">
-                        <p className="small nav-link text-white-50 mb-0">Designed with <i className="fas fa-heart text-danger"></i> by Anupam Mondal</p>
+                        <p className="small nav-link text-white-50 mb-0">Designed by <a className="d-inline-block nav-link text-white" href="https://anupammondal.in" target="_blank">Anupam Mondal</a></p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Navbar.css"
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -13,11 +14,11 @@ const Navbar = () => {
     }, []);
     
     return (
-        <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${scrolled ? "scrolled" : ""}`}>
+        <nav className={`navbar navbar-expand-md navbar-light fixed-top ${scrolled ? "scrolled" : ""}`}>
             <div className="container">
                 <a className="navbar-brand text-uppercase text-primary fw-bold" href="/">Eaximo</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span className="navbar-toggler-icon"></span>
+                <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span className="navbar-toggler-icon text-white"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
@@ -25,7 +26,7 @@ const Navbar = () => {
                             <a className="nav-link text-primary active" href="/">Home</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-primary dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link text-primary dropdown-toggle active" href="#servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul className="dropdown-menu">

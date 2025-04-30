@@ -16,30 +16,32 @@ const Connect = () => {
                             <div className="card-body p-5">
                                 <h3 className="h4 mb-4">Contact Information</h3>
                                 <div className="d-flex align-items-start mb-4">
-                                    <div className="me-3 text-primary">
+                                    <div className="text-primary display-5 my-3 me-5">
                                         <i className="fas fa-map-marker-alt fa-lg"></i>
                                     </div>
                                     <div>
-                                        <h4 className="h6 mb-1">Our Office</h4>
-                                        <p className="mb-0">123 Digital Avenue, Suite 200 <br />San Francisco, CA 94107</p>
+                                        <h4 className="h5 mb-1">Our Office</h4>
+                                        <p className="lead mb-0">123 Digital Avenue, Suite 200 <br />San Francisco, CA 94107</p>
+                                        <hr />
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-start mb-4">
-                                    <div className="me-3 text-primary">
+                                    <div className="text-primary display-5 my-3 me-5">
                                         <i className="fas fa-envelope fa-lg"></i>
                                     </div>
                                     <div>
-                                        <h4 className="h6 mb-1">Email Us</h4>
-                                        <p className="mb-0">hello@eaximo.com <br />support@eaximo.com</p>
+                                        <h4 className="h5 mb-1">Email Us</h4>
+                                        <p className="lead mb-0">hello@eaximo.com <br />support@eaximo.com</p>
+                                        <hr />
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-start">
-                                    <div className="me-3 text-primary">
+                                    <div className="text-primary display-5 my-3 me-5">
                                         <i className="fas fa-phone-alt fa-lg"></i>
                                     </div>
                                     <div>
-                                        <h4 className="h6 mb-1">Call Us</h4>
-                                        <p className="mb-0">+91 (947) 446-0058 <br />Mon-Fri, 9am-6pm PST</p>
+                                        <h4 className="h5 mb-1">Call Us</h4>
+                                        <p className="lead mb-0">+91 (947) 446-0058 <br />Mon-Fri, 9am-6pm PST</p>
                                     </div>
                                 </div>
                             </div>
@@ -49,16 +51,19 @@ const Connect = () => {
                         <div className="card shadow-sm border-0">
                             <div className="card-body p-5">
                                 <h3 className="h4 mb-4">Send Us a Message</h3>
-                                <form>
+                                <form id="contact-form">
                                     <div className="row g-3">
                                         <div className="col-md-6">
-                                            <input type="text" className="form-control" placeholder="Your Name" required />
+                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
+                                            <input type="text" id="name" name="name" className="form-control shadow-none" placeholder="Your Name" required />
                                         </div>
                                         <div className="col-md-6">
-                                            <input type="email" className="form-control" placeholder="Your Email" required />
+                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
+                                            <input type="email" id="email" name="email" className="form-control shadow-none" placeholder="Your Email" required />
                                         </div>
                                         <div className="col-12">
-                                            <select className="form-select">
+                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
+                                            <select className="form-select shadow-none" id="services" name="services">
                                                 <option defaultValue="option1">I'm interested in...</option>
                                                 <option>AI-Powered Services</option>
                                                 <option>IT &amp; Tech Support</option>
@@ -69,10 +74,11 @@ const Connect = () => {
                                             </select>
                                         </div>
                                         <div className="col-12">
-                                            <textarea className="form-control" rows="5" placeholder="Tell us about your project..." required=""></textarea>
+                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
+                                            <textarea className="form-control shadow-none" id="details" name="details" rows="5" placeholder="Tell us about your project..." required=""></textarea>
                                         </div>
                                         <div className="col-12">
-                                            <button type="submit" className="btn btn-primary w-100">Send Message</button>
+                                            <button type="submit" className="btn btn-primary shadow-none w-100">Send Message</button>
                                         </div>
                                     </div>
                                 </form>

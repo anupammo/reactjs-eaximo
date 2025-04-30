@@ -1,19 +1,38 @@
 import React from "react";
+// import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Counter from "../components/Counter";
+import Testimonis from "../components/Testimonis";
 import Consultation from "../components/Consultation";
 import Connect from "../components/Connect";
-import Testimonis from "../components/Testimonis";
-import Counter from "../components/Counter"
-// import Cta from "../components/Cta";
-import Navbar from "../components/Navbar";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
+import "./Home.css";
 
 const Home = () => {
     return (
         <>
             <Navbar />
-            <Header />            
             <main>
+                <header className="home-hero py-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-7 col-md-6 col-12">
+                                <h1 className="text-white fw-bold h2 mt-5">
+                                    <span className="d-block">Accelerate Your Growth with </span>
+                                    Expert <span className="text-primary fw-bold display-5">Digital Marketing</span> &amp;
+                                    <span className="text-primary fw-bold d-block display-5">AI Solutions</span>
+                                </h1>
+                                <p className="lead text-white my-5">Eaximo helps brands thrive with cutting-edge SEO, web development, and AI-powered strategies.</p>
+                                <div className="d-flex flex-wrap gap-3">
+                                    <a href="/contact" className="btn btn-primary btn-lg">Get a Free Consultation</a>
+                                    <a href="/services" className="btn btn-outline-light btn-lg">Our Services</a>
+                                </div>
+                            </div>
+                            <div className="col-lg-5 col-md-6 col-12"></div>
+                        </div>
+                    </div>
+                </header>
+
                 <section className="py-5 my-5" id="about">
                     <div className="container">
                         <div className="row align-items-center">
@@ -59,9 +78,9 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-search"></i>
                                         </div>
-                                        <h3 className="h4">SEO Services</h3>
+                                        <h3 className="h4">Website SEO Services</h3>
                                         <p className="text-muted">Optimize your website to rank higher on Google and drive organic traffic with our proven SEO strategies.</p>
-                                        <a href="#" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <a href="/seo" className="btn btn-outline-primary mt-3">Explore SEO</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,9 +90,9 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-code"></i>
                                         </div>
-                                        <h3 className="h4">Web Development</h3>
+                                        <h3 className="h4">Website Development</h3>
                                         <p className="text-muted">Build fast, scalable, and responsive business websites that convert visitors into customers.</p>
-                                        <a href="#" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <a href="/web-development" className="btn btn-outline-primary mt-3">Explore Development</a>
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +104,7 @@ const Home = () => {
                                         </div>
                                         <h3 className="h4">Social Media Marketing</h3>
                                         <p className="text-muted">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
-                                        <a href="#" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <a href="/digital-development" className="btn btn-outline-primary mt-3">Explore Marketing</a>
                                     </div>
                                 </div>
                             </div>
@@ -95,15 +114,15 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-robot"></i>
                                         </div>
-                                        <h3 className="h4">AI Marketing</h3>
+                                        <h3 className="h4">AI Powered Marketing</h3>
                                         <p className="text-muted">Enhance efficiency with our smart AI-powered tools for marketing automation and analytics.</p>
-                                        <a href="#" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <a href="/ai-solutions" className="btn btn-outline-primary mt-3">AI Marketing</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="text-center mt-5">
-                            <a href="#" className="btn btn-primary btn-lg">Discover All Services</a>
+                            <a href="/services" className="btn btn-primary btn-lg">Discover All Services</a>
                         </div>
                     </div>
                 </section>

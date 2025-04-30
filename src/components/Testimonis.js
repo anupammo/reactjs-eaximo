@@ -1,6 +1,6 @@
 import React from "react";
 
-const Connect = () => {
+const Testimonis = () => {
     return (
         <section className="py-5 my-5" id="testimonials">
             <div className="container">
@@ -17,11 +17,11 @@ const Connect = () => {
                                 <div className="d-flex align-items-center mb-4">
                                     <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" className="testimonial-img me-3" alt="Client testimonial" />
                                     <div>
-                                        <h5 className="mb-1">Sarah Johnson</h5>
+                                        <h3 className="h5 mb-1">Sarah Johnson</h3>
                                         <p className="text-muted mb-0">CEO, TechStart Inc.</p>
                                     </div>
                                 </div>
-                                <p className="mb-0">"Eaximo transformed our online presence with their SEO expertise and web development skills! Our organic traffic increased by 300% in just 6 months."</p>
+                                <p className="mb-0">Eaximo transformed our online presence with their SEO expertise and web development skills! Our organic traffic increased by 300% in just 6 months.</p>
                             </div>
                         </div>
                     </div>
@@ -31,11 +31,11 @@ const Connect = () => {
                                 <div className="d-flex align-items-center mb-4">
                                     <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" className="testimonial-img me-3" alt="Client testimonial" />
                                     <div>
-                                        <h5 className="mb-1">Michael Chen</h5>
+                                        <h3 className="h5 mb-1">Michael Chen</h3>
                                         <p className="text-muted mb-0">Marketing Director, GlobalRetail</p>
                                     </div>
                                 </div>
-                                <p className="mb-0">"Their branding &amp; design strategies helped us establish a stronger identity in a competitive market. The team is professional, creative, and results-driven."</p>
+                                <p className="mb-0">Their branding &amp; design strategies helped us establish a stronger identity in a competitive market. The team is professional, creative, and results-driven.</p>
                             </div>
                         </div>
                     </div>
@@ -45,11 +45,11 @@ const Connect = () => {
                                 <div className="d-flex align-items-center mb-4">
                                     <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" className="testimonial-img me-3" alt="Client testimonial" />
                                     <div>
-                                        <h5 className="mb-1">Emily Rodriguez</h5>
+                                        <h3 className="h5 mb-1">Emily Rodriguez</h3>
                                         <p className="text-muted mb-0">Founder, GreenLife Organics</p>
                                     </div>
                                 </div>
-                                <p className="mb-0">"The AI-powered marketing tools Eaximo implemented saved us 20 hours per week in manual work while improving our campaign performance by 45%."</p>
+                                <p className="mb-0">The AI-powered marketing tools Eaximo implemented saved us 20 hours per week in manual work while improving our campaign performance by 45%.</p>
                             </div>
                         </div>
                     </div>
@@ -59,4 +59,4 @@ const Connect = () => {
     );
 };
 
-export default Connect;
+export default Testimonis;
