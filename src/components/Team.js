@@ -21,9 +21,9 @@ const Team = () => {
                                 <p className="text-muted">Founder & CEO</p>
                                 <p className="small">Visionary leader driving strategic growth and innovation.</p>
                                 <div className="team-social">
-                                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i className="fab fa-twitter"></i></a>
-                                    <a href="#"><i className="fas fa-envelope"></i></a>
+                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="/"><i className="fab fa-twitter"></i></a>
+                                    <a href="/"><i className="fas fa-envelope"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -37,9 +37,9 @@ const Team = () => {
                                 <p className="text-muted">Digital Marketing Strategist</p>
                                 <p className="small">Expert in SEO, paid ads, and lead generation strategies.</p>
                                 <div className="team-social">
-                                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i className="fab fa-twitter"></i></a>
-                                    <a href="#"><i className="fas fa-envelope"></i></a>
+                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="/"><i className="fab fa-twitter"></i></a>
+                                    <a href="/"><i className="fas fa-envelope"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -53,9 +53,9 @@ const Team = () => {
                                 <p className="text-muted">Creative Designer</p>
                                 <p className="small">Crafting visual brand identities & UI/UX solutions.</p>
                                 <div className="team-social">
-                                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i className="fab fa-twitter"></i></a>
-                                    <a href="#"><i className="fas fa-envelope"></i></a>
+                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="/"><i className="fab fa-twitter"></i></a>
+                                    <a href="/"><i className="fas fa-envelope"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -69,9 +69,9 @@ const Team = () => {
                                 <p className="text-muted">AI & Automation Specialist</p>
                                 <p className="small">Optimizing marketing workflows through AI-driven insights.</p>
                                 <div className="team-social">
-                                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i className="fab fa-twitter"></i></a>
-                                    <a href="#"><i className="fas fa-envelope"></i></a>
+                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="/"><i className="fab fa-twitter"></i></a>
+                                    <a href="/"><i className="fas fa-envelope"></i></a>
                                 </div>
                             </div>
                         </div>

@@ -58,22 +58,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">SEO & Website Optimization</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">How to Rank #1 on Google with Advanced SEO Techniques</a>
+                                                <a href="/" className="text-dark fw-bold">How to Rank #1 on Google with Advanced SEO Techniques</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">On-Page vs. Off-Page SEO: Key Differences & Best Practices</a>
+                                                <a href="/" className="text-dark fw-bold">On-Page vs. Off-Page SEO: Key Differences & Best Practices</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Website Speed Optimization – Reduce Load Time & Boost Performance</a>
+                                                <a href="/" className="text-dark fw-bold">Website Speed Optimization – Reduce Load Time & Boost Performance</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Local SEO Strategies for Small Businesses</a>
+                                                <a href="/" className="text-dark fw-bold">Local SEO Strategies for Small Businesses</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">AI-Powered SEO: The Future of Search Engine Optimization</a>
+                                                <a href="/" className="text-dark fw-bold">AI-Powered SEO: The Future of Search Engine Optimization</a>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-outline-primary mt-3">View All SEO Articles</a>
+                                        <a href="/" className="btn btn-outline-primary mt-3">View All SEO Articles</a>
                                     </div>
                                 </div>
                             </div>
@@ -87,22 +87,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">Branding & Design Strategies</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">How to Build a Unique Brand Identity That Stands Out</a>
+                                                <a href="/" className="text-dark fw-bold">How to Build a Unique Brand Identity That Stands Out</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Logo Design Trends: What Works for Modern Businesses</a>
+                                                <a href="/" className="text-dark fw-bold">Logo Design Trends: What Works for Modern Businesses</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Social Media Graphics That Drive Engagement</a>
+                                                <a href="/" className="text-dark fw-bold">Social Media Graphics That Drive Engagement</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">The Psychology Behind Color Choices in Branding</a>
+                                                <a href="/" className="text-dark fw-bold">The Psychology Behind Color Choices in Branding</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">How Rebranding Can Transform Your Business</a>
+                                                <a href="/" className="text-dark fw-bold">How Rebranding Can Transform Your Business</a>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-outline-primary mt-3">View All Branding Articles</a>
+                                        <a href="/" className="btn btn-outline-primary mt-3">View All Branding Articles</a>
                                     </div>
                                 </div>
                             </div>
@@ -116,22 +116,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">Digital Marketing Insights</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">PPC vs. Organic Marketing – Which Drives Better Results?</a>
+                                                <a href="/" className="text-dark fw-bold">PPC vs. Organic Marketing – Which Drives Better Results?</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Social Media Growth Tactics: How to Increase Engagement</a>
+                                                <a href="/" className="text-dark fw-bold">Social Media Growth Tactics: How to Increase Engagement</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Lead Generation Strategies for B2B & B2C Companies</a>
+                                                <a href="/" className="text-dark fw-bold">Lead Generation Strategies for B2B & B2C Companies</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">How AI & Automation are Changing Digital Marketing</a>
+                                                <a href="/" className="text-dark fw-bold">How AI & Automation are Changing Digital Marketing</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">Data-Driven Marketing – Using Analytics to Improve Campaigns</a>
+                                                <a href="/" className="text-dark fw-bold">Data-Driven Marketing – Using Analytics to Improve Campaigns</a>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-outline-primary mt-3">View All Marketing Articles</a>
+                                        <a href="/" className="btn btn-outline-primary mt-3">View All Marketing Articles</a>
                                     </div>
                                 </div>
                             </div>
@@ -145,22 +145,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">AI-Powered Tools & Tech Innovations</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">How AI Chatbots Improve Customer Engagement</a>
+                                                <a href="/" className="text-dark fw-bold">How AI Chatbots Improve Customer Engagement</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">The Role of Predictive Analytics in Digital Strategy</a>
+                                                <a href="/" className="text-dark fw-bold">The Role of Predictive Analytics in Digital Strategy</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">AI-Generated Content – Can It Replace Human Writers?</a>
+                                                <a href="/" className="text-dark fw-bold">AI-Generated Content – Can It Replace Human Writers?</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">How AI Personalization Enhances Marketing Automation</a>
+                                                <a href="/" className="text-dark fw-bold">How AI Personalization Enhances Marketing Automation</a>
                                             </div>
                                             <div className="article-item">
-                                                <a href="#" className="text-dark fw-bold">AI Trends in Web Development – Smarter UI/UX Solutions</a>
+                                                <a href="/" className="text-dark fw-bold">AI Trends in Web Development – Smarter UI/UX Solutions</a>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-outline-primary mt-3">View All AI Articles</a>
+                                        <a href="/" className="btn btn-outline-primary mt-3">View All AI Articles</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +229,7 @@ const Blog = () => {
                             <div className="alert alert-primary d-inline-block" role="alert">
                                 <div className="d-flex align-items-center">
                                     <i className="fas fa-lightbulb me-2 fa-lg"></i>
-                                    <div>Want tailored insights for your business? <a href="#" className="alert-link">Contact our experts today!</a></div>
+                                    <div>Want tailored insights for your business? <a href="/" className="alert-link">Contact our experts today!</a></div>
                                 </div>
                             </div>
                         </div>
@@ -255,16 +255,16 @@ const Blog = () => {
                                 <div className="mt-5">
                                     <h4 className="h5 mb-3">Follow us on Social Media:</h4>
                                     <div className="d-flex justify-content-center">
-                                        <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                                        <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
-                                        <a href="#" className="social-icon"><i className="fab fa-youtube"></i></a>
-                                        <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-                                        <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
+                                        <a href="/" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
+                                        <a href="/" className="social-icon"><i className="fab fa-instagram"></i></a>
+                                        <a href="/" className="social-icon"><i className="fab fa-youtube"></i></a>
+                                        <a href="/" className="social-icon"><i className="fab fa-twitter"></i></a>
+                                        <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
                                     </div>
                                 </div>
                                 
                                 <div className="mt-4">
-                                    <a href="#" className="btn btn-outline-light btn-lg px-5">Dive into expert-driven digital insights now!</a>
+                                    <a href="/" className="btn btn-outline-light btn-lg px-5">Dive into expert-driven digital insights now!</a>
                                 </div>
                             </div>
                         </div>

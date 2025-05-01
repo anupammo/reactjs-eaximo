@@ -64,7 +64,7 @@ const Footer = () => {
                         <p className="small nav-link text-white-50 mb-0">© 2025 Eaximo. All rights reserved.</p>
                     </div>
                     <div className="col-md-6 text-center text-md-end">
-                        <p className="small nav-link text-white-50 mb-0">Designed by <a className="d-inline-block nav-link text-white" href="https://anupammondal.in" target="_blank">Anupam Mondal</a></p>
+                        <p className="small nav-link text-white-50 mb-0">Designed by <a className="d-inline-block nav-link text-white" href="https://anupammondal.in" target="_blank" rel="noreferrer">Anupam Mondal</a></p>
                     </div>
                 </div>
             </div>

@@ -65,11 +65,11 @@ const Contact = () => {
                         <div className="text-center mt-5">
                             <h4 className="h5 mb-3">Social Media Handles</h4>
                             <div className="d-flex justify-content-center">
-                                <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                                <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
-                                <a href="#" className="social-icon"><i className="fab fa-youtube"></i></a>
-                                <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-                                <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
+                                <a href="/" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="/" className="social-icon"><i className="fab fa-instagram"></i></a>
+                                <a href="/" className="social-icon"><i className="fab fa-youtube"></i></a>
+                                <a href="/" className="social-icon"><i className="fab fa-twitter"></i></a>
+                                <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
                             </div>
                             <div className="alert alert-primary d-inline-flex align-items-center mt-4" role="alert">
                                 <i className="fas fa-lightbulb me-2"></i>
