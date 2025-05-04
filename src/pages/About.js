@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 import Team from "../components/Team";
@@ -16,7 +17,7 @@ const About = () => {
                             <div className="col-lg-8">
                                 <h1 className="hero-title display-4 fw-bold pt-5">About Eaximo</h1>
                                 <p className="lead mb-4">Transforming brands, boosting online visibility, and driving business success through innovative digital solutions.</p>
-                                <a href="#team" className="btn btn-primary btn-lg">Meet Our Team</a>
+                                <Link to="/team" className="btn btn-primary btn-lg">Meet Our Team</Link>
                             </div>
                         </div>
                     </div>

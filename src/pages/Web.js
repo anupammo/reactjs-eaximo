@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 // import Connect from "../components/Connect";
@@ -19,8 +20,8 @@ const Web = () => {
                                 <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Transform Your Online Presence</h1>
                                 <p className="lead mb-4">A well-designed website is the <strong>foundation of digital success</strong>. We specialize in custom solutions that engage audiences and drive conversions.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
-                                    <a href="#services" className="btn btn-primary btn-lg">Explore Services</a>
-                                    <a href="#contact" className="btn btn-outline-light btn-lg">Get Started</a>
+                                    <Link to="/services" className="btn btn-primary btn-lg">Explore Services</Link>
+                                    <Link to="/contact" className="btn btn-outline-light btn-lg">Get Started</Link>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +46,7 @@ const Web = () => {
                                         </div>
                                         <h3 className="h4">Website Design</h3>
                                         <p>Beautiful, functional designs tailored to your brand identity and business goals.</p>
-                                        <a href="#design" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/design" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +58,7 @@ const Web = () => {
                                         </div>
                                         <h3 className="h4">Website Development</h3>
                                         <p>Robust, scalable websites built with clean code and modern technologies.</p>
-                                        <a href="#development" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/development" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +70,7 @@ const Web = () => {
                                         </div>
                                         <h3 className="h4">E-Commerce Solutions</h3>
                                         <p>Powerful online stores designed to convert visitors into customers.</p>
-                                        <a href="#ecommerce" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/ecommerce" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +169,7 @@ const Web = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Create a Website That Drives Growth!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Create a Website That Drives Growth!</Link>
                         </div>
                     </div>
                 </section>
@@ -212,7 +213,7 @@ const Web = () => {
                         </div>
                         
                         <div className="text-center mt-4">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Build a High-Performance Website Today!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Build a High-Performance Website Today!</Link>
                         </div>
                     </div>
                 </section>
@@ -258,7 +259,7 @@ const Web = () => {
                                             <li>Sales Analytics & Reporting</li>
                                         </ul>
                                         <div className="mt-3">
-                                            <a href="#contact" className="btn btn-outline-primary">Launch Your Online Store</a>
+                                            <Link to="/contact" className="btn btn-outline-primary">Launch Your Online Store</Link>
                                         </div>
                                     </div>
                                 </div>

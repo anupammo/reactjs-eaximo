@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 // import Connect from "../components/Connect";
@@ -19,8 +20,8 @@ const Media = () => {
                                 <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Capture, Create & Engage</h1>
                                 <p className="lead mb-4">In today's digital world, <strong>high-quality visuals</strong> are the key to capturing attention and building brand trust.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
-                                    <a href="#services" className="btn btn-primary btn-lg">Explore Services</a>
-                                    <a href="#portfolio" className="btn btn-outline-light btn-lg">View Portfolio</a>
+                                    <Link to="/services" className="btn btn-primary btn-lg">Explore Services</Link>
+                                    <Link to="/portfolio" className="btn btn-outline-light btn-lg">View Portfolio</Link>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +46,7 @@ const Media = () => {
                                         </div>
                                         <h3 className="h4">Photography</h3>
                                         <p>Professional photography services that showcase your products, team, and brand in the best light.</p>
-                                        <a href="#photography" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/photography" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +58,7 @@ const Media = () => {
                                         </div>
                                         <h3 className="h4">Videography</h3>
                                         <p>Engaging video content that tells your brand story and connects with your audience.</p>
-                                        <a href="#videography" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/videography" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +70,7 @@ const Media = () => {
                                         </div>
                                         <h3 className="h4">Animation</h3>
                                         <p>Creative motion graphics and animations that bring complex ideas to life.</p>
-                                        <a href="#animation" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/animation" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +169,7 @@ const Media = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Capture Your Brand's Best Moments</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Capture Your Brand's Best Moments</Link>
                         </div>
                     </div>
                 </section>
@@ -210,7 +211,7 @@ const Media = () => {
                         </div>
                         
                         <div className="text-center mt-4">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Create Stunning Videos That Make an Impact!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Create Stunning Videos That Make an Impact!</Link>
                         </div>
                     </div>
                 </section>
@@ -233,7 +234,7 @@ const Media = () => {
                                             <li><strong>Motion Graphics</strong> - Brand-enhancing animated content</li>
                                         </ul>
                                         <div className="mt-4">
-                                            <a href="#contact" className="btn btn-outline-primary">Bring Your Brand to Life</a>
+                                            <Link to="/contact" className="btn btn-outline-primary">Bring Your Brand to Life</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +254,7 @@ const Media = () => {
                                             <li><strong>On-Site Production</strong> - Seamless media execution</li>
                                         </ul>
                                         <div className="mt-4">
-                                            <a href="#contact" className="btn btn-outline-primary">Craft a Winning Strategy</a>
+                                            <Link to="/contact" className="btn btn-outline-primary">Craft a Winning Strategy</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 import Connect from "../components/Connect";
@@ -19,8 +20,8 @@ const Support = () => {
                                 <h1 className="display-4 fw-bold mb-4 mt-5">Reliable IT & Tech Support for Your Business Growth</h1>
                                 <p className="lead mb-4">In today's digital-first world, <strong>efficient IT solutions</strong> are crucial for <strong>seamless business operations, security, and productivity</strong>. Eaximo offers <strong>end-to-end IT support, app development, software solutions, and technical consulting</strong> to help businesses <strong>scale with confidence</strong>.</p>
                                 <div className="d-flex flex-wrap gap-3">
-                                    <a href="#contact" className="btn btn-primary btn-lg px-4">Get IT Support</a>
-                                    <a href="#services" className="btn btn-outline-light btn-lg px-4">Our Services</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg px-4">Get IT Support</Link>
+                                    <Link to="/services" className="btn btn-outline-light btn-lg px-4">Our Services</Link>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +107,7 @@ const Support = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg px-5">Develop a Powerful Mobile App Today!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg px-5">Develop a Powerful Mobile App Today!</Link>
                                 </div>
                             </div>
                             
@@ -163,7 +164,7 @@ const Support = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg px-5">Build Custom Software That Powers Your Business!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg px-5">Build Custom Software That Powers Your Business!</Link>
                                 </div>
                             </div>
                             
@@ -220,7 +221,7 @@ const Support = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg px-5">Ensure Seamless Tech Support & Security!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg px-5">Ensure Seamless Tech Support & Security!</Link>
                                 </div>
                             </div>
                             
@@ -277,7 +278,7 @@ const Support = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg px-5">Optimize Your IT Workflow Today!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg px-5">Optimize Your IT Workflow Today!</Link>
                                 </div>
                             </div>
                         </div>

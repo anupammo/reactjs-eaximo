@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 
 const Footer = () => {
@@ -9,42 +10,42 @@ const Footer = () => {
                         <h3 className="h5 text-white mb-4">Eaximo</h3>
                         <p>Your trusted partner for digital marketing, web development, and AI-powered business solutions.</p>
                         <div className="d-flex mt-4">
-                            <a href="/" className="social-icon">
+                            <Link to="/" className="social-icon">
                                 <i className="fab fa-facebook-f"></i>
                                 <span>facebook</span>
-                            </a>
-                            <a href="/" className="social-icon">
+                            </Link>
+                            <Link to="/" className="social-icon">
                                 <i className="fab fa-twitter"></i>
                                 <span>twitter</span>
-                            </a>
-                            <a href="/" className="social-icon">
+                            </Link>
+                            <Link to="/" className="social-icon">
                                 <i className="fab fa-linkedin-in"></i>
                                 <span>linkedin</span>
-                            </a>
-                            <a href="/" className="social-icon">
+                            </Link>
+                            <Link to="/" className="social-icon">
                                 <i className="fab fa-instagram"></i>
                                 <span>instagram</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
                         <h3 className="h5 text-white mb-4">Quick Links</h3>
                         <ul className="list-unstyled">
-                            <li className="mb-2"><a href="/" className="nav-link text-white-50">Home</a></li>
-                            <li className="mb-2"><a href="/services" className="nav-link text-white-50">Services</a></li>
-                            <li className="mb-2"><a href="/about" className="nav-link text-white-50">About</a></li>
-                            <li className="mb-2"><a href="/testimonials" className="nav-link text-white-50">Testimonials</a></li>
-                            <li className="mb-2"><a href="/contact" className="nav-link text-white-50">Contact</a></li>
+                            <li className="mb-2"><Link to="/" className="nav-link text-white-50">Home</Link></li>
+                            <li className="mb-2"><Link to="/services" className="nav-link text-white-50">Services</Link></li>
+                            <li className="mb-2"><Link to="/about" className="nav-link text-white-50">About</Link></li>
+                            <li className="mb-2"><Link to="/testimonials" className="nav-link text-white-50">Testimonials</Link></li>
+                            <li className="mb-2"><Link to="/contact" className="nav-link text-white-50">Contact</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <h3 className="h5 text-white mb-4">Services</h3>
                         <ul className="list-unstyled">
-                            <li className="mb-2"><a href="/" className="nav-link text-white-50">SEO Services</a></li>
-                            <li className="mb-2"><a href="/" className="nav-link text-white-50">Web Development</a></li>
-                            <li className="mb-2"><a href="/" className="nav-link text-white-50">Social Media Marketing</a></li>
-                            <li className="mb-2"><a href="/" className="nav-link text-white-50">AI Marketing Solutions</a></li>
-                            <li className="mb-2"><a href="/" className="nav-link text-white-50">Branding & Design</a></li>
+                            <li className="mb-2"><Link to="/" className="nav-link text-white-50">SEO Services</Link></li>
+                            <li className="mb-2"><Link to="/" className="nav-link text-white-50">Web Development</Link></li>
+                            <li className="mb-2"><Link to="/" className="nav-link text-white-50">Social Media Marketing</Link></li>
+                            <li className="mb-2"><Link to="/" className="nav-link text-white-50">AI Marketing Solutions</Link></li>
+                            <li className="mb-2"><Link to="/" className="nav-link text-white-50">Branding & Design</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-3">
@@ -64,7 +65,7 @@ const Footer = () => {
                         <p className="small nav-link text-white-50 mb-0">© 2025 Eaximo. All rights reserved.</p>
                     </div>
                     <div className="col-md-6 text-center text-md-end">
-                        <p className="small nav-link text-white-50 mb-0">Designed by <a className="d-inline-block nav-link text-white" href="https://anupammondal.in" target="_blank" rel="noreferrer">Anupam Mondal</a></p>
+                        <p className="small nav-link text-white-50 mb-0">Designed by <Link className="d-inline-block nav-link text-white" to="https://anupammondal.in" target="_blank" rel="noreferrer">Anupam Mondal</Link></p>
                     </div>
                 </div>
             </div>

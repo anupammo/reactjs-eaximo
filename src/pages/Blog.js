@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 // import Consultation from "../components/Consultation";
 import Navbar from "../components/Navbar";
@@ -16,8 +17,8 @@ const Blog = () => {
                                 <h1 className="hero-title display-4 fw-bold mt-5">Your Digital Growth Resource</h1>
                                 <p className="lead mb-4">Explore industry insights, expert strategies, and practical tips to enhance your digital presence, boost website rankings, and optimize marketing automation.</p>
                                 <div className="d-flex flex-wrap gap-3">
-                                    <a href="#topics" className="btn btn-primary btn-lg">Explore Topics</a>
-                                    <a href="#subscribe" className="btn btn-outline-light btn-lg">Subscribe</a>
+                                    <Link to="/topics" className="btn btn-primary btn-lg">Explore Topics</Link>
+                                    <Link to="/subscribe" className="btn btn-outline-light btn-lg">Subscribe</Link>
                                 </div>
                             </div>
                         </div>
@@ -58,22 +59,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">SEO & Website Optimization</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">How to Rank #1 on Google with Advanced SEO Techniques</a>
+                                                <Link to="/" className="text-dark fw-bold">How to Rank #1 on Google with Advanced SEO Techniques</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">On-Page vs. Off-Page SEO: Key Differences & Best Practices</a>
+                                                <Link to="/" className="text-dark fw-bold">On-Page vs. Off-Page SEO: Key Differences & Best Practices</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Website Speed Optimization – Reduce Load Time & Boost Performance</a>
+                                                <Link to="/" className="text-dark fw-bold">Website Speed Optimization – Reduce Load Time & Boost Performance</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Local SEO Strategies for Small Businesses</a>
+                                                <Link to="/" className="text-dark fw-bold">Local SEO Strategies for Small Businesses</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">AI-Powered SEO: The Future of Search Engine Optimization</a>
+                                                <Link to="/" className="text-dark fw-bold">AI-Powered SEO: The Future of Search Engine Optimization</Link>
                                             </div>
                                         </div>
-                                        <a href="/" className="btn btn-outline-primary mt-3">View All SEO Articles</a>
+                                        <Link to="/" className="btn btn-outline-primary mt-3">View All SEO Articles</Link>
                                     </div>
                                 </div>
                             </div>
@@ -87,22 +88,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">Branding & Design Strategies</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">How to Build a Unique Brand Identity That Stands Out</a>
+                                                <Link to="/" className="text-dark fw-bold">How to Build a Unique Brand Identity That Stands Out</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Logo Design Trends: What Works for Modern Businesses</a>
+                                                <Link to="/" className="text-dark fw-bold">Logo Design Trends: What Works for Modern Businesses</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Social Media Graphics That Drive Engagement</a>
+                                                <Link to="/" className="text-dark fw-bold">Social Media Graphics That Drive Engagement</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">The Psychology Behind Color Choices in Branding</a>
+                                                <Link to="/" className="text-dark fw-bold">The Psychology Behind Color Choices in Branding</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">How Rebranding Can Transform Your Business</a>
+                                                <Link to="/" className="text-dark fw-bold">How Rebranding Can Transform Your Business</Link>
                                             </div>
                                         </div>
-                                        <a href="/" className="btn btn-outline-primary mt-3">View All Branding Articles</a>
+                                        <Link to="/" className="btn btn-outline-primary mt-3">View All Branding Articles</Link>
                                     </div>
                                 </div>
                             </div>
@@ -116,22 +117,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">Digital Marketing Insights</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">PPC vs. Organic Marketing – Which Drives Better Results?</a>
+                                                <Link to="/" className="text-dark fw-bold">PPC vs. Organic Marketing – Which Drives Better Results?</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Social Media Growth Tactics: How to Increase Engagement</a>
+                                                <Link to="/" className="text-dark fw-bold">Social Media Growth Tactics: How to Increase Engagement</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Lead Generation Strategies for B2B & B2C Companies</a>
+                                                <Link to="/" className="text-dark fw-bold">Lead Generation Strategies for B2B & B2C Companies</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">How AI & Automation are Changing Digital Marketing</a>
+                                                <Link to="/" className="text-dark fw-bold">How AI & Automation are Changing Digital Marketing</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">Data-Driven Marketing – Using Analytics to Improve Campaigns</a>
+                                                <Link to="/" className="text-dark fw-bold">Data-Driven Marketing – Using Analytics to Improve Campaigns</Link>
                                             </div>
                                         </div>
-                                        <a href="/" className="btn btn-outline-primary mt-3">View All Marketing Articles</a>
+                                        <Link to="/" className="btn btn-outline-primary mt-3">View All Marketing Articles</Link>
                                     </div>
                                 </div>
                             </div>
@@ -145,22 +146,22 @@ const Blog = () => {
                                         <h3 className="h4 mb-4">AI-Powered Tools & Tech Innovations</h3>
                                         <div className="article-list">
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">How AI Chatbots Improve Customer Engagement</a>
+                                                <Link to="/" className="text-dark fw-bold">How AI Chatbots Improve Customer Engagement</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">The Role of Predictive Analytics in Digital Strategy</a>
+                                                <Link to="/" className="text-dark fw-bold">The Role of Predictive Analytics in Digital Strategy</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">AI-Generated Content – Can It Replace Human Writers?</a>
+                                                <Link to="/" className="text-dark fw-bold">AI-Generated Content – Can It Replace Human Writers?</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">How AI Personalization Enhances Marketing Automation</a>
+                                                <Link to="/" className="text-dark fw-bold">How AI Personalization Enhances Marketing Automation</Link>
                                             </div>
                                             <div className="article-item">
-                                                <a href="/" className="text-dark fw-bold">AI Trends in Web Development – Smarter UI/UX Solutions</a>
+                                                <Link to="/" className="text-dark fw-bold">AI Trends in Web Development – Smarter UI/UX Solutions</Link>
                                             </div>
                                         </div>
-                                        <a href="/" className="btn btn-outline-primary mt-3">View All AI Articles</a>
+                                        <Link to="/" className="btn btn-outline-primary mt-3">View All AI Articles</Link>
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +230,7 @@ const Blog = () => {
                             <div className="alert alert-primary d-inline-block" role="alert">
                                 <div className="d-flex align-items-center">
                                     <i className="fas fa-lightbulb me-2 fa-lg"></i>
-                                    <div>Want tailored insights for your business? <a href="/" className="alert-link">Contact our experts today!</a></div>
+                                    <div>Want tailored insights for your business? <Link to="/" className="alert-link">Contact our experts today!</Link></div>
                                 </div>
                             </div>
                         </div>
@@ -255,16 +256,16 @@ const Blog = () => {
                                 <div className="mt-5">
                                     <h4 className="h5 mb-3">Follow us on Social Media:</h4>
                                     <div className="d-flex justify-content-center">
-                                        <a href="/" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                                        <a href="/" className="social-icon"><i className="fab fa-instagram"></i></a>
-                                        <a href="/" className="social-icon"><i className="fab fa-youtube"></i></a>
-                                        <a href="/" className="social-icon"><i className="fab fa-twitter"></i></a>
-                                        <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
+                                        <Link to="/" className="social-icon"><i className="fab fa-linkedin-in"></i></Link>
+                                        <Link to="/" className="social-icon"><i className="fab fa-instagram"></i></Link>
+                                        <Link to="/" className="social-icon"><i className="fab fa-youtube"></i></Link>
+                                        <Link to="/" className="social-icon"><i className="fab fa-twitter"></i></Link>
+                                        <Link to="/" className="social-icon"><i className="fab fa-facebook-f"></i></Link>
                                     </div>
                                 </div>
                                 
                                 <div className="mt-4">
-                                    <a href="/" className="btn btn-outline-light btn-lg px-5">Dive into expert-driven digital insights now!</a>
+                                    <Link to="/" className="btn btn-outline-light btn-lg px-5">Dive into expert-driven digital insights now!</Link>
                                 </div>
                             </div>
                         </div>

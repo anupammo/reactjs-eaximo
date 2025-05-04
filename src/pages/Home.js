@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 // import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -24,8 +25,8 @@ const Home = () => {
                                 </h1>
                                 <p className="lead text-white my-5">Eaximo helps brands thrive with cutting-edge SEO, web development, and AI-powered strategies.</p>
                                 <div className="d-flex flex-wrap gap-3">
-                                    <a href="/contact" className="btn btn-primary btn-lg">Get a Free Consultation</a>
-                                    <a href="/services" className="btn btn-outline-light btn-lg">Our Services</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg">Get a Free Consultation</Link>
+                                    <Link to="/services" className="btn btn-outline-light btn-lg">Our Services</Link>
                                 </div>
                             </div>
                             <div className="col-lg-5 col-md-6 col-12"></div>
@@ -80,7 +81,7 @@ const Home = () => {
                                         </div>
                                         <h3 className="h4">Website SEO Services</h3>
                                         <p className="text-muted">Optimize your website to rank higher on Google and drive organic traffic with our proven SEO strategies.</p>
-                                        <a href="/seo" className="btn btn-outline-primary mt-3">Explore SEO</a>
+                                        <Link to="/seo" className="btn btn-outline-primary mt-3">Explore SEO</Link>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +93,7 @@ const Home = () => {
                                         </div>
                                         <h3 className="h4">Website Development</h3>
                                         <p className="text-muted">Build fast, scalable, and responsive business websites that convert visitors into customers.</p>
-                                        <a href="/web-development" className="btn btn-outline-primary mt-3">Explore Development</a>
+                                        <Link to="/web-development" className="btn btn-outline-primary mt-3">Explore Development</Link>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +105,7 @@ const Home = () => {
                                         </div>
                                         <h3 className="h4">Social Media Marketing</h3>
                                         <p className="text-muted">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
-                                        <a href="/digital-development" className="btn btn-outline-primary mt-3">Explore Marketing</a>
+                                        <Link to="/digital-development" className="btn btn-outline-primary mt-3">Explore Marketing</Link>
                                     </div>
                                 </div>
                             </div>
@@ -116,13 +117,13 @@ const Home = () => {
                                         </div>
                                         <h3 className="h4">AI Powered Marketing</h3>
                                         <p className="text-muted">Enhance efficiency with our smart AI-powered tools for marketing automation and analytics.</p>
-                                        <a href="/ai-solutions" className="btn btn-outline-primary mt-3">AI Marketing</a>
+                                        <Link to="/ai-solutions" className="btn btn-outline-primary mt-3">AI Marketing</Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="text-center mt-5">
-                            <a href="/services" className="btn btn-primary btn-lg">Discover All Services</a>
+                            <Link to="/services" className="btn btn-primary btn-lg">Discover All Services</Link>
                         </div>
                     </div>
                 </section>

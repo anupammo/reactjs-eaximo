@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 // import Connect from "../components/Connect";
@@ -19,8 +20,8 @@ const Sem = () => {
                                 <h1 className="hero-title display-4 fw-bold">Fuel Your Business Growth</h1>
                                 <p className="lead mb-4">We craft <strong>performance-driven digital marketing strategies</strong> that increase brand awareness, improve search rankings, and maximize lead conversions.</p>
                                 <div className="d-flex flex-wrap gap-3">
-                                    <a href="#services" className="btn btn-primary btn-lg">Explore Services</a>
-                                    <a href="#contact" className="btn btn-outline-light btn-lg">Get Free Consultation</a>
+                                    <Link to="/services" className="btn btn-primary btn-lg">Explore Services</Link>
+                                    <Link to="/contact" className="btn btn-outline-light btn-lg">Get Free Consultation</Link>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +46,7 @@ const Sem = () => {
                                         </div>
                                         <h3 className="h4">SEO Services</h3>
                                         <p>Improve search rankings and drive organic traffic with our proven strategies.</p>
-                                        <a href="#seo" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/seo" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +58,7 @@ const Sem = () => {
                                         </div>
                                         <h3 className="h4">Paid Advertising</h3>
                                         <p>Targeted PPC campaigns that deliver measurable results.</p>
-                                        <a href="#ppc" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/ppc" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +70,7 @@ const Sem = () => {
                                         </div>
                                         <h3 className="h4">Social Media Marketing</h3>
                                         <p>Grow your audience and engagement across platforms.</p>
-                                        <a href="#social" className="btn btn-outline-primary mt-3">Learn More</a>
+                                        <Link to="/social" className="btn btn-outline-primary mt-3">Learn More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +169,7 @@ const Sem = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Rank Higher on Google & Drive More Traffic!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Rank Higher on Google & Drive More Traffic!</Link>
                         </div>
                     </div>
                 </section>
@@ -210,7 +211,7 @@ const Sem = () => {
                         </div>
                         
                         <div className="text-center mt-4">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Expand Your Social Presence!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Expand Your Social Presence!</Link>
                         </div>
                     </div>
                 </section>
@@ -255,7 +256,7 @@ const Sem = () => {
                                             <li>CRM Setup & Automation</li>
                                         </ul>
                                         <div className="mt-3">
-                                            <a href="#contact" className="btn btn-outline-primary">Generate More Leads!</a>
+                                            <Link to="/contact" className="btn btn-outline-primary">Generate More Leads!</Link>
                                         </div>
                                     </div>
                                 </div>

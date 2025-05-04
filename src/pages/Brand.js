@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 import Connect from "../components/Connect";
@@ -17,8 +18,8 @@ const Brand = () => {
                                 <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Empower Your Brand with Stunning Visuals & Strategy</h1>
                                 <p className="lead mb-4">At <strong>Eaximo</strong>, we craft <strong>unique brand identities, professional designs, and high-quality prints</strong> to help businesses stand out.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
-                                    <a href="#branding" className="btn btn-primary btn-lg">Explore Services</a>
-                                    <a href="#contact" className="btn btn-outline-light btn-lg">Get Started</a>
+                                    <Link to="/branding" className="btn btn-primary btn-lg">Explore Services</Link>
+                                    <Link to="/contact" className="btn btn-outline-light btn-lg">Get Started</Link>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +64,7 @@ const Brand = () => {
                         </div>
                         
                         <div className="text-center mt-4">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Let's Craft Your Unique Brand Identity Today!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Let's Craft Your Unique Brand Identity Today!</Link>
                         </div>
                     </div>
                 </section>
@@ -147,7 +148,7 @@ const Brand = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Get Stunning Graphics for Your Business!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Get Stunning Graphics for Your Business!</Link>
                         </div>
                     </div>
                 </section>
@@ -187,7 +188,7 @@ const Brand = () => {
                         </div>
                         
                         <div className="text-center mt-4">
-                            <a href="#contact" className="btn btn-primary btn-lg px-5">Print Your Brand with Excellence!</a>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Print Your Brand with Excellence!</Link>
                         </div>
                     </div>
                 </section>

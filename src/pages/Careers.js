@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 // import Consultation from "../components/Consultation";
 // import Connect from "../components/Connect";
@@ -17,8 +18,8 @@ const Careers = () => {
                                 <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Build the Future of Digital Innovation</h1>
                                 <p className="lead mb-4">Join our team of digital marketing professionals, web developers, and branding experts.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5 pb-5">
-                                    <a href="#openings" className="btn btn-primary btn-lg">View Open Positions</a>
-                                    <a href="#apply" className="btn btn-outline-light btn-lg">How to Apply</a>
+                                    <Link to="/openings" className="btn btn-primary btn-lg">View Open Positions</Link>
+                                    <Link to="/apply" className="btn btn-outline-light btn-lg">How to Apply</Link>
                                 </div>
                             </div>
                         </div>
@@ -466,8 +467,8 @@ const Careers = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <p className="lead mt-4">Have questions? <a href="mailto:hr@eaximo.com" className="text-white">Reach out to our HR team</a></p>
-                                    <a href="mailto:careers@eaximo.com" className="btn btn-light btn-lg mt-3 px-5">Apply Now</a>
+                                    <p className="lead mt-4">Have questions? <Link to="mailto:hr@eaximo.com" className="text-white">Reach out to our HR team</Link></p>
+                                    <Link to="mailto:careers@eaximo.com" className="btn btn-light btn-lg mt-3 px-5">Apply Now</Link>
                                 </div>
                             </div>
                         </div>

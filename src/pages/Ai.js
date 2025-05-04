@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 import Connect from "../components/Connect";
@@ -17,8 +18,8 @@ const Ai = () => {
                                 <h1 className="display-4 fw-bold mb-4 mt-5">Revolutionizing Business with AI-Powered Solutions</h1>
                                 <p className="lead mb-4">AI-driven marketing and automation are <strong>reshaping digital strategies</strong>, making processes smarter, faster, and <strong>data-driven</strong>. Eaximo offers <strong>next-gen AI services</strong>, from <strong>automated content creation and chatbots</strong> to <strong>predictive analytics and business automation</strong>, ensuring businesses stay ahead in the competitive digital landscape.</p>
                                 <div className="d-flex flex-wrap gap-3">
-                                    <a href="#contact" className="btn btn-primary btn-lg border-0 px-4">Get AI Solutions</a>
-                                    <a href="#services" className="btn btn-outline-light btn-lg px-4">Our AI Services</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg border-0 px-4">Get AI Solutions</Link>
+                                    <Link to="/services" className="btn btn-outline-light btn-lg px-4">Our AI Services</Link>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +114,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Optimize Your Content Creation with AI Today!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Optimize Your Content Creation with AI Today!</Link>
                                 </div>
                             </div>
                             
@@ -170,7 +171,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Boost SEO & PPC Campaigns with AI-Powered Insights!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Boost SEO & PPC Campaigns with AI-Powered Insights!</Link>
                                 </div>
                             </div>
                             
@@ -227,7 +228,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Enhance Customer Engagement with AI Chatbots!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Enhance Customer Engagement with AI Chatbots!</Link>
                                 </div>
                             </div>
                             
@@ -284,7 +285,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Optimize Workflows & Drive Growth with AI Automation!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Optimize Workflows & Drive Growth with AI Automation!</Link>
                                 </div>
                             </div>
                             
@@ -341,7 +342,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Turn Data into Insights with AI-Powered Analytics!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Turn Data into Insights with AI-Powered Analytics!</Link>
                                 </div>
                             </div>
                             
@@ -398,7 +399,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Enhance Creativity with AI-Driven Visual Solutions!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Enhance Creativity with AI-Driven Visual Solutions!</Link>
                                 </div>
                             </div>
                             
@@ -455,7 +456,7 @@ const Ai = () => {
                                 </div>
                                 
                                 <div className="text-center mt-5">
-                                    <a href="#contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Develop Advanced AI Solutions for Your Business!</a>
+                                    <Link to="/contact" className="btn btn-primary btn-lg bg-ai-purple border-0 px-5">Develop Advanced AI Solutions for Your Business!</Link>
                                 </div>
                             </div>
                         </div>

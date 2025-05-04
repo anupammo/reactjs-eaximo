@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -15,8 +16,8 @@ const Contact = () => {
                                 <h1 className="hero-title display-4 fw-bold mt-5">Let's Connect & Grow Your Business</h1>
                                 <p className="lead mb-4">Have questions? Need a custom marketing strategy or website optimization plan? We're here to help!</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
-                                    <a href="#contact-form" className="btn btn-primary btn-lg">Get Free Consultation</a>
-                                    <a href="#contact-info" className="btn btn-outline-light btn-lg">Contact Details</a>
+                                    <Link to="/contact-form" className="btn btn-primary btn-lg">Get Free Consultation</Link>
+                                    <Link to="/contact-info" className="btn btn-outline-light btn-lg">Contact Details</Link>
                                 </div>
                             </div>
                         </div>
@@ -65,11 +66,11 @@ const Contact = () => {
                         <div className="text-center mt-5">
                             <h4 className="h5 mb-3">Social Media Handles</h4>
                             <div className="d-flex justify-content-center">
-                                <a href="/" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                                <a href="/" className="social-icon"><i className="fab fa-instagram"></i></a>
-                                <a href="/" className="social-icon"><i className="fab fa-youtube"></i></a>
-                                <a href="/" className="social-icon"><i className="fab fa-twitter"></i></a>
-                                <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
+                                <Link to="/" className="social-icon"><i className="fab fa-linkedin-in"></i></Link>
+                                <Link to="/" className="social-icon"><i className="fab fa-instagram"></i></Link>
+                                <Link to="/" className="social-icon"><i className="fab fa-youtube"></i></Link>
+                                <Link to="/" className="social-icon"><i className="fab fa-twitter"></i></Link>
+                                <Link to="/" className="social-icon"><i className="fab fa-facebook-f"></i></Link>
                             </div>
                             <div className="alert alert-primary d-inline-flex align-items-center mt-4" role="alert">
                                 <i className="fas fa-lightbulb me-2"></i>
@@ -184,7 +185,7 @@ const Contact = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <a href="#contact-form" className="btn btn-primary btn-lg px-5">Let's build your digital success story today!</a>
+                            <Link to="/contact-form" className="btn btn-primary btn-lg px-5">Let's build your digital success story today!</Link>
                         </div>
                     </div>
                 </section>

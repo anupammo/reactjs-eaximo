@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Navbar from "../components/Navbar";
 import Testimonis from "../components/Testimonis";
@@ -18,8 +19,8 @@ const Services = () => {
                                 <h1 className="display-4 fw-bold mt-5 mb-4">Comprehensive Digital Services for Your Business</h1>
                                 <p className="lead mb-4">Eaximo offers end-to-end digital solutions to help your business <strong>thrive in the digital landscape</strong>. From AI-powered automation to cutting-edge web development, we've got you covered.</p>
                                 <div className="d-flex flex-wrap gap-3">
-                                    <a href="/services" className="btn btn-primary btn-lg px-4">Explore Services</a>
-                                    <a href="/contact" className="btn btn-outline-light btn-lg px-4">Get Consultation</a>
+                                    <Link to="/services" className="btn btn-primary btn-lg px-4">Explore Services</Link>
+                                    <Link to="/contact" className="btn btn-outline-light btn-lg px-4">Get Consultation</Link>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +52,7 @@ const Services = () => {
                                             <li className="text-ai-purple mb-1"><i className="fas fa-check-circle me-2"></i>Predictive Analytics</li>
                                             <li className="text-ai-purple mb-1"><i className="fas fa-check-circle me-2"></i>Custom AI Development</li>
                                         </ul>
-                                        <a href="ai-services.html" className="btn btn-outline-dark rounded-0 w-100">Explore AI Services</a>
+                                        <Link to="ai-services.html" className="btn btn-outline-dark rounded-0 w-100">Explore AI Services</Link>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +71,7 @@ const Services = () => {
                                             <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Technical Support</li>
                                             <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Cybersecurity</li>
                                         </ul>
-                                        <a href="it-tech-support.html" className="btn btn-outline-dark rounded-0 w-100">Explore IT Services</a>
+                                        <Link to="it-tech-support.html" className="btn btn-outline-dark rounded-0 w-100">Explore IT Services</Link>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +90,7 @@ const Services = () => {
                                             <li className="text-marketing-orange mb-1"><i className="fas fa-check-circle me-2"></i>PPC Advertising</li>
                                             <li className="text-marketing-orange mb-1"><i className="fas fa-check-circle me-2"></i>Content Marketing</li>
                                         </ul>
-                                        <a href="digital-marketing.html" className="btn btn-outline-dark rounded-0 w-100">Explore Marketing</a>
+                                        <Link to="digital-marketing.html" className="btn btn-outline-dark rounded-0 w-100">Explore Marketing</Link>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +109,7 @@ const Services = () => {
                                             <li className="web-green mb-1"><i className="fas fa-check-circle me-2"></i>Web App Development</li>
                                             <li className="web-green mb-1"><i className="fas fa-check-circle me-2"></i>Website Maintenance</li>
                                         </ul>
-                                        <a href="web-development.html" className="btn btn-outline-dark rounded-0 w-100">Explore Web Services</a>
+                                        <Link to="web-development.html" className="btn btn-outline-dark rounded-0 w-100">Explore Web Services</Link>
                                     </div>
                                 </div>
                             </div>

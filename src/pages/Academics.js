@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 // import Consultation from "../components/Consultation";
 import Navbar from "../components/Navbar";
@@ -16,8 +17,8 @@ const Academics = () => {
                             <h1 className="hero-title fw-bold display-4 mt-5">Upskill with Eaximo's Expert-Led Training Programs</h1>
                             <p className="lead mb-4">Master digital marketing, branding, web development, AI automation, and more with our professional training programs.</p>
                             <div className="d-flex flex-wrap gap-3">
-                                <a href="#programs" className="btn btn-primary btn-lg">Explore Programs</a>
-                                <a href="#enroll" className="btn btn-outline-light btn-lg">How to Enroll</a>
+                                <Link to="/programs" className="btn btn-primary btn-lg">Explore Programs</Link>
+                                <Link to="/enroll" className="btn btn-outline-light btn-lg">How to Enroll</Link>
                             </div>
                         </div>
                     </div>
@@ -256,7 +257,7 @@ const Academics = () => {
                                 </div>
                                 <div className="mt-5 pt-3">
                                     <p className="lead mb-4">Need a tailored training program? We offer custom courses for businesses & teams!</p>
-                                    <a href="#enroll" className="btn btn-light btn-lg px-5">Inquire About Custom Training</a>
+                                    <Link to="/enroll" className="btn btn-light btn-lg px-5">Inquire About Custom Training</Link>
                                 </div>
                             </div>
                         </div>
@@ -306,13 +307,13 @@ const Academics = () => {
                             </div>
                             <div className="mt-4">
                                 <h4 className="h5 mb-3">How to Register</h4>
-                                <a href="mailto:academy@eaximo.com" className="btn btn-primary btn-lg px-5">
+                                <Link to="mailto:academy@eaximo.com" className="btn btn-primary btn-lg px-5">
                                     <i className="fas fa-envelope me-2"></i> academy@eaximo.com
-                                </a>
+                                </Link>
                             </div>
                             <div className="mt-5">
                                 <h3 className="display-6 fw-bold mb-4">Boost Your Skills & Grow Your Career with Eaximo Today!</h3>
-                                <a href="mailto:academy@eaximo.com" className="btn btn-outline-primary btn-lg px-5">Get Started Now</a>
+                                <Link to="mailto:academy@eaximo.com" className="btn btn-outline-primary btn-lg px-5">Get Started Now</Link>
                             </div>
                         </div>
                     </div>

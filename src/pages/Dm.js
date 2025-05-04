@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 // import Connect from "../components/Connect";
@@ -16,7 +17,7 @@ const Dm = () => {
                             <div className="col-lg-8">
                                 <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Our Digital Services</h1>
                                 <p className="lead mb-4">Comprehensive solutions to enhance your digital presence, optimize marketing strategies, and accelerate business growth.</p>
-                                <a href="#services" className="btn btn-primary btn-lg mb-5">Explore Services</a>
+                                <Link to="/services" className="btn btn-primary btn-lg mb-5">Explore Services</Link>
                             </div>
                         </div>
                     </div>
@@ -73,7 +74,7 @@ const Dm = () => {
                         <div className="row">
                             <div className="col-12">
                                 <p className="text-center pb-4">
-                                    <a href="contact.html" className="btn btn-primary my-4">Create a Unique Brand Identity Today!</a>
+                                    <Link to="contact.html" className="btn btn-primary my-4">Create a Unique Brand Identity Today!</Link>
                                 </p>
                             </div>
                         </div>
@@ -109,7 +110,7 @@ const Dm = () => {
                                 </div>
                             </div>
                             <div className="col-12 text-center pt-4">
-                                <a href="contact.html" className="btn btn-primary my-5">Enhance Brand Engagement with Premium Media Solutions!</a>
+                                <Link to="contact.html" className="btn btn-primary my-5">Enhance Brand Engagement with Premium Media Solutions!</Link>
                             </div>
                         </div>
                         
@@ -144,7 +145,7 @@ const Dm = () => {
                                 </div>
                             </div>
                             <div className="col-12 text-center pt-4">
-                                <a href="contact.html" className="btn btn-primary my-5">Launch a High-Performance Website Today!</a>
+                                <Link to="contact.html" className="btn btn-primary my-5">Launch a High-Performance Website Today!</Link>
                             </div>
                         </div>
                         
@@ -179,7 +180,7 @@ const Dm = () => {
                                 </div>
                             </div>
                             <div className="col-12 text-center pt-4">
-                                <a href="contact.html" className="btn btn-primary my-5">Get More Leads with Advanced Marketing Solutions!</a>
+                                <Link to="contact.html" className="btn btn-primary my-5">Get More Leads with Advanced Marketing Solutions!</Link>
                             </div>
                         </div>
                         
@@ -214,7 +215,7 @@ const Dm = () => {
                                 </div>
                             </div>
                             <div className="col-12 pt-4 text-center">
-                                <a href="contact.html" className="btn btn-primary mt-4">Scale Your Business with Cutting-Edge Tech!</a>
+                                <Link to="contact.html" className="btn btn-primary mt-4">Scale Your Business with Cutting-Edge Tech!</Link>
                             </div>
                         </div>
                         
@@ -249,7 +250,7 @@ const Dm = () => {
                                 </div>
                             </div>
                             <div className="col-12 pt-4 text-center">
-                                <a href="contact.html" className="btn btn-primary mt-4">Revolutionize Your Strategy with AI Automation!</a>
+                                <Link to="contact.html" className="btn btn-primary mt-4">Revolutionize Your Strategy with AI Automation!</Link>
                             </div>
                         </div>
                     </div>

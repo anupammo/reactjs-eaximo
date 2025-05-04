@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import "./Team.css"
 
@@ -21,9 +22,9 @@ const Team = () => {
                                 <p className="text-muted">Founder & CEO</p>
                                 <p className="small">Visionary leader driving strategic growth and innovation.</p>
                                 <div className="team-social">
-                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="/"><i className="fab fa-twitter"></i></a>
-                                    <a href="/"><i className="fas fa-envelope"></i></a>
+                                    <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
+                                    <Link to="/"><i className="fab fa-twitter"></i></Link>
+                                    <Link to="/"><i className="fas fa-envelope"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -37,9 +38,9 @@ const Team = () => {
                                 <p className="text-muted">Digital Marketing Strategist</p>
                                 <p className="small">Expert in SEO, paid ads, and lead generation strategies.</p>
                                 <div className="team-social">
-                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="/"><i className="fab fa-twitter"></i></a>
-                                    <a href="/"><i className="fas fa-envelope"></i></a>
+                                    <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
+                                    <Link to="/"><i className="fab fa-twitter"></i></Link>
+                                    <Link to="/"><i className="fas fa-envelope"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -53,9 +54,9 @@ const Team = () => {
                                 <p className="text-muted">Creative Designer</p>
                                 <p className="small">Crafting visual brand identities & UI/UX solutions.</p>
                                 <div className="team-social">
-                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="/"><i className="fab fa-twitter"></i></a>
-                                    <a href="/"><i className="fas fa-envelope"></i></a>
+                                    <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
+                                    <Link to="/"><i className="fab fa-twitter"></i></Link>
+                                    <Link to="/"><i className="fas fa-envelope"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -69,16 +70,16 @@ const Team = () => {
                                 <p className="text-muted">AI & Automation Specialist</p>
                                 <p className="small">Optimizing marketing workflows through AI-driven insights.</p>
                                 <div className="team-social">
-                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="/"><i className="fab fa-twitter"></i></a>
-                                    <a href="/"><i className="fas fa-envelope"></i></a>
+                                    <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
+                                    <Link to="/"><i className="fab fa-twitter"></i></Link>
+                                    <Link to="/"><i className="fas fa-envelope"></i></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="text-center mt-5">
-                    <a href="contact.html" className="btn btn-primary btn-lg">Work With Our Team</a>
+                    <Link to="contact.html" className="btn btn-primary btn-lg">Work With Our Team</Link>
                 </div>
             </div>
         </section>

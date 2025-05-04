@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from "react";
 import Consultation from "../components/Consultation";
 import Navbar from "../components/Navbar";
@@ -16,8 +17,8 @@ const Seo = () => {
                                 <h1 class="hero-title display-4 fw-bold mt-5 pt-5">Dominate Search Rankings with Expert SEO Services</h1>
                                 <p class="lead mb-4">Get <strong>more traffic, leads, and sales</strong> with Eaximo's comprehensive digital marketing solutions tailored to your business goals.</p>
                                 <div class="d-flex flex-wrap gap-3 mb-5">
-                                    <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
-                                    <a href="#contact" class="btn btn-outline-light btn-lg">Get Free Audit</a>
+                                    <Link to="/services" class="btn btn-primary btn-lg">Explore Services</Link>
+                                    <Link to="/contact" class="btn btn-outline-light btn-lg">Get Free Audit</Link>
                                 </div>
                             </div>
                         </div>
