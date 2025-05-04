@@ -1,9 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-// import logo from "./logo.svg";
-// import "./App.css";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
