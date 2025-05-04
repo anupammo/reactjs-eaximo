@@ -2,8 +2,8 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-// import { Link } from "react-router-dom";
+import { HashRouter, Route, Routes } from 'react-router-dom';
+// import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -22,7 +22,7 @@ import Web from "./pages/Web";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -40,7 +40,7 @@ function App() {
         <Route path="/it-support" element={<Support />} />
         <Route path="/web-development" element={<Web />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
