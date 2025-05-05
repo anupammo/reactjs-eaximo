@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactjs-eaximo/static/css/main.bc428816.css",
-    "main.js": "/reactjs-eaximo/static/js/main.b98c21b6.js",
+    "main.js": "/reactjs-eaximo/static/js/main.a9daacd6.js",
     "static/js/453.1975b018.chunk.js": "/reactjs-eaximo/static/js/453.1975b018.chunk.js",
     "index.html": "/reactjs-eaximo/index.html",
     "main.bc428816.css.map": "/reactjs-eaximo/static/css/main.bc428816.css.map",
-    "main.b98c21b6.js.map": "/reactjs-eaximo/static/js/main.b98c21b6.js.map",
+    "main.a9daacd6.js.map": "/reactjs-eaximo/static/js/main.a9daacd6.js.map",
     "453.1975b018.chunk.js.map": "/reactjs-eaximo/static/js/453.1975b018.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc428816.css",
-    "static/js/main.b98c21b6.js"
+    "static/js/main.a9daacd6.js"
   ]
 }
