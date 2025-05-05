@@ -11,10 +11,10 @@ const Careers = () => {
     return (
         <>
             <SeoHelmet
-                title="Academics & Training | Eaximo Digital Marketing & AI Courses"
-                description="Explore Eaximo's expert-led training programs in digital marketing, SEO, branding, AI automation, and web development. Get certified and grow your expertise today!"
-                url="https://anupammo.github.io/reactjs-eaximo/#/academics"
-                image="https://anupammo.github.io/reactjs-eaximo/meta-image/academics.jpg"
+                title="Careers at Eaximo | Join Our Digital Marketing & Tech Experts"
+                description="Explore exciting career opportunities at Eaximo! Join our team of digital marketing professionals, web developers, and branding experts. Apply now for full-time or freelance roles."
+                url="https://anupammo.github.io/reactjs-eaximo/#/careers"
+                image="https://anupammo.github.io/reactjs-eaximo/meta-image/careers.jpg"
             />
             <Navbar />
             <main>

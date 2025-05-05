@@ -13,7 +13,7 @@ const Blog = () => {
                 title="Digital Marketing, SEO & AI Insights | Eaximo Blog"
                 description="Stay ahead in digital marketing with expert SEO tips, branding strategies, AI automation insights, and web development trends. Read the latest from Eaximo."
                 url="https://anupammo.github.io/reactjs-eaximo/#/blog"
-                image="https://anupammo.github.io/reactjs-eaximo/#/blogimages/home-thumbnail.jpg" 
+                image="https://anupammo.github.io/reactjs-eaximo/meta-image/blog.jpg" 
             />
             <Navbar />
             <main>
