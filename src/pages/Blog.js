@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import React from "react";
+import { Link } from 'react-router-dom';
+import SeoHelmet from "../components/SeoHelmet";
 // import Consultation from "../components/Consultation";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -8,6 +9,12 @@ import "./Blog.css";
 const Blog = () => {
     return (
         <>
+            <SeoHelmet
+                title="Digital Marketing, SEO & AI Insights | Eaximo Blog"
+                description="Stay ahead in digital marketing with expert SEO tips, branding strategies, AI automation insights, and web development trends. Read the latest from Eaximo."
+                url="https://anupammo.github.io/reactjs-eaximo/#/blog"
+                image="https://anupammo.github.io/reactjs-eaximo/#/blogimages/home-thumbnail.jpg" 
+            />
             <Navbar />
             <main>
                 <header className="hero-section py-5">
