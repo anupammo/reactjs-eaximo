@@ -1,4 +1,5 @@
 import React from "react";
+import { HelmetProvider } from "react-helmet-async";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -22,25 +23,27 @@ import Web from "./pages/Web";
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/academics" element={<Academics />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/seo" element={<Seo />} />
-        <Route path="/ai-solutions" element={<Ai />} />
-        <Route path="/branding" element={<Brand />} />
-        <Route path="/digital-marketing" element={<Dm />} />
-        <Route path="/sem" element={<Sem />} />
-        <Route path="/media" element={<Media />} />
-        <Route path="/it-support" element={<Support />} />
-        <Route path="/web-development" element={<Web />} />
-      </Routes>
-    </HashRouter>
+    <HelmetProvider>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/academics" element={<Academics />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/seo" element={<Seo />} />
+          <Route path="/ai-solutions" element={<Ai />} />
+          <Route path="/branding" element={<Brand />} />
+          <Route path="/digital-marketing" element={<Dm />} />
+          <Route path="/sem" element={<Sem />} />
+          <Route path="/media" element={<Media />} />
+          <Route path="/it-support" element={<Support />} />
+          <Route path="/web-development" element={<Web />} />
+        </Routes>
+      </HashRouter>
+    </HelmetProvider>
   );
 }
 

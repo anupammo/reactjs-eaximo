@@ -41,17 +41,24 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/digital-marketing">Digital Marketing</Link></li>
                             </ul>
                         </li>
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link text-primary dropdown-toggle active" to="#servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li>                                    
+                                    <Link className="nav-link text-primary" to="/careers">Careers</Link>
+                                </li>
+                                <li>
+                                    <Link className="nav-link text-primary" to="/academics">Academics</Link>
+                                </li>
+                            </ul>
+                        </li>
                         <li className="nav-item">
                             <Link className="nav-link text-primary" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-primary" to="/careers">Careers</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link text-primary" to="/academics">Academics</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link text-primary" to="/contact">Contact us</Link>
+                            <Link className="nav-link text-primary" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-primary" to="/blog">Blog</Link>

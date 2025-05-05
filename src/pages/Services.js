@@ -52,7 +52,7 @@ const Services = () => {
                                             <li className="text-ai-purple mb-1"><i className="fas fa-check-circle me-2"></i>Predictive Analytics</li>
                                             <li className="text-ai-purple mb-1"><i className="fas fa-check-circle me-2"></i>Custom AI Development</li>
                                         </ul>
-                                        <Link to="ai-services.html" className="btn btn-outline-dark rounded-0 w-100">Explore AI Services</Link>
+                                        <Link to="/ai-solutions" className="btn btn-outline-dark rounded-0 w-100">Explore AI Services</Link>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Services = () => {
                                             <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Technical Support</li>
                                             <li className="mb-1"><i className="fas fa-check-circle me-2"></i>Cybersecurity</li>
                                         </ul>
-                                        <Link to="it-tech-support.html" className="btn btn-outline-dark rounded-0 w-100">Explore IT Services</Link>
+                                        <Link to="/it-support" className="btn btn-outline-dark rounded-0 w-100">Explore IT Services</Link>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const Services = () => {
                                             <li className="text-marketing-orange mb-1"><i className="fas fa-check-circle me-2"></i>PPC Advertising</li>
                                             <li className="text-marketing-orange mb-1"><i className="fas fa-check-circle me-2"></i>Content Marketing</li>
                                         </ul>
-                                        <Link to="digital-marketing.html" className="btn btn-outline-dark rounded-0 w-100">Explore Marketing</Link>
+                                        <Link to="/digital-marketing" className="btn btn-outline-dark rounded-0 w-100">Explore Marketing</Link>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ const Services = () => {
                                             <li className="web-green mb-1"><i className="fas fa-check-circle me-2"></i>Web App Development</li>
                                             <li className="web-green mb-1"><i className="fas fa-check-circle me-2"></i>Website Maintenance</li>
                                         </ul>
-                                        <Link to="web-development.html" className="btn btn-outline-dark rounded-0 w-100">Explore Web Services</Link>
+                                        <Link to="/web-development" className="btn btn-outline-dark rounded-0 w-100">Explore Web Services</Link>
                                     </div>
                                 </div>
                             </div>

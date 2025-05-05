@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import React from "react";
+import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet-async";
 // import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Counter from "../components/Counter";
@@ -12,6 +13,25 @@ import "./Home.css";
 const Home = () => {
     return (
         <>
+            <Helmet>
+                {/* Page Title & Meta Description */}
+                <title>Eaximo - Digital Marketing Agency | SEO, Branding & Web Solutions</title>
+                <meta name="description" content="Boost your online presence with Eaximo! We offer expert digital marketing, branding, web development, and AI-powered services for businesses looking to scale. Get your free consultation today!" />
+                <link rel="canonical" href="https://anupammo.github.io/reactjs-eaximo/" />
+
+                {/* Open Graph Meta Tags (for Facebook & LinkedIn) */}
+                <meta property="og:title" content="Eaximo - Digital Marketing Agency | SEO, Branding & Web Solutions" />
+                <meta property="og:description" content="Boost your online presence with Eaximo! We offer expert digital marketing, branding, web development, and AI-powered services for businesses looking to scale. Get your free consultation today!" />
+                <meta property="og:url" content="https://anupammo.github.io/reactjs-eaximo/" />
+                <meta property="og:image" content="https://anupammo.github.io/reactjs-eaximo/images/home-thumbnail.jpg" />
+                <meta property="og:type" content="website" />
+
+                {/* Twitter Card (for Twitter sharing) */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Eaximo - Digital Marketing Agency | SEO, Branding & Web Solutions" />
+                <meta name="twitter:description" content="Boost your online presence with Eaximo! We offer expert digital marketing, branding, web development, and AI-powered services for businesses looking to scale. Get your free consultation today!" />
+                <meta name="twitter:image" content="https://anupammo.github.io/reactjs-eaximo/images/home-thumbnail.jpg" />
+            </Helmet>
             <Navbar />
             <main>
                 <header className="home-hero py-5">
