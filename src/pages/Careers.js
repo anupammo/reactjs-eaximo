@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import React from "react";
+import { Link } from 'react-router-dom';
+import SeoHelmet from "../components/SeoHelmet";
 // import Consultation from "../components/Consultation";
 // import Connect from "../components/Connect";
 import Navbar from "../components/Navbar";
@@ -9,6 +10,12 @@ import "./Careers.css";
 const Careers = () => {
     return (
         <>
+            <SeoHelmet
+                title="Academics & Training | Eaximo Digital Marketing & AI Courses"
+                description="Explore Eaximo's expert-led training programs in digital marketing, SEO, branding, AI automation, and web development. Get certified and grow your expertise today!"
+                url="https://anupammo.github.io/reactjs-eaximo/#/academics"
+                image="https://anupammo.github.io/reactjs-eaximo/meta-image/academics.jpg"
+            />
             <Navbar />
             <main>
                 <header className="careers-hero-section">

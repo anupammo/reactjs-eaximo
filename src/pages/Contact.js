@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { Helmet } from "react-helmet-async";
+import SeoHelmet from "../components/SeoHelmet";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Contact.css";
@@ -8,25 +8,12 @@ import "./Contact.css";
 const Contact = () => {
     return (
         <>
-            <Helmet>
-                {/* Page Title & Meta Description */}
-                <title>Contact Eaximo | Digital Marketing & AI Solutions Consultation</title>
-                <meta name="description" content="Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation." />
-                <link rel="canonical" href="https://anupammo.github.io/reactjs-eaximo/#/contact/" />
-
-                {/* Open Graph Meta Tags (for Facebook & LinkedIn) */}
-                <meta property="og:title" content="Contact Eaximo | Digital Marketing & AI Solutions Consultation" />
-                <meta property="og:description" content="Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation." />
-                <meta property="og:url" content="https://anupammo.github.io/reactjs-eaximo/#/contact/" />
-                <meta property="og:image" content="https://anupammo.github.io/reactjs-eaximo/#/contact/images/home-thumbnail.jpg" />
-                <meta property="og:type" content="website" />
-
-                {/* Twitter Card (for Twitter sharing) */}
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Contact Eaximo | Digital Marketing & AI Solutions Consultation" />
-                <meta name="twitter:description" content="Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation." />
-                <meta name="twitter:image" content="https://anupammo.github.io/reactjs-eaximo/#/contact/images/home-thumbnail.jpg" />
-            </Helmet>
+            <SeoHelmet
+                title="Contact Eaximo | Digital Marketing & AI Solutions Consultation"
+                description="Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation."
+                url="https://anupammo.github.io/reactjs-eaximo/#/contact"
+                image="https://eaximo.com/images/meta-image/contact.jpg"
+            />
             <Navbar />
             <main>
                 <header className="hero-section">

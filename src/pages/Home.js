@@ -14,10 +14,10 @@ const Home = () => {
     return (
         <>
             <SeoHelmet
-                title="Home | Eaximo Business Solutions"
-                description="Eaximo helps businesses grow with expert digital solutions."
-                url="https://eaximo.com/"
-                image="https://eaximo.com/images/home-thumbnail.jpg"
+                title="Careers at Eaximo | Join Our Digital Marketing & Tech Experts"
+                description="Explore exciting career opportunities at Eaximo! Join our team of digital marketing professionals, web developers, and branding experts. Apply now for full-time or freelance roles."
+                url="https://anupammo.github.io/reactjs-eaximo/#/careers"
+                image="https://anupammo.github.io/reactjs-eaximo/meta-image/careers.jpg"
             />
             <Navbar />
             <main>

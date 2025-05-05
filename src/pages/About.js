@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { Helmet } from "react-helmet-async";
+import SeoHelmet from "../components/SeoHelmet";
 import Consultation from "../components/Consultation";
 import Team from "../components/Team";
 import Navbar from "../components/Navbar";
@@ -10,25 +10,12 @@ import "./About.css";
 const About = () => {
     return (
         <>
-            <Helmet>
-                {/* Page Title & Meta Description */}
-                <title>About Eaximo | Digital Marketing Experts Driving Business Success</title>
-                <meta name="description" content="Learn about Eaximo, a cutting-edge digital marketing agency specializing in SEO, branding, web solutions, and AI-powered services. Meet our expert team and discover our mission." />
-                <link rel="canonical" href="https://anupammo.github.io/reactjs-eaximo/#/about/" />
-
-                {/* Open Graph Meta Tags (for Facebook & LinkedIn) */}
-                <meta property="og:title" content="About Eaximo | Digital Marketing Experts Driving Business Success" />
-                <meta property="og:description" content="Learn about Eaximo, a cutting-edge digital marketing agency specializing in SEO, branding, web solutions, and AI-powered services. Meet our expert team and discover our mission." />
-                <meta property="og:url" content="https://anupammo.github.io/reactjs-eaximo/#/about/" />
-                <meta property="og:image" content="https://anupammo.github.io/reactjs-eaximo/#/about/images/home-thumbnail.jpg" />
-                <meta property="og:type" content="website" />
-
-                {/* Twitter Card (for Twitter sharing) */}
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="About Eaximo | Digital Marketing Experts Driving Business Success" />
-                <meta name="twitter:description" content="Learn about Eaximo, a cutting-edge digital marketing agency specializing in SEO, branding, web solutions, and AI-powered services. Meet our expert team and discover our mission." />
-                <meta name="twitter:image" content="https://anupammo.github.io/reactjs-eaximo/#/about/images/home-thumbnail.jpg" />
-            </Helmet>
+            <SeoHelmet
+                title="About Eaximo | Digital Marketing Experts Driving Business Success"
+                description="Learn about Eaximo, a cutting-edge digital marketing agency specializing in SEO, branding, web solutions, and AI-powered services. Meet our expert team and discover our mission."
+                url="https://anupammo.github.io/reactjs-eaximo/#/about"
+                image="https://anupammo.github.io/reactjs-eaximo/meta-image/about.jpg"
+            />
             <Navbar />
             <main>
                 <header className="hero-about py-5">
