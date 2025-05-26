@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import React from "react";
+import { Link } from 'react-router-dom';
+import SeoHelmet from "../components/SeoHelmet";
 import Navbar from "../components/Navbar";
 import Testimonis from "../components/Testimonis";
 import Consultation from "../components/Consultation";
@@ -10,6 +11,12 @@ import "./Services.css"
 const Services = () => {
     return (
         <>
+            <SeoHelmet
+                title="Digital Services & Solutions | Eaximo"
+                description="Explore Eaximo's comprehensive digital services - AI solutions, IT support, digital marketing, web development, and more. Partner with us for your digital transformation."
+                url="https://anupammo.github.io/reactjs-eaximo/#/services"
+                image="https://anupammo.github.io/reactjs-eaximo/meta-image/services.jpg"
+            />
             <Navbar />
             <main>                
                 <header className="services-hero py-5" id="home">

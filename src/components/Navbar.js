@@ -17,7 +17,9 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-md navbar-light fixed-top ${scrolled ? "scrolled" : ""}`}>
             <div className="container">
-                <Link className="navbar-brand text-uppercase text-primary fw-bold" to="/">Eaximo</Link>
+                <Link className="navbar-brand text-uppercase text-primary fw-bold" to="/">
+                    <img src="/eaximo-logo.png" alt="Bootstrap" height="32" />
+                </Link>
                 <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon text-white"></span>
                 </button>
