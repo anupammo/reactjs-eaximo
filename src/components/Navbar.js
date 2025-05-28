@@ -17,10 +17,10 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-md navbar-light fixed-top ${scrolled ? "scrolled" : ""}`}>
             <div className="container">
-                <Link className="navbar-brand text-uppercase text-primary fw-bold" to="/">
-                    <img src="/eaximo-logo.png" alt="Bootstrap" height="32" />
+                <Link className="navbar-brand text-uppercase text-primary fw-bold" title='Eaximo' to="/">
+                    <img src="/eaximo-logo189x32.webp" alt="Eaximo Logo" height={32} width={189} />
                 </Link>
-                <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button className="navbar-toggler shadow-none" title='Menu' type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon text-white"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">

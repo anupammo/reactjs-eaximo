@@ -43,7 +43,8 @@
 }
 
 .workshop-section {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    background: var(--light);
+    background: linear-gradient(45deg, rgba(7, 227, 240, 1) 0%, rgba(4, 89, 247, 1) 30%, rgba(4, 89, 247, 1) 70%, rgba(250, 113, 235, 1) 100%);
     color: white;
     padding: 5rem 0;
     border-radius: 12px;

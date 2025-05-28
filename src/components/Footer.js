@@ -7,7 +7,10 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 mb-4 mb-lg-0">
-                        <h3 className="h5 text-white mb-4">Eaximo</h3>
+                        <Link className="navbar-brand text-uppercase text-primary fw-bold" title='Eaximo' to="/">
+                            <img src="/eaximo-logo-white.webp" alt="Eaximo Logo White" className='img-fluid mb-4' width={142} height={24} />
+                        </Link>
+                        {/* <h3 className="h5 text-white mb-4">Eaximo</h3> */}
                         <p>Your trusted partner for digital marketing, web development, and AI-powered business solutions.</p>
                         <div className="d-flex mt-4">
                             <Link to="/" className="social-icon">

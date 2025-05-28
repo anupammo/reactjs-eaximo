@@ -5,7 +5,7 @@ const Counter = ({ target }) => {
 
     useEffect(() => {
         const updateCount = () => {
-            let speed = 50;
+            let speed = 150;
             let increment = target / speed;
             let currentCount = 0;
 

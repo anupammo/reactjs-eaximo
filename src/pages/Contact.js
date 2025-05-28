@@ -21,7 +21,7 @@ const Contact = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-8 my-5">
                                 <h1 className="hero-title display-4 fw-bold mt-5">Let's Connect & Grow Your Business</h1>
-                                <p className="lead mb-4">Have questions? Need a custom marketing strategy or website optimization plan? We're here to help!</p>
+                                <p className="lead my-5">Have questions? Need a custom marketing strategy or website optimization plan? We're here to help!</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
                                     <Link to="/contact-form" className="btn btn-primary btn-lg">Get Free Consultation</Link>
                                     <Link to="/contact-info" className="btn btn-outline-light btn-lg">Contact Details</Link>

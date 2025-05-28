@@ -21,8 +21,8 @@ const Blog = () => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold mt-5">Your Digital Growth Resource</h1>
-                                <p className="lead mb-4">Explore industry insights, expert strategies, and practical tips to enhance your digital presence, boost website rankings, and optimize marketing automation.</p>
+                                <h1 className="hero-title display-4 fw-bold my-5">Your Digital Growth Resource</h1>
+                                <p className="lead my-5 pb-5">Explore industry insights, expert strategies, and practical tips to enhance your digital presence, boost website rankings, and optimize marketing automation.</p>
                                 <div className="d-flex flex-wrap gap-3">
                                     <Link to="/topics" className="btn btn-primary btn-lg">Explore Topics</Link>
                                     <Link to="/subscribe" className="btn btn-outline-light btn-lg">Subscribe</Link>
@@ -36,7 +36,7 @@ const Blog = () => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-10 text-center">
-                                <h2 className="section-title">Welcome to the Eaximo Blog</h2>
+                                <h2 className="section-title mb-5">Welcome to the Eaximo Blog</h2>
                                 <p className="lead mb-5">Whether you're a <strong>business owner, marketer, or tech enthusiast</strong>, our blog keeps you informed on <strong>cutting-edge trends and actionable strategies</strong> in digital marketing, SEO, AI, and web development.</p>
                                 <div className="alert alert-primary d-inline-flex align-items-center" role="alert">
                                     <i className="fas fa-lightbulb me-2"></i>
@@ -51,7 +51,7 @@ const Blog = () => {
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Trending Topics on Eaximo Blog</h2>
+                                <h2 className="section-title my-5">Trending Topics on Eaximo Blog</h2>
                                 <p className="lead">Expert insights on digital marketing and technology</p>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ const Blog = () => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 text-center">
-                                <h2 className="display-5 fw-bold mb-4">Subscribe & Stay Updated</h2>
+                                <h2 className="text-white display-5 fw-bold mb-4">Subscribe & Stay Updated</h2>
                                 <p className="lead mb-5">Sign up for exclusive tips, trends, and strategies delivered straight to your inbox!</p>
                                 
                                 <form className="row g-3 justify-content-center">

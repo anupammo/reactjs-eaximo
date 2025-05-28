@@ -7,7 +7,7 @@ const Consultation = () => {
             <div className="container">
                 <div className="row justify-content-center text-center">
                     <div className="col-lg-8">
-                        <h2 className="display-5 fw-bold mb-4">Ready to Transform Your Business?</h2>
+                        <h2 className="text-light fw-bold display-5 mb-4">Ready to Transform Your Business?</h2>
                         <p className="lead mb-5">Whether you need one service or a complete digital transformation, Eaximo 
                             has the expertise to help you succeed in today's competitive landscape.</p>
                         <div className="d-flex flex-wrap gap-3 justify-content-center">

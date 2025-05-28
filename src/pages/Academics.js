@@ -231,34 +231,34 @@ const Academics = () => {
                         <div className="workshop-section">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-center">
-                                    <h2 className="display-5 fw-bold mb-5">Workshop & Live Masterclasses</h2>
+                                    <h2 className="text-white fw-bold display-5 mb-5">Workshop & Live Masterclasses</h2>
                                     <div className="row g-4">
                                         <div className="col-md-3">
                                             <div className="feature-icon mx-auto">
                                                 <i className="fas fa-chalkboard-teacher"></i>
                                             </div>
-                                            <h3 className="h4">Expert-Led Training</h3>
+                                            <h3 className="text-white h4">Expert-Led Training</h3>
                                             <p>Live Q&A sessions & interactive learning with industry professionals</p>
                                         </div>
                                         <div className="col-md-3">
                                             <div className="feature-icon mx-auto">
                                                 <i className="fas fa-laptop-code"></i>
                                             </div>
-                                            <h3 className="h4">Hands-On Projects</h3>
+                                            <h3 className="text-white h4">Hands-On Projects</h3>
                                             <p>Practical exercises & real-world case studies for applied learning</p>
                                         </div>
                                         <div className="col-md-3">
                                             <div className="feature-icon mx-auto">
                                                 <i className="fas fa-certificate"></i>
                                             </div>
-                                            <h3 className="h4">Industry Certification</h3>
+                                            <h3 className="text-white h4">Industry Certification</h3>
                                             <p>Validated credentials to enhance your professional profile</p>
                                         </div>
                                         <div className="col-md-3">
                                             <div className="feature-icon mx-auto">
                                                 <i className="fas fa-chart-bar"></i>
                                             </div>
-                                            <h3 className="h4">Data-Driven Insights</h3>
+                                            <h3 className="text-white h4">Data-Driven Insights</h3>
                                             <p>Analytics & performance tracking techniques for measurable results</p>
                                         </div>
                                     </div>

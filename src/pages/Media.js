@@ -1,11 +1,8 @@
-import { Link } from 'react-router-dom';
 import React from "react";
-import Consultation from "../components/Consultation";
-// import Connect from "../components/Connect";
-// import Testimonis from "../components/Testimonis";
-// import Counter from "../components/Counter"
+import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Consultation from "../components/Consultation";
 import "./Media.css";
 
 const Media = () => {

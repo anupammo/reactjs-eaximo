@@ -23,8 +23,16 @@ const About = () => {
                         <div className="row">
                             <div className="col-lg-8">
                                 <h1 className="hero-title display-4 fw-bold pt-5">About Eaximo</h1>
-                                <p className="lead mb-4">Transforming brands, boosting online visibility, and driving business success through innovative digital solutions.</p>
-                                <Link to="/team" className="btn btn-primary btn-lg">Meet Our Team</Link>
+                                <p className="lead mt-5">Transforming brands, boosting online visibility, and driving business success through innovative digital solutions.</p>
+                                <p className="lead mt-4">Check out our <strong>Best Services</strong></p>
+                                <hr className="w-25" />
+                                <nav className="nav mb-4">
+                                    <Link className="nav-link text-white fs-4 ps-0" href="#">Digital Marketing</Link>
+                                    <Link className="nav-link text-white fs-4 ps-0" href="#">SEO & Growth</Link>
+                                    <Link className="nav-link text-white fs-4 ps-0" href="#">Website Design</Link>
+                                    <Link className="nav-link text-white fs-4 ps-0" href="#" >Web Development</Link>
+                                </nav>
+                                <Link to="/team" className="btn btn-primary btn-lg mb-5">Meet Our Team</Link>
                             </div>
                         </div>
                     </div>
@@ -38,9 +46,11 @@ const About = () => {
                                     alt="Eaximo team working together" className="img-fluid rounded-3 shadow" />
                             </div>
                             <div className="col-lg-6">
-                                <h2 className="section-title">Our Story</h2>
-                                <p className="lead mb-4">Welcome to <strong>Eaximo</strong>, a forward-thinking <strong>digital marketing agency</strong> committed to transforming brands, boosting online visibility, and driving business success.</p>
-                                <p>With expertise in <strong>SEO, branding, web development, and AI-powered strategies</strong>, we empower businesses to maximize their digital potential using innovative solutions. Our mission is simple—deliver measurable growth, build impactful brand identities, and craft data-driven marketing strategies that resonate with target audiences.</p>
+                                <div className="p-5">
+                                    <h2 className="section-title mb-5">Our Story</h2>
+                                    <p className="lead mb-4">Welcome to <strong>Eaximo</strong>, a forward-thinking <strong>digital marketing agency</strong> committed to transforming brands, boosting online visibility, and driving business success.</p>
+                                    <p>With expertise in <strong>SEO, branding, web development, and AI-powered strategies</strong>, we empower businesses to maximize their digital potential using innovative solutions. Our mission is simple—deliver measurable growth, build impactful brand identities, and craft data-driven marketing strategies that resonate with target audiences.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

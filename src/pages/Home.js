@@ -1,14 +1,13 @@
+import "./Home.css";
 import React from "react";
 import { Link } from 'react-router-dom';
-import SeoHelmet from "../components/SeoHelmet";
-// import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Counter from "../components/Counter";
-import Testimonis from "../components/Testimonis";
-import Consultation from "../components/Consultation";
-import Connect from "../components/Connect";
 import Footer from "../components/Footer";
-import "./Home.css";
+import Connect from "../components/Connect";
+import SeoHelmet from "../components/SeoHelmet";
+import Testimonis from "../components/Testimonis";
+import StatsNumber from "../components/StatsNumber";
+import Consultation from "../components/Consultation";
 
 const Home = () => {
     return (
@@ -169,7 +168,7 @@ const Home = () => {
                     </div>
                 </section>
                 
-                <section className="stats-section">
+                {/* <section className="stats-section">
                     <div className="container">
                         <div className="row g-4">
                             <div className="col-md-3 col-6">
@@ -210,7 +209,8 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+                <StatsNumber />
                 
                 <Testimonis />
                 

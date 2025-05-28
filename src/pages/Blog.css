@@ -59,8 +59,9 @@ header.hero-section {
 }
 
 .subscribe-section {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     color: white;
+    background: var(--primary);
+    background: linear-gradient(45deg, var(--accent) 0%, var(--primary) 30%, var(--primary) 70%, var(--secondary) 100%);
     padding: 5rem 0;
 }
 
