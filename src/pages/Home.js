@@ -48,21 +48,23 @@ const Home = () => {
                                     alt="Digital marketing team working" className="img-fluid rounded-3 shadow" />
                             </div>
                             <div className="col-lg-6">
-                                <h2 className="section-title">About Eaximo</h2>
-                                <p className="lead mb-4">Welcome to <strong>Eaximo</strong>, your trusted <strong>digital marketing agency</strong> specializing in <strong>SEO, branding, and web solutions</strong>.</p>
-                                <p>Our data-driven approach ensures higher engagement, <strong>boosts website traffic</strong>, and drives more conversions for businesses of all sizes. We combine creativity with analytics to deliver measurable results.</p>
-                                <div className="d-flex flex-wrap gap-3 mt-4">
-                                    <div className="d-flex align-items-center">
-                                        <div className="me-3 text-primary">
-                                            <i className="fas fa-check-circle fa-lg"></i>
+                                <div className="p-5">
+                                    <h2 className="section-title mb-4">About Eaximo</h2>
+                                    <p className="lead mb-4">Welcome to <strong>Eaximo</strong>, your trusted <strong>digital marketing agency</strong> specializing in <strong>SEO, branding, and web solutions</strong>.</p>
+                                    <p>Our data-driven approach ensures higher engagement, <strong>boosts website traffic</strong>, and drives more conversions for businesses of all sizes. We combine creativity with analytics to deliver measurable results.</p>
+                                    <div className="d-flex flex-wrap gap-3 mt-4">
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-primary">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>10+ Years Experience</span>
                                         </div>
-                                        <span>10+ Years Experience</span>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <div className="me-3 text-primary">
-                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-primary">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>500+ Projects Completed</span>
                                         </div>
-                                        <span>500+ Projects Completed</span>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +73,7 @@ const Home = () => {
                 </section>
                 
                 <section className="py-5 bg-light" id="services">
-                    <div className="container">
+                    <div className="container my-5">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
                                 <h2 className="section-title">Our Key Services</h2>
@@ -85,8 +87,8 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-search"></i>
                                         </div>
-                                        <h3 className="h4">Website SEO Services</h3>
-                                        <p className="text-muted">Optimize your website to rank higher on Google and drive organic traffic with our proven SEO strategies.</p>
+                                        <h3 className="h4 mb-4">Website SEO Services</h3>
+                                        <p className="text-muted">Optimize your website to rank higher on Google and drive organic traffic with proven SEO strategies.</p>
                                         <Link to="/seo" className="btn btn-outline-primary mt-3">Explore SEO</Link>
                                     </div>
                                 </div>
@@ -97,7 +99,7 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-code"></i>
                                         </div>
-                                        <h3 className="h4">Website Development</h3>
+                                        <h3 className="h4 mb-4">Website Development</h3>
                                         <p className="text-muted">Build fast, scalable, and responsive business websites that convert visitors into customers.</p>
                                         <Link to="/web-development" className="btn btn-outline-primary mt-3">Explore Development</Link>
                                     </div>
@@ -109,7 +111,7 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-bullhorn"></i>
                                         </div>
-                                        <h3 className="h4">Social Media Marketing</h3>
+                                        <h3 className="h4 mb-4">Social Media Marketing</h3>
                                         <p className="text-muted">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
                                         <Link to="/digital-development" className="btn btn-outline-primary mt-3">Explore Marketing</Link>
                                     </div>
@@ -121,7 +123,7 @@ const Home = () => {
                                         <div className="service-icon">
                                             <i className="fas fa-robot"></i>
                                         </div>
-                                        <h3 className="h4">AI Powered Marketing</h3>
+                                        <h3 className="h4 mb-4">AI Powered Marketing</h3>
                                         <p className="text-muted">Enhance efficiency with our smart AI-powered tools for marketing automation and analytics.</p>
                                         <Link to="/ai-solutions" className="btn btn-outline-primary mt-3">AI Marketing</Link>
                                     </div>
@@ -139,7 +141,7 @@ const Home = () => {
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
                                 <h2 className="section-title">Why Choose Eaximo?</h2>
-                                <p className="lead">We deliver measurable results through innovative strategies</p>
+                                <p className="lead mb-5">We deliver measurable results through innovative strategies</p>
                             </div>
                         </div>
                         <div className="row g-4">

@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from 'react-router-dom';
 import SeoHelmet from "../components/SeoHelmet";
 import Consultation from "../components/Consultation";
@@ -22,16 +21,36 @@ const About = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold pt-5">About Eaximo</h1>
+                                <h1 className="hero-title display-4 fw-bold pt-5">About eaximo</h1>
                                 <p className="lead mt-5">Transforming brands, boosting online visibility, and driving business success through innovative digital solutions.</p>
                                 <p className="lead mt-4">Check out our <strong>Best Services</strong></p>
                                 <hr className="w-25" />
-                                <nav className="nav mb-4">
-                                    <Link className="nav-link text-white fs-4 ps-0" href="#">Digital Marketing</Link>
-                                    <Link className="nav-link text-white fs-4 ps-0" href="#">SEO & Growth</Link>
-                                    <Link className="nav-link text-white fs-4 ps-0" href="#">Website Design</Link>
-                                    <Link className="nav-link text-white fs-4 ps-0" href="#" >Web Development</Link>
-                                </nav>
+                                <div className="d-flex flex-wrap gap-3 my-4">
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>Digital Marketing</span>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>SEO & Growth</span>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>Website Design</span>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-primary">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>Web Development</span>
+                                    </div>
+                                </div>
                                 <Link to="/team" className="btn btn-primary btn-lg mb-5">Meet Our Team</Link>
                             </div>
                         </div>
@@ -47,7 +66,7 @@ const About = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="p-5">
-                                    <h2 className="section-title mb-5">Our Story</h2>
+                                    <h2 className="section-title mb-4">Our Story</h2>
                                     <p className="lead mb-4">Welcome to <strong>Eaximo</strong>, a forward-thinking <strong>digital marketing agency</strong> committed to transforming brands, boosting online visibility, and driving business success.</p>
                                     <p>With expertise in <strong>SEO, branding, web development, and AI-powered strategies</strong>, we empower businesses to maximize their digital potential using innovative solutions. Our mission is simple—deliver measurable growth, build impactful brand identities, and craft data-driven marketing strategies that resonate with target audiences.</p>
                                 </div>
@@ -56,11 +75,11 @@ const About = () => {
                     </div>
                 </section>
                 
-                <section className="py-5 bg-light">
-                    <div className="container">
+                <section className="bg-light py-5">
+                    <div className="container mt-4 mb-5">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Our Vision & Mission</h2>
+                                <h2 className="section-title text-dark mb-4">Our Vision & Mission</h2>
                             </div>
                         </div>
                         <div className="row g-4">
@@ -69,7 +88,7 @@ const About = () => {
                                     <div className="value-icon">
                                         <i className="fas fa-eye"></i>
                                     </div>
-                                    <h3>Our Vision</h3>
+                                    <h3 className="mb-4">Our Vision</h3>
                                     <p>To be the go-to agency for <strong>high-performance digital marketing solutions</strong>, integrating creativity, technology, and strategy to drive exceptional results for our clients.</p>
                                 </div>
                             </div>
@@ -78,7 +97,7 @@ const About = () => {
                                     <div className="value-icon">
                                         <i className="fas fa-bullseye"></i>
                                     </div>
-                                    <h3>Our Mission</h3>
+                                    <h3 className="mb-4">Our Mission</h3>
                                     <p>Helping businesses <strong>scale online</strong>, enhance visibility, and drive engagement through <strong>SEO, digital marketing, branding, and AI automation</strong> tailored to their unique needs.</p>
                                 </div>
                             </div>
@@ -100,7 +119,7 @@ const About = () => {
                                     <div className="value-icon">
                                         <i className="fas fa-chart-line"></i>
                                     </div>
-                                    <h3>Results-Oriented Approach</h3>
+                                    <h3 className="mb-4">Results-Oriented Approach</h3>
                                     <p>We prioritize <strong>ROI-driven</strong> strategies that generate leads and conversions, ensuring every campaign delivers measurable business impact.</p>
                                 </div>
                             </div>
@@ -109,7 +128,7 @@ const About = () => {
                                     <div className="value-icon">
                                         <i className="fas fa-lightbulb"></i>
                                     </div>
-                                    <h3>Innovation & Creativity</h3>
+                                    <h3 className="mb-4">Innovation & Creativity</h3>
                                     <p>Pushing boundaries with <strong>cutting-edge marketing solutions</strong> tailored for digital growth, blending creativity with technology.</p>
                                 </div>
                             </div>
@@ -118,7 +137,7 @@ const About = () => {
                                     <div className="value-icon">
                                         <i className="fas fa-users"></i>
                                     </div>
-                                    <h3>Client-Centric Focus</h3>
+                                    <h3 className="mb-4">Client-Centric Focus</h3>
                                     <p>Your success is our priority. We craft <strong>custom digital solutions</strong> that align perfectly with your business objectives and goals.</p>
                                 </div>
                             </div>
@@ -129,7 +148,7 @@ const About = () => {
                 <Team />
 
                 <section className="py-5 my-5">
-                    <div className="container">
+                    <div className="container my-4">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
                                 <h2 className="section-title">Why Choose Eaximo?</h2>

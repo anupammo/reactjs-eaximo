@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Consultation = () => {
     return (
         <section className="stats-section text-white py-5">
-            <div className="container">
+            <div className="container my-5">
                 <div className="row justify-content-center text-center">
                     <div className="col-lg-8">
                         <h2 className="text-light fw-bold display-5 mb-4">Ready to Transform Your Business?</h2>

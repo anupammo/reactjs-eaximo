@@ -93,7 +93,10 @@ const Contact = () => {
                             <div className="col-lg-8">
                                 <div className="card shadow-sm border-0">
                                     <div className="card-body p-5">
-                                        <h2 className="section-title text-center mb-4">Inquiry Form – Get a Free Consultation</h2>
+                                        <h2 className="section-title text-center">
+                                            <span className="d-block text-dark pb-3">Inquiry Form </span>
+                                            <span className="d-block h4">Get a Free Consultation</span>
+                                        </h2>
                                         <p className="text-center mb-5">Fill out the form below and we'll get back to you within 24 hours</p>
                                         
                                         <form>

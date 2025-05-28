@@ -5,7 +5,7 @@ import "./Team.css"
 const Team = () => {
     return (
         <section className="py-5 bg-light" id="team">
-            <div className="container">
+            <div className="container my-4">
                 <div className="row justify-content-center mb-5">
                     <div className="col-lg-8 text-center">
                         <h2 className="section-title">Meet Our Team</h2>
@@ -18,8 +18,8 @@ const Team = () => {
                             <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                                 className="team-img" alt="Founder & CEO" />
                             <div className="card-body text-center">
-                                <h4 className="mb-1">Alex Johnson</h4>
-                                <p className="text-muted">Founder & CEO</p>
+                                <h4 className="mb-2">Emily Carey</h4>
+                                <p className="fw-bold">Founder & CEO</p>
                                 <p className="small">Visionary leader driving strategic growth and innovation.</p>
                                 <div className="team-social">
                                     <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
@@ -34,8 +34,8 @@ const Team = () => {
                             <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                                 className="team-img" alt="Digital Marketing Strategist" />
                             <div className="card-body text-center">
-                                <h4 className="mb-1">Sarah Chen</h4>
-                                <p className="text-muted">Digital Marketing Strategist</p>
+                                <h4 className="mb-2">Sarah Chen</h4>
+                                <p className="fw-bold">Digital Marketing Strategist</p>
                                 <p className="small">Expert in SEO, paid ads, and lead generation strategies.</p>
                                 <div className="team-social">
                                     <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
@@ -50,8 +50,8 @@ const Team = () => {
                             <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                                 className="team-img" alt="Creative Designer" />
                             <div className="card-body text-center">
-                                <h4 className="mb-1">Michael Rodriguez</h4>
-                                <p className="text-muted">Creative Designer</p>
+                                <h4 className="mb-2">Alex Carey</h4>
+                                <p className="fw-bold">Creative Designer</p>
                                 <p className="small">Crafting visual brand identities & UI/UX solutions.</p>
                                 <div className="team-social">
                                     <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
@@ -66,8 +66,8 @@ const Team = () => {
                             <img src="https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                                 className="team-img" alt="AI & Automation Specialist" />
                             <div className="card-body text-center">
-                                <h4 className="mb-1">David Kim</h4>
-                                <p className="text-muted">AI & Automation Specialist</p>
+                                <h4 className="mb-2">David Kim</h4>
+                                <p className="fw-bold">AI & Automation Specialist</p>
                                 <p className="small">Optimizing marketing workflows through AI-driven insights.</p>
                                 <div className="team-social">
                                     <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
