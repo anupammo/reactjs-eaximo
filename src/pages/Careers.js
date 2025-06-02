@@ -1,11 +1,11 @@
+import "./Careers.css";
 import React from "react";
 import { Link } from 'react-router-dom';
-import SeoHelmet from "../components/SeoHelmet";
-// import Consultation from "../components/Consultation";
-// import Connect from "../components/Connect";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Careers.css";
+// import Connect from "../components/Connect";
+import SeoHelmet from "../components/SeoHelmet";
+// import Consultation from "../components/Consultation";
 
 const Careers = () => {
     return (
@@ -13,9 +13,19 @@ const Careers = () => {
             <SeoHelmet
                 title="Careers at Eaximo | Join Our Digital Marketing & Tech Experts"
                 description="Explore exciting career opportunities at Eaximo! Join our team of digital marketing professionals, web developers, and branding experts. Apply now for full-time or freelance roles."
-                url="https://anupammo.github.io/reactjs-eaximo/#/careers"
-                image="https://anupammo.github.io/reactjs-eaximo/meta-image/careers.jpg"
+                url="https://eaximo.com/careers"
+                image="https://eaximo.com/meta-image/careers.jpg"
+                meta={[
+                    { property: "og:title", content: "Careers at Eaximo | Join Our Digital Marketing & Tech Experts" },
+                    { property: "og:description", content: "Explore exciting career opportunities at Eaximo! Join our team of digital marketing professionals, web developers, and branding experts. Apply now for full-time or freelance roles." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/careers.jpg" },
+                    { property: "og:url", content: "https://eaximo.com/careers" },
+                    { name: "twitter:title", content: "Careers at Eaximo | Join Our Digital Marketing & Tech Experts" },
+                    { name: "twitter:description", content: "Explore exciting career opportunities at Eaximo! Join our team of digital marketing professionals, web developers, and branding experts. Apply now for full-time or freelance roles." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/careers.jpg" }
+                ]}
             />
+
             <Navbar />
             <main>
                 <header className="careers-hero-section">

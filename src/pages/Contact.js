@@ -1,9 +1,10 @@
+import "./Contact.css";
 import React from "react";
 import { Link } from 'react-router-dom';
-import SeoHelmet from "../components/SeoHelmet";
+import Contacts from "../components/Contacts";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Contact.css";
+import SeoHelmet from "../components/SeoHelmet";
 
 const Contact = () => {
     return (
@@ -11,16 +12,26 @@ const Contact = () => {
             <SeoHelmet
                 title="Contact Eaximo | Digital Marketing & AI Solutions Consultation"
                 description="Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation."
-                url="https://anupammo.github.io/reactjs-eaximo/#/contact"
-                image="https://eaximo.com/images/meta-image/contact.jpg"
+                url="https://eaximo.com/contact"
+                image="https://eaximo.com/meta-image/contact.jpg"
+                meta={[
+                    { property: "og:title", content: "Contact Eaximo | Digital Marketing & AI Solutions Consultation" },
+                    { property: "og:description", content: "Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/contact.jpg" },
+                    { property: "og:url", content: "https://eaximo.com/contact" },
+                    { name: "twitter:title", content: "Contact Eaximo | Digital Marketing & AI Solutions Consultation" },
+                    { name: "twitter:description", content: "Get in touch with Eaximo for expert digital marketing, SEO, branding, web development, and AI-powered services. Reach out today for a free consultation." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/contact.jpg" }
+                ]}
             />
+
             <Navbar />
             <main>
                 <header className="hero-section">
-                    <div className="container">
+                    <div className="container mt-5">
                         <div className="row align-items-center">
                             <div className="col-lg-8 my-5">
-                                <h1 className="hero-title display-4 fw-bold mt-5">Let's Connect & Grow Your Business</h1>
+                                <h1 className="hero-title fw-bold mt-5">Let's Connect & Grow Your Business</h1>
                                 <p className="lead my-5">Have questions? Need a custom marketing strategy or website optimization plan? We're here to help!</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
                                     <Link to="/contact-form" className="btn btn-primary btn-lg">Get Free Consultation</Link>
@@ -31,7 +42,7 @@ const Contact = () => {
                     </div>
                 </header>
                 
-                <section className="py-5 my-5" id="contact-info">
+                {/* <section className="py-5 my-5" id="contact-info">
                     <div className="container">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
@@ -85,7 +96,9 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+
+                <Contacts />
                 
                 <section className="form-section py-5" id="contact-form">
                     <div className="container">
@@ -195,7 +208,7 @@ const Contact = () => {
                         </div>
                         
                         <div className="text-center mt-5">
-                            <Link to="/contact-form" className="btn btn-primary btn-lg px-5">Let's build your digital success story today!</Link>
+                            <Link to="/contact" className="btn btn-primary btn-lg px-5">Let's build your digital success story today!</Link>
                         </div>
                     </div>
                 </section>

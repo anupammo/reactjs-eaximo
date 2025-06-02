@@ -1,14 +1,30 @@
-import { Link } from 'react-router-dom';
 import React from "react";
-import Consultation from "../components/Consultation";
-// import Connect from "../components/Connect";
+import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import SeoHelmet from "../components/SeoHelmet";
+import Consultation from "../components/Consultation";
 import "./Dm.css";
 
 const Dm = () => {
     return (
         <>
+            <SeoHelmet
+                title="Digital Marketing, Web Solutions & AI Services | Eaximo"
+                description="Explore Eaximo's expert digital services—from branding and web development to AI-powered solutions. Get tailored marketing strategies designed to boost your business."
+                url="https://eaximo.com/digital-marketing"
+                image="https://eaximo.com/meta-image/digital-marketing.png"
+                meta={[
+                    { property: "og:title", content: "Digital Marketing, Web Solutions & AI Services | Eaximo" },
+                    { property: "og:description", content: "Explore Eaximo's expert digital services—from branding and web development to AI-powered solutions. Get tailored marketing strategies designed to boost your business." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/digital-marketing.png" },
+                    { property: "og:url", content: "https://eaximo.com/digital-marketing" },
+                    { name: "twitter:title", content: "Digital Marketing, Web Solutions & AI Services | Eaximo" },
+                    { name: "twitter:description", content: "Explore Eaximo's expert digital services—from branding and web development to AI-powered solutions. Get tailored marketing strategies designed to boost your business." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/digital-marketing.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <header className="hero-services">

@@ -1,5 +1,6 @@
 // import React from "react";
 // import { Link } from 'react-router-dom';
+import styles from './StatsNumber.module.css';
 import Counter from "../components/Counter";
 
 const StatsNum = () => {
@@ -9,7 +10,7 @@ const StatsNum = () => {
                 <div className="row g-4">
                     <div className="col-md-3 col-6">
                         <div className="text-center text-white py-4">
-                            <div className="stat-number">
+                            <div className={styles.statNumber}>
                                 <Counter target={500} />
                             </div>
                             <h3 className="text-white h5">Projects</h3>
@@ -18,7 +19,7 @@ const StatsNum = () => {
                     </div>
                     <div className="col-md-3 col-6">
                         <div className="text-center text-white py-4">
-                            <div className="stat-number">
+                            <div className={styles.statNumber}>
                                 <Counter target={120} />
                             </div>
                             <h3 className="text-white h5">Clients</h3>
@@ -27,7 +28,7 @@ const StatsNum = () => {
                     </div>
                     <div className="col-md-3 col-6">
                         <div className="text-center text-white py-4">
-                            <div className="stat-number">
+                            <div className={styles.statNumber}>
                                 <Counter target={10} />
                             </div>
                             <h3 className="text-white h5">Years</h3>
@@ -36,7 +37,7 @@ const StatsNum = () => {
                     </div>
                     <div className="col-md-3 col-6">
                         <div className="text-center text-white py-4">
-                            <div className="stat-number">
+                            <div className={styles.statNumber}>
                                 <Counter target={15} />
                             </div>
                             <h3 className="text-white h5">Countries</h3>

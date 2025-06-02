@@ -1,0 +1,8 @@
+/* style for StatusNumber component */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.statNumber {
+  font-family: "Macondo", cursive;
+  font-weight: 900;
+  font-style: normal;
+}

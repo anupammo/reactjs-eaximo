@@ -1,16 +1,29 @@
+import "./Web.css";
 import { Link } from 'react-router-dom';
-import React from "react";
-import Consultation from "../components/Consultation";
-// import Connect from "../components/Connect";
-// import Testimonis from "../components/Testimonis";
-// import Counter from "../components/Counter"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Web.css";
+import SeoHelmet from "../components/SeoHelmet";
+import Consultation from "../components/Consultation";
 
 const Web = () => {
     return (
         <>
+            <SeoHelmet
+                title="Custom Web Design & Development Services | Eaximo"
+                description="Eaximo provides expert website design, development, and e-commerce solutions. Build a responsive, SEO-friendly website tailored to your brand's needs."
+                url="https://eaximo.com/web-development"
+                image="https://eaximo.com/meta-image/web-development.png"
+                meta={[
+                    { property: "og:title", content: "Custom Web Design & Development Services | Eaximo" },
+                    { property: "og:description", content: "Eaximo provides expert website design, development, and e-commerce solutions. Build a responsive, SEO-friendly website tailored to your brand's needs." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/web-development.png" },
+                    { property: "og:url", content: "https://eaximo.com/web-development" },
+                    { name: "twitter:title", content: "Custom Web Design & Development Services | Eaximo" },
+                    { name: "twitter:description", content: "Eaximo provides expert website design, development, and e-commerce solutions. Build a responsive, SEO-friendly website tailored to your brand's needs." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/web-development.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <header className="web-hero-section">

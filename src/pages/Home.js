@@ -1,5 +1,5 @@
 import "./Home.css";
-import React from "react";
+// import React from "react";
 import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -13,29 +13,71 @@ const Home = () => {
     return (
         <>
             <SeoHelmet
-                title="Careers at Eaximo | Join Our Digital Marketing & Tech Experts"
-                description="Explore exciting career opportunities at Eaximo! Join our team of digital marketing professionals, web developers, and branding experts. Apply now for full-time or freelance roles."
-                url="https://anupammo.github.io/reactjs-eaximo/"
-                image="https://anupammo.github.io/reactjs-eaximo/meta-image/home.jpg"
+                title="Eaximo - Digital Marketing Agency | SEO, Branding & Web Solutions"
+                description="Boost your online presence with Eaximo! We offer expert digital marketing, branding, web development, and AI-powered services for businesses looking to scale. Get your free consultation today!"
+                url="https://eaximo.com/"
+                image="https://eaximo.com/meta-image/home.png"
+                meta={[
+                    { property: "og:title", content: "Eaximo - Digital Marketing Agency | SEO, Branding & Web Solutions" },
+                    { property: "og:description", content: "Boost your online presence with Eaximo! We offer expert digital marketing, branding, web development, and AI-powered services for businesses looking to scale. Get your free consultation today!" },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/home.png" },
+                    { property: "og:url", content: "https://eaximo.com/" },
+                    { name: "twitter:title", content: "Eaximo - Digital Marketing Agency | SEO, Branding & Web Solutions" },
+                    { name: "twitter:description", content: "Boost your online presence with Eaximo! We offer expert digital marketing, branding, web development, and AI-powered services for businesses looking to scale. Get your free consultation today!" },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/home.png" }
+                ]}
             />
+
             <Navbar />
             <main>
-                <header className="home-hero py-5">
-                    <div className="container">
+                <header className="hero-home">
+                    <div className="container py-5">
                         <div className="row">
-                            <div className="col-lg-7 col-md-6 col-12">
-                                <h1 className="text-white fw-bold h2 mt-5">
-                                    <span className="d-block">Accelerate Your Growth with </span>
-                                    Expert <span className="text-primary fw-bold display-5">Digital Marketing</span> &amp;
-                                    <span className="text-primary fw-bold d-block display-5">AI Solutions</span>
+                            <div className="col-12">
+                                <h1 className="fs-sm-3 fs-md-2 fs-lg-1 mt-5 pt-5">Accelerate Your Growth with Expert
+                                    <strong className="fs-sm-3 fs-md-2 fs-lg-1 text-primary"> Digital Marketing</strong> &amp;
+                                    <strong className="fs-sm-3 fs-md-2 fs-lg-1 text-primary"> AI Solutions</strong>
                                 </h1>
-                                <p className="lead text-white my-5">Eaximo helps brands thrive with cutting-edge SEO, web development, and AI-powered strategies.</p>
-                                <div className="d-flex flex-wrap gap-3">
-                                    <Link to="/contact" className="btn btn-primary btn-lg">Get a Free Consultation</Link>
-                                    <Link to="/services" className="btn btn-outline-light btn-lg">Our Services</Link>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-8 col-12">
+                                <p className="fs-5 mt-4">Your trusted partner for digital marketing, web development, and AI-powered business solutions.</p>
+                                <p className="fs-5 mb-4">Eaximo helps brands thrive with cutting-edge SEO, web development, and AI-powered strategies.</p>
+                                <p className="fs-5 mb-4">Check out our <strong>Best Services</strong></p>
+                                <hr className="w-25" />
+                                <div className="d-flex flex-wrap gap-3 my-4">
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-light">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>Digital Marketing</span>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-light">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>SEO & Growth</span>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-light">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>Website Design</span>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <div className="me-3 text-light">
+                                            <i className="fas fa-check-circle fa-lg"></i>
+                                        </div>
+                                        <span>Web Development</span>
+                                    </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 my-5">
+                                    <Link to="/contact" className="btn btn-dark">Free Consultation</Link>
+                                    <Link to="/services" className="btn btn-outline-primary">Our Services</Link>
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-6 col-12"></div>
+                            <div className="col-lg-4 col-12"></div>
                         </div>
                     </div>
                 </header>
@@ -43,10 +85,6 @@ const Home = () => {
                 <section className="py-5 my-5" id="about">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 mb-5 mb-lg-0">
-                                <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                                    alt="Digital marketing team working" className="img-fluid rounded-3 shadow" />
-                            </div>
                             <div className="col-lg-6">
                                 <div className="p-5">
                                     <h2 className="section-title mb-4">About Eaximo</h2>
@@ -68,9 +106,15 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-lg-6 mb-5 mb-lg-0">
+                                <img src="/about-eaximo.webp" alt="Digital marketing team working" 
+                                className="img-fluid rounded-3 shadow" width={500} height={331} loading="lazy" />
+                            </div>
                         </div>
                     </div>
                 </section>
+                
+                <StatsNumber />
                 
                 <section className="py-5 bg-light" id="services">
                     <div className="container my-5">
@@ -113,7 +157,7 @@ const Home = () => {
                                         </div>
                                         <h3 className="h4 mb-4">Social Media Marketing</h3>
                                         <p className="text-muted">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
-                                        <Link to="/digital-development" className="btn btn-outline-primary mt-3">Explore Marketing</Link>
+                                        <Link to="/digital-marketing" className="btn btn-outline-primary mt-3">Explore Marketing</Link>
                                     </div>
                                 </div>
                             </div>
@@ -169,50 +213,6 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                
-                {/* <section className="stats-section">
-                    <div className="container">
-                        <div className="row g-4">
-                            <div className="col-md-3 col-6">
-                                <div className="text-center text-white py-4">
-                                    <div className="stat-number">
-                                        <Counter target={500} />
-                                    </div>
-                                    <h3 className="h5">Projects</h3>
-                                    <p className="mb-0">Completed Successfully</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-6">
-                                <div className="text-center text-white py-4">
-                                    <div className="stat-number">
-                                        <Counter target={120} />
-                                    </div>
-                                    <h3 className="h5">Clients</h3>
-                                    <p className="mb-0">Satisfied Worldwide</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-6">
-                                <div className="text-center text-white py-4">
-                                    <div className="stat-number">
-                                        <Counter target={10} />
-                                    </div>
-                                    <h3 className="h5">Years</h3>
-                                    <p className="mb-0">Of Experience</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-6">
-                                <div className="text-center text-white py-4">
-                                    <div className="stat-number">
-                                        <Counter target={15} />
-                                    </div>
-                                    <h3 className="h5">Countries</h3>
-                                    <p className="mb-0">We Serve</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-                <StatsNumber />
                 
                 <Testimonis />
                 

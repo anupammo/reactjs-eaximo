@@ -1,16 +1,33 @@
-import { Link } from 'react-router-dom';
+import "./Sem.css";
 import React from "react";
-import Consultation from "../components/Consultation";
-// import Connect from "../components/Connect";
-// import Testimonis from "../components/Testimonis";
-// import Counter from "../components/Counter"
+import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Sem.css";
+import SeoHelmet from "../components/SeoHelmet";
+// import Connect from "../components/Connect";
+// import Counter from "../components/Counter"
+// import Testimonis from "../components/Testimonis";
+import Consultation from "../components/Consultation";
 
 const Sem = () => {
     return (
         <>
+            <SeoHelmet
+                title="SEM Fuels Your Business Growth | Eaximo"
+                description="We craft performance-driven digital marketing strategies that increase brand awareness, improve search rankings, and maximize lead conversions."
+                url="https://eaximo.com/sem"
+                image="https://eaximo.com/meta-image/sem.png"
+                meta={[
+                    { property: "og:title", content: "SEM Fuels Your Business Growth | Eaximo" },
+                    { property: "og:description", content: "We craft performance-driven digital marketing strategies that increase brand awareness, improve search rankings, and maximize lead conversions." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/sem.png" },
+                    { property: "og:url", content: "https://eaximo.com/sem" },
+                    { name: "twitter:title", content: "SEM Fuels Your Business Growth | Eaximo" },
+                    { name: "twitter:description", content: "We craft performance-driven digital marketing strategies that increase brand awareness, improve search rankings, and maximize lead conversions." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/sem.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <header className="sem-hero-section">

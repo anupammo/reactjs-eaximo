@@ -1,12 +1,12 @@
+import "./Services.css";
 import React from "react";
 import { Link } from 'react-router-dom';
-import SeoHelmet from "../components/SeoHelmet";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Connect from "../components/Connect";
+import SeoHelmet from "../components/SeoHelmet";
 import Testimonis from "../components/Testimonis";
 import Consultation from "../components/Consultation";
-import Connect from "../components/Connect";
-import Footer from "../components/Footer";
-import "./Services.css"
 
 const Services = () => {
     return (
@@ -14,9 +14,19 @@ const Services = () => {
             <SeoHelmet
                 title="Digital Services & Solutions | Eaximo"
                 description="Explore Eaximo's comprehensive digital services - AI solutions, IT support, digital marketing, web development, and more. Partner with us for your digital transformation."
-                url="https://anupammo.github.io/reactjs-eaximo/#/services"
-                image="https://anupammo.github.io/reactjs-eaximo/meta-image/services.jpg"
+                url="https://eaximo.com/services"
+                image="https://eaximo.com/meta-image/services.jpg"
+                meta={[
+                    { property: "og:title", content: "Digital Services & Solutions | Eaximo" },
+                    { property: "og:description", content: "Explore Eaximo's comprehensive digital services - AI solutions, IT support, digital marketing, web development, and more. Partner with us for your digital transformation." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/services.jpg" },
+                    { property: "og:url", content: "https://eaximo.com/services" },
+                    { name: "twitter:title", content: "Digital Services & Solutions | Eaximo" },
+                    { name: "twitter:description", content: "Explore Eaximo's comprehensive digital services - AI solutions, IT support, digital marketing, web development, and more. Partner with us for your digital transformation." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/services.jpg" }
+                ]}
             />
+
             <Navbar />
             <main>                
                 <header className="services-hero py-5" id="home">

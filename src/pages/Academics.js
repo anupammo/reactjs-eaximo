@@ -12,8 +12,8 @@ const Academics = () => {
             <SeoHelmet
                 title="Academics & Training | Eaximo Digital Marketing & AI Courses"
                 description="Explore Eaximo's expert-led training programs in digital marketing, SEO, branding, AI automation, and web development. Get certified and grow your expertise today!"
-                url="https://anupammo.github.io/reactjs-eaximo/#/academics"
-                image="https://anupammo.github.io/reactjs-eaximo/meta-image/academics.jpg"
+                url="https://eaximo.com/academics"
+                image="https://eaximo.com/meta-image/academics.jpg"
             />
             <Navbar />
             <main>

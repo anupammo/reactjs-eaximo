@@ -1,13 +1,30 @@
-import { Link } from 'react-router-dom';
+import "./Seo.css";
 import React from "react";
-import Consultation from "../components/Consultation";
+import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Seo.css";
+import SeoHelmet from "../components/SeoHelmet";
+import Consultation from "../components/Consultation";
 
 const Seo = () => {
     return (
         <>
+            <SeoHelmet
+                title="SEO & Digital Marketing Services | Eaximo"
+                description="Boost your online visibility with Eaximo's expert SEO services. Get comprehensive digital marketing solutions including PPC, content marketing, and social media strategies."
+                url="https://eaximo.com/seo"
+                image="https://eaximo.com/meta-image/seo.png"
+                meta={[
+                    { property: "og:title", content: "SEO & Digital Marketing Services | Eaximo" },
+                    { property: "og:description", content: "Boost your online visibility with Eaximo's expert SEO services. Get comprehensive digital marketing solutions including PPC, content marketing, and social media strategies." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/seo.png" },
+                    { property: "og:url", content: "https://eaximo.com/seo" },
+                    { name: "twitter:title", content: "SEO & Digital Marketing Services | Eaximo" },
+                    { name: "twitter:description", content: "Boost your online visibility with Eaximo's expert SEO services. Get comprehensive digital marketing solutions including PPC, content marketing, and social media strategies." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/seo.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <section class="seo-hero-section">

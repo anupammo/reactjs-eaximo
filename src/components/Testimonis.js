@@ -1,5 +1,3 @@
-import React from "react";
-
 const Testimonis = () => {
     return (
         <section className="py-5 my-5" id="testimonials">
@@ -15,7 +13,7 @@ const Testimonis = () => {
                         <div className="testimonial-card card h-100">
                             <div className="card-body p-4">
                                 <div className="d-flex align-items-center mb-4">
-                                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" className="testimonial-img me-3" alt="Client testimonial" />
+                                    <img src="/testimonis/sarah-johnson.webp" className="testimonial-img me-3" alt="Client testimonial" width={74} height={74} />
                                     <div>
                                         <h3 className="h5 mb-1">Sarah Johnson</h3>
                                         <p className="text-muted mb-0">CEO, TechStart Inc.</p>
@@ -29,7 +27,7 @@ const Testimonis = () => {
                         <div className="testimonial-card card h-100">
                             <div className="card-body p-4">
                                 <div className="d-flex align-items-center mb-4">
-                                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" className="testimonial-img me-3" alt="Client testimonial" />
+                                    <img src="/testimonis/michael-chen.webp" className="testimonial-img me-3" alt="Client testimonial" width={74} height={74} />
                                     <div>
                                         <h3 className="h5 mb-1">Michael Chen</h3>
                                         <p className="text-muted mb-0">Marketing Director, GlobalRetail</p>
@@ -43,7 +41,7 @@ const Testimonis = () => {
                         <div className="testimonial-card card h-100">
                             <div className="card-body p-4">
                                 <div className="d-flex align-items-center mb-4">
-                                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" className="testimonial-img me-3" alt="Client testimonial" />
+                                    <img src="/testimonis/emily-rodriguez.webp" className="testimonial-img me-3" alt="Client testimonial" width={74} height={74} />
                                     <div>
                                         <h3 className="h5 mb-1">Emily Rodriguez</h3>
                                         <p className="text-muted mb-0">Founder, GreenLife Organics</p>

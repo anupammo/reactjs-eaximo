@@ -1,14 +1,30 @@
-import { Link } from 'react-router-dom';
+import "./Brand.css";
 import React from "react";
-import Consultation from "../components/Consultation";
-import Connect from "../components/Connect";
+import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Brand.css";
-
+import Connect from "../components/Connect";
+import SeoHelmet from "../components/SeoHelmet";
+import Consultation from "../components/Consultation";
 const Brand = () => {
     return (
         <>
+            <SeoHelmet
+                title="Branding, Graphic Design & Printing Services | Eaximo"
+                description="Build a powerful brand identity with Eaximo! Get expert logo design, custom branding, marketing materials, and professional printing services for your business."
+                url="https://eaximo.com/branding"
+                image="https://eaximo.com/meta-image/branding.png"
+                meta={[
+                    { property: "og:title", content: "Branding, Graphic Design & Printing Services | Eaximo" },
+                    { property: "og:description", content: "Build a powerful brand identity with Eaximo! Get expert logo design, custom branding, marketing materials, and professional printing services for your business." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/branding.png" },
+                    { property: "og:url", content: "https://eaximo.com/branding" },
+                    { name: "twitter:title", content: "Branding, Graphic Design & Printing Services | Eaximo" },
+                    { name: "twitter:description", content: "Build a powerful brand identity with Eaximo! Get expert logo design, custom branding, marketing materials, and professional printing services for your business." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/branding.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <header className="brand-hero-section pb-5">

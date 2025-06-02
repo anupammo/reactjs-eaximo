@@ -2,11 +2,12 @@ import React from "react";
 import { HelmetProvider } from "react-helmet-async";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { HashRouter, Route, Routes } from 'react-router-dom';
 // import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Seo from "./pages/Seo";
@@ -24,13 +25,14 @@ import Web from "./pages/Web";
 function App() {
   return (
     <HelmetProvider>
-      <HashRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/academics" element={<Academics />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/seo" element={<Seo />} />
@@ -42,7 +44,7 @@ function App() {
           <Route path="/it-support" element={<Support />} />
           <Route path="/web-development" element={<Web />} />
         </Routes>
-      </HashRouter>
+      </Router>
     </HelmetProvider>
   );
 }

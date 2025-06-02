@@ -1,16 +1,31 @@
-import { Link } from 'react-router-dom';
+import "./Support.css";
 import React from "react";
-import Consultation from "../components/Consultation";
-import Connect from "../components/Connect";
-// import Testimonis from "../components/Testimonis";
-// import Counter from "../components/Counter"
+import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "./Support.css";
+import Connect from "../components/Connect";
+import SeoHelmet from "../components/SeoHelmet";
+import Consultation from "../components/Consultation";
 
 const Support = () => {
     return (
         <>
+            <SeoHelmet
+                title="IT Support, App & Software Development Services | Eaximo"
+                description="Eaximo provides expert IT solutions, app development, software development, technical support, and cybersecurity services to optimize business operations."
+                url="https://eaximo.com/it-support"
+                image="https://eaximo.com/meta-image/it-support.png"
+                meta={[
+                    { property: "og:title", content: "IT Support, App & Software Development Services | Eaximo" },
+                    { property: "og:description", content: "Eaximo provides expert IT solutions, app development, software development, technical support, and cybersecurity services to optimize business operations." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/it-support.png" },
+                    { property: "og:url", content: "https://eaximo.com/it-support" },
+                    { name: "twitter:title", content: "IT Support, App & Software Development Services | Eaximo" },
+                    { name: "twitter:description", content: "Eaximo provides expert IT solutions, app development, software development, technical support, and cybersecurity services to optimize business operations." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/it-support.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <header className="tech-hero py-5" id="home">

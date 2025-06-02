@@ -41,7 +41,7 @@ const Connect = () => {
                                     </div>
                                     <div>
                                         <h4 className="h5 mb-1">Call Us</h4>
-                                        <p className="lead mb-0">+91 (947) 446-0058 <br />Mon-Fri, 9am-6pm PST</p>
+                                        <p className="lead mb-0">+91 (814) 532-7376 <br />Mon-Fri, 9am-6pm PST</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,16 +54,16 @@ const Connect = () => {
                                 <form id="contact-form">
                                     <div className="row g-3">
                                         <div className="col-md-6">
-                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
-                                            <input type="text" id="name" name="name" className="form-control shadow-none" placeholder="Your Name" required />
+                                            <label htmlFor="name" className="form-label lead fs-6">Select the Service</label>
+                                            <input type="text" id="name" className="form-control shadow-none" placeholder="Your Name" required />
                                         </div>
                                         <div className="col-md-6">
-                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
-                                            <input type="email" id="email" name="email" className="form-control shadow-none" placeholder="Your Email" required />
+                                            <label htmlFor="email" className="form-label lead fs-6">Select the Service</label>
+                                            <input type="email" id="email" className="form-control shadow-none" placeholder="Your Email" required />
                                         </div>
                                         <div className="col-12">
-                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
-                                            <select className="form-select shadow-none" id="services" name="services">
+                                            <label htmlFor="service" className="form-label lead fs-6">Select the Service</label>
+                                            <select className="form-select shadow-none" id="service">
                                                 <option defaultValue="option1">I'm interested in...</option>
                                                 <option>AI-Powered Services</option>
                                                 <option>IT &amp; Tech Support</option>
@@ -74,8 +74,8 @@ const Connect = () => {
                                             </select>
                                         </div>
                                         <div className="col-12">
-                                            <label htmlFor="services" className="form-label lead fs-6">Select the Service</label>
-                                            <textarea className="form-control shadow-none" id="details" name="details" rows="5" placeholder="Tell us about your project..." required=""></textarea>
+                                            <label htmlFor="details" className="form-label lead fs-6">Select the Service</label>
+                                            <textarea className="form-control shadow-none" id="details" rows="5" placeholder="Tell us about your project..." required=""></textarea>
                                         </div>
                                         <div className="col-12">
                                             <button type="submit" className="btn btn-primary shadow-none w-100">Send Message</button>

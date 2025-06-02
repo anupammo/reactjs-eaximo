@@ -1,13 +1,30 @@
+import "./Media.css";
 import React from "react";
 import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import SeoHelmet from "../components/SeoHelmet";
 import Consultation from "../components/Consultation";
-import "./Media.css";
 
 const Media = () => {
     return (
         <>
+            <SeoHelmet
+                title="Media Production, Photography & Video Marketing | Eaximo"
+                description="Elevate your brand with Eaximo's expert media services. From photography and videography to animation and digital marketing, we create stunning visuals that drive engagement."
+                url="https://eaximo.com/media"
+                image="https://eaximo.com/meta-image/media.png"
+                meta={[
+                    { property: "og:title", content: "Media Production, Photography & Video Marketing | Eaximo" },
+                    { property: "og:description", content: "Elevate your brand with Eaximo's expert media services. From photography and videography to animation and digital marketing, we create stunning visuals that drive engagement." },
+                    { property: "og:image", content: "https://eaximo.com/meta-image/media.png" },
+                    { property: "og:url", content: "https://eaximo.com/media" },
+                    { name: "twitter:title", content: "Media Production, Photography & Video Marketing | Eaximo" },
+                    { name: "twitter:description", content: "Elevate your brand with Eaximo's expert media services. From photography and videography to animation and digital marketing, we create stunning visuals that drive engagement." },
+                    { name: "twitter:image", content: "https://eaximo.com/meta-image/media.png" }
+                ]}
+            />
+
             <Navbar />
             <main>
                 <header className="media-hero-section">
