@@ -22,6 +22,7 @@ import Sem from "./pages/Sem";
 import Media from "./pages/Media";
 import Support from "./pages/Support";
 import Web from "./pages/Web";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="/media" element={<Media />} />
           <Route path="/it-support" element={<Support />} />
           <Route path="/web-development" element={<Web />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </HelmetProvider>

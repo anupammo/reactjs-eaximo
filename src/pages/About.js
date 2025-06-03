@@ -50,12 +50,10 @@ const About = () => {
       <Navbar />
       <main>
         <header className="hero-about py-5">
-          <div className="container">
+          <div className="container mt-5">
             <div className="row">
               <div className="col-lg-8">
-                <h1 className="hero-title display-4 fw-bold pt-5">
-                  About eaximo
-                </h1>
+                <h1 className="hero-title display-4 fw-bold pt-5">About eaximo</h1>
                 <p className="lead mt-5">
                   Transforming brands, boosting online visibility, and driving
                   business success through innovative digital solutions.

@@ -50,19 +50,12 @@ const Teams = () => {
       <Navbar />
       <main>
         <header className="hero-about py-5">
-          <div className="container">
+          <div className="container mt-5">
             <div className="row">
               <div className="col-lg-8">
-                <h1 className="hero-title display-4 fw-bold pt-5">
-                  About eaximo
-                </h1>
-                <p className="lead mt-5">
-                  Transforming brands, boosting online visibility, and driving
-                  business success through innovative digital solutions.
-                </p>
-                <p className="lead mt-4">
-                  Check out our <strong>Best Services</strong>
-                </p>
+                <h1 className="hero-title display-4 fw-bold pt-5">Team eaximo</h1>
+                <p className="lead mt-5">Transforming brands, boosting online visibility, and driving business success through innovative digital solutions.</p>
+                <p className="lead mt-4">Check out our <strong>Best Services</strong></p>
                 <hr className="w-25" />
                 <div className="d-flex flex-wrap gap-3 my-4">
                   <div className="d-flex align-items-center">
@@ -90,9 +83,7 @@ const Teams = () => {
                     <span>Web Development</span>
                   </div>
                 </div>
-                <Link to="/team" className="btn btn-primary btn-lg mb-5">
-                  Meet Our Team
-                </Link>
+                <Link to="/team" className="btn btn-primary btn-lg mb-5">Meet Our Team</Link>
               </div>
             </div>
           </div>
