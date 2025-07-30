@@ -27,15 +27,15 @@ const Media = () => {
 
             <Navbar />
             <main>
-                <header className="media-hero-section">
+                <header className="py-5">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Capture, Create & Engage</h1>
-                                <p className="lead mb-4">In today's digital world, <strong>high-quality visuals</strong> are the key to capturing attention and building brand trust.</p>
+                                <h1 className="fw-bold mt-5 pt-5">Capture, Create & Engage</h1>
+                                <p className="lead my-5">In today's digital world, <strong>high-quality visuals</strong> are the key to capturing attention and building brand trust.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
                                     <Link to="/services" className="btn btn-primary btn-lg">Explore Services</Link>
-                                    <Link to="/portfolio" className="btn btn-outline-light btn-lg">View Portfolio</Link>
+                                    <Link to="/portfolio" className="btn btn-primary btn-lg">View Portfolio</Link>
                                 </div>
                             </div>
                         </div>

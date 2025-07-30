@@ -28,12 +28,12 @@ const Careers = () => {
 
             <Navbar />
             <main>
-                <header className="careers-hero-section">
+                <header className="pt-5">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Build the Future of Digital Innovation</h1>
-                                <p className="lead mb-4">Join our team of digital marketing professionals, web developers, and branding experts.</p>
+                                <h1 className="hero-title fw-bold mt-5 pt-5">Build the Future of Digital Innovation</h1>
+                                <p className="lead my-5">Join our team of digital marketing professionals, web developers, and branding experts.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5 pb-5">
                                     <Link to="/openings" className="btn btn-primary btn-lg">View Open Positions</Link>
                                     <Link to="/apply" className="btn btn-outline-light btn-lg">How to Apply</Link>
@@ -443,6 +443,8 @@ const Careers = () => {
                     </div>
                 </section>
                 
+                {/* <Consultation />
+                
                 <section className="hero-section py-5" id="apply">
                     <div className="container">
                         <div className="apply-section">
@@ -491,8 +493,6 @@ const Careers = () => {
                         </div>
                     </div>
                 </section>
-                
-                {/* <Consultation />
 
                 <Connect /> */}
             </main>

@@ -30,15 +30,15 @@ const Sem = () => {
 
             <Navbar />
             <main>
-                <header className="sem-hero-section">
+                <header className="py-5">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold">Fuel Your Business Growth</h1>
-                                <p className="lead mb-4">We craft <strong>performance-driven digital marketing strategies</strong> that increase brand awareness, improve search rankings, and maximize lead conversions.</p>
+                                <h1 className="hero-title fw-bold mt-5 pt-5">Fuel Your Business Growth</h1>
+                                <p className="lead my-5">We craft <strong>performance-driven digital marketing strategies</strong> that increase brand awareness, improve search rankings, and maximize lead conversions.</p>
                                 <div className="d-flex flex-wrap gap-3">
                                     <Link to="/services" className="btn btn-primary btn-lg">Explore Services</Link>
-                                    <Link to="/contact" className="btn btn-outline-light btn-lg">Get Free Consultation</Link>
+                                    <Link to="/contact" className="btn btn-primary btn-lg">Get Free Consultation</Link>
                                 </div>
                             </div>
                         </div>

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Connect from "../components/Connect";
+// import TiltCard from "../components/TiltCard";
 import SeoHelmet from "../components/SeoHelmet";
 import Testimonis from "../components/Testimonis";
 import StatsNumber from "../components/StatsNumber";
@@ -30,54 +31,84 @@ const Home = () => {
 
             <Navbar />
             <main>
-                <header className="hero-home">
-                    <div className="container py-5">
-                        <div className="row">
-                            <div className="col-12">
-                                <h1 className="fs-sm-3 fs-md-2 fs-lg-1 mt-5 pt-5">Accelerate Your Growth with Expert
-                                    <strong className="fs-sm-3 fs-md-2 fs-lg-1 text-primary"> Digital Marketing</strong> &amp;
-                                    <strong className="fs-sm-3 fs-md-2 fs-lg-1 text-primary"> AI Solutions</strong>
-                                </h1>
-                            </div>
+                <header className="home-hero">
+                    <div className="boxes">
+                        <div className="lines">
+                            <div className="line"></div>
+                            <div className="line"></div>
+                            <div className="line"></div>
                         </div>
-                        <div className="row">
-                            <div className="col-lg-8 col-12">
-                                <p className="fs-5 mt-4">Your trusted partner for digital marketing, web development, and AI-powered business solutions.</p>
-                                <p className="fs-5 mb-4">Eaximo helps brands thrive with cutting-edge SEO, web development, and AI-powered strategies.</p>
-                                <p className="fs-5 mb-4">Check out our <strong>Best Services</strong></p>
-                                <hr className="w-25" />
-                                <div className="d-flex flex-wrap gap-3 my-4">
-                                    <div className="d-flex align-items-center">
-                                        <div className="me-3 text-light">
-                                            <i className="fas fa-check-circle fa-lg"></i>
+                        <div className="container">
+                            <div className="row my-5">
+                                <div className="col-lg-8 col-12">
+                                    <h1 className="fs-sm-3 fs-md-2 fs-lg-1 mt-5 pt-4">Accelerate Your Growth with Expert
+                                        <strong className="fs-sm-3 fs-md-2 fs-lg-1 text-primary"> Digital Marketing</strong> &amp;
+                                        <strong className="fs-sm-3 fs-md-2 fs-lg-1 text-primary"> AI Solutions</strong>
+                                    </h1>
+                                    <img src="/ai-bot-grdient-line.png" className="img-fluid d-block d-sm-none my-4" alt="Eaximo Ai helper" />
+                                    <p className="fs-5 mt-4">Your trusted partner for digital marketing, web development, and AI-powered business solutions.</p>
+                                    <p className="fs-5 mb-4">Eaximo helps brands thrive with cutting-edge SEO, web development, and AI-powered strategies.</p>
+                                    <p className="text-gradient fs-3 mb-4">Check out our <strong>Best Services</strong></p>
+                                    {/* <hr className="w-25" /> */}
+                                    <div className="d-flex flex-wrap gap-3 my-4">
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>IT & Tech Support</span>
                                         </div>
-                                        <span>Digital Marketing</span>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>Web Development</span>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>AI Solutions</span>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>Digital Marketing</span>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>SEO Services</span>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>Branding & Designing</span>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>SEM Services</span>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <div className="me-3 text-light">
+                                                <i className="fas fa-check-circle fa-lg"></i>
+                                            </div>
+                                            <span>Media Solutions</span>
+                                        </div>
                                     </div>
-                                    <div className="d-flex align-items-center">
-                                        <div className="me-3 text-light">
-                                            <i className="fas fa-check-circle fa-lg"></i>
-                                        </div>
-                                        <span>SEO & Growth</span>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <div className="me-3 text-light">
-                                            <i className="fas fa-check-circle fa-lg"></i>
-                                        </div>
-                                        <span>Website Design</span>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <div className="me-3 text-light">
-                                            <i className="fas fa-check-circle fa-lg"></i>
-                                        </div>
-                                        <span>Web Development</span>
+                                    <div className="d-flex flex-wrap gap-3 my-5">
+                                        <Link to="/contact" className="btn btn-light">Free Consultation</Link>
+                                        <Link to="/services" className="btn btn-outline-light">Our Services</Link>
                                     </div>
                                 </div>
-                                <div className="d-flex flex-wrap gap-3 my-5">
-                                    <Link to="/contact" className="btn btn-dark">Free Consultation</Link>
-                                    <Link to="/services" className="btn btn-outline-primary">Our Services</Link>
+                                <div className="col-lg-4 col-12 h-100">
+                                    {/* <TiltCard /> */}
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-12"></div>
                         </div>
                     </div>
                 </header>
@@ -85,6 +116,10 @@ const Home = () => {
                 <section className="py-5 my-5" id="about">
                     <div className="container">
                         <div className="row align-items-center">
+                            <div className="col-lg-6 mb-5 mb-lg-0">
+                                <img src="/about-eaximo-dark-16-9.webp" alt="Digital marketing team working" 
+                                className="img-fluid shadow d-block mx-auto rounded-3" width={500} height={333} loading="lazy" />
+                            </div>
                             <div className="col-lg-6">
                                 <div className="p-5">
                                     <h2 className="section-title mb-4">About Eaximo</h2>
@@ -106,18 +141,14 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 mb-5 mb-lg-0">
-                                <img src="/about-eaximo.webp" alt="Digital marketing team working" 
-                                className="img-fluid rounded-3 shadow" width={500} height={331} loading="lazy" />
-                            </div>
                         </div>
                     </div>
                 </section>
                 
                 <StatsNumber />
                 
-                <section className="py-5 bg-light" id="services">
-                    <div className="container my-5">
+                <section className="home-hero bg-white py-5" id="services">
+                    <div className="container py-5">
                         <div className="row justify-content-center mb-5">
                             <div className="col-lg-8 text-center">
                                 <h2 className="section-title">Our Key Services</h2>
@@ -128,11 +159,11 @@ const Home = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
-                                        <div className="service-icon">
+                                        <div className="service-icon text-dark">
                                             <i className="fas fa-search"></i>
                                         </div>
                                         <h3 className="h4 mb-4">Website SEO Services</h3>
-                                        <p className="text-muted">Optimize your website to rank higher on Google and drive organic traffic with proven SEO strategies.</p>
+                                        <p className="text-dark">Optimize your website to rank higher on Google and drive organic traffic with proven SEO strategies.</p>
                                         <Link to="/seo" className="btn btn-outline-primary mt-3">Explore SEO</Link>
                                     </div>
                                 </div>
@@ -140,11 +171,11 @@ const Home = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
-                                        <div className="service-icon">
+                                        <div className="service-icon text-dark">
                                             <i className="fas fa-code"></i>
                                         </div>
                                         <h3 className="h4 mb-4">Website Development</h3>
-                                        <p className="text-muted">Build fast, scalable, and responsive business websites that convert visitors into customers.</p>
+                                        <p className="text-dark">Build fast, scalable, and responsive business websites that convert visitors into customers.</p>
                                         <Link to="/web-development" className="btn btn-outline-primary mt-3">Explore Development</Link>
                                     </div>
                                 </div>
@@ -152,11 +183,11 @@ const Home = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
-                                        <div className="service-icon">
+                                        <div className="service-icon text-dark">
                                             <i className="fas fa-bullhorn"></i>
                                         </div>
                                         <h3 className="h4 mb-4">Social Media Marketing</h3>
-                                        <p className="text-muted">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
+                                        <p className="text-dark">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
                                         <Link to="/digital-marketing" className="btn btn-outline-primary mt-3">Explore Marketing</Link>
                                     </div>
                                 </div>
@@ -164,11 +195,59 @@ const Home = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="service-card card h-100">
                                     <div className="card-body p-4">
-                                        <div className="service-icon">
+                                        <div className="service-icon text-dark">
                                             <i className="fas fa-robot"></i>
                                         </div>
                                         <h3 className="h4 mb-4">AI Powered Marketing</h3>
-                                        <p className="text-muted">Enhance efficiency with our smart AI-powered tools for marketing automation and analytics.</p>
+                                        <p className="text-dark">Enhance efficiency with our smart AI-powered tools for marketing automation and analytics.</p>
+                                        <Link to="/ai-solutions" className="btn btn-outline-primary mt-3">AI Marketing</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="service-card card h-100">
+                                    <div className="card-body p-4">
+                                        <div className="service-icon text-dark">
+                                            <i className="fas fa-search"></i>
+                                        </div>
+                                        <h3 className="h4 mb-4">Website SEO Services</h3>
+                                        <p className="text-dark">Optimize your website to rank higher on Google and drive organic traffic with proven SEO strategies.</p>
+                                        <Link to="/seo" className="btn btn-outline-primary mt-3">Explore SEO</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="service-card card h-100">
+                                    <div className="card-body p-4">
+                                        <div className="service-icon text-dark">
+                                            <i className="fas fa-code"></i>
+                                        </div>
+                                        <h3 className="h4 mb-4">Website Development</h3>
+                                        <p className="text-dark">Build fast, scalable, and responsive business websites that convert visitors into customers.</p>
+                                        <Link to="/web-development" className="btn btn-outline-primary mt-3">Explore Development</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="service-card card h-100">
+                                    <div className="card-body p-4">
+                                        <div className="service-icon text-dark">
+                                            <i className="fas fa-bullhorn"></i>
+                                        </div>
+                                        <h3 className="h4 mb-4">Social Media Marketing</h3>
+                                        <p className="text-dark">Strengthen brand presence and connect with your audience through targeted social campaigns.</p>
+                                        <Link to="/digital-marketing" className="btn btn-outline-primary mt-3">Explore Marketing</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="service-card card h-100">
+                                    <div className="card-body p-4">
+                                        <div className="service-icon text-dark">
+                                            <i className="fas fa-robot"></i>
+                                        </div>
+                                        <h3 className="h4 mb-4">AI Powered Marketing</h3>
+                                        <p className="text-dark">Enhance efficiency with our smart AI-powered tools for marketing automation and analytics.</p>
                                         <Link to="/ai-solutions" className="btn btn-outline-primary mt-3">AI Marketing</Link>
                                     </div>
                                 </div>
@@ -180,35 +259,45 @@ const Home = () => {
                     </div>
                 </section>
                 
-                <section className="py-5 my-5" id="why-us">
-                    <div className="container">
-                        <div className="row justify-content-center mb-5">
-                            <div className="col-lg-8 text-center">
-                                <h2 className="section-title">Why Choose Eaximo?</h2>
-                                <p className="lead mb-5">We deliver measurable results through innovative strategies</p>
-                            </div>
-                        </div>
-                        <div className="row g-4">
-                            <div className="col-lg-4">
-                                <div className="feature-icon">
-                                    <i className="fas fa-chart-line"></i>
+                <section className="box" id="why-us">
+                    <div className="boxes py-5">
+                        <div className="container">
+                            <div className="row justify-content-center mt-4">
+                                <div className="col-lg-8 text-center">
+                                    <h2>
+                                        <span className="text-gradient">Why Choose Eaximo?</span>
+                                    </h2>
+                                    <p className="text-white lead mb-3">We deliver measurable results through innovative strategies</p>
                                 </div>
-                                <h3 className="h4">Data-Driven Campaigns</h3>
-                                <p>Our strategies are backed by real-time analytics and performance tracking to ensure maximum ROI for your marketing spend.</p>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="feature-icon">
-                                    <i className="fas fa-lightbulb"></i>
+                            <div className="row g-4">
+                                <div className="col-lg-4">
+                                    <div className="feature-icon text-dark">
+                                        <i className="fas fa-chart-line"></i>
+                                    </div>
+                                    <h3 className="h4 my-4">
+                                        <span className="text-gradient">Data-Driven Campaigns</span>
+                                    </h3>
+                                    <p className="text-white">Our strategies are backed by real-time analytics and performance tracking to ensure maximum ROI for your marketing spend.</p>
                                 </div>
-                                <h3 className="h4">Expert Consultation</h3>
-                                <p>Get customized SEO strategies tailored to your business goals for better search ranking and increased visibility.</p>
-                            </div>
-                            <div className="col-lg-4">
-                                <div className="feature-icon">
-                                    <i className="fas fa-cogs"></i>
+                                <div className="col-lg-4">
+                                    <div className="feature-icon text-dark">
+                                        <i className="fas fa-lightbulb"></i>
+                                    </div>
+                                    <h3 className="h4 my-4">
+                                        <span className="text-gradient">Expert Consultation</span>
+                                    </h3>
+                                    <p className="text-white">Get customized SEO strategies tailored to your business goals for better search ranking and increased visibility.</p>
                                 </div>
-                                <h3 className="h4">AI-Powered Insights</h3>
-                                <p>Leverage our smart solutions for automated digital marketing that adapts to market trends and customer behavior.</p>
+                                <div className="col-lg-4">
+                                    <div className="feature-icon text-dark">
+                                        <i className="fas fa-cogs"></i>
+                                    </div>
+                                    <h3 className="h4 my-4">
+                                        <span className="text-gradient">AI-Powered Insights</span>
+                                    </h3>
+                                    <p className="text-white">Leverage our smart solutions for automated digital marketing that adapts to market trends and customer behavior.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -26,12 +26,12 @@ const Web = () => {
 
             <Navbar />
             <main>
-                <header className="web-hero-section">
+                <header className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Transform Your Online Presence</h1>
-                                <p className="lead mb-4">A well-designed website is the <strong>foundation of digital success</strong>. We specialize in custom solutions that engage audiences and drive conversions.</p>
+                                <h1 className="hero-title fw-bold mt-5 pt-5">Transform Your Online Presence</h1>
+                                <p className="lead my-5">A well-designed website is the <strong>foundation of digital success</strong>. We specialize in custom solutions that engage audiences and drive conversions.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
                                     <Link to="/services" className="btn btn-primary btn-lg">Explore Services</Link>
                                     <Link to="/contact" className="btn btn-outline-light btn-lg">Get Started</Link>

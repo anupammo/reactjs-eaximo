@@ -27,12 +27,12 @@ const Dm = () => {
 
             <Navbar />
             <main>
-                <header className="hero-services">
+                <header className="py-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Our Digital Services</h1>
-                                <p className="lead mb-4">Comprehensive solutions to enhance your digital presence, optimize marketing strategies, and accelerate business growth.</p>
+                                <h1 className="hero-title fw-bold mt-5 pt-5">Our Digital Services</h1>
+                                <p className="lead my-5">Comprehensive solutions to enhance your digital presence, optimize marketing strategies, and accelerate business growth.</p>
                                 <Link to="/services" className="btn btn-primary btn-lg mb-5">Explore Services</Link>
                             </div>
                         </div>

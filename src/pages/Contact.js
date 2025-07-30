@@ -27,7 +27,7 @@ const Contact = () => {
 
             <Navbar />
             <main>
-                <header className="hero-section">
+                <header>
                     <div className="container mt-5">
                         <div className="row align-items-center">
                             <div className="col-lg-8 my-5">

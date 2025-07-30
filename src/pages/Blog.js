@@ -45,11 +45,11 @@ const Blog = () => {
       />
       <Navbar />
       <main>
-        <header className="hero-section py-5">
+        <header className="py-5">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-8">
-                <h1 className="hero-title display-4 fw-bold my-5">
+                <h1 className="hero-title fw-bold mt-5 pt-5">
                   Your Digital Growth Resource
                 </h1>
                 <p className="lead my-5 pb-5">

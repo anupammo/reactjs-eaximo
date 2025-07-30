@@ -50,15 +50,15 @@ const Ai = () => {
 
       <Navbar />
       <main>
-        <header className="ai-hero py-5" id="home">
+        <header className="py-5" id="home">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row">
               <div className="col-lg-8">
-                <h1 className="display-4 fw-bold mb-4 mt-5">
+                <h1 className="fw-bold mb-4 mt-5 pt-5">
                   Revolutionizing Business with AI-Powered Solutions
                 </h1>
-                <p className="lead mb-4">
-                  AI-driven marketing and automation are{" "}
+                <p className="lead my-5">
+                  AI-driven marketing and automation are 
                   <strong>reshaping digital strategies</strong>, making
                   processes smarter, faster, and <strong>data-driven</strong>.
                   Eaximo offers <strong>next-gen AI services</strong>, from{" "}
@@ -76,7 +76,7 @@ const Ai = () => {
                   </Link>
                   <Link
                     to="/services"
-                    className="btn btn-outline-light btn-lg px-4"
+                    className="btn btn-primary btn-lg px-4"
                   >
                     Our AI Services
                   </Link>

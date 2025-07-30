@@ -16,7 +16,7 @@ const Connect = () => {
                             <div className="card-body p-5">
                                 <h3 className="h4 mb-4">Contact Information</h3>
                                 <div className="d-flex align-items-start mb-4">
-                                    <div className="text-primary display-5 my-3 me-5">
+                                    <div className="text-gradient display-5 my-3 me-5">
                                         <i className="fas fa-map-marker-alt fa-lg"></i>
                                     </div>
                                     <div>
@@ -26,17 +26,17 @@ const Connect = () => {
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-start mb-4">
-                                    <div className="text-primary display-5 my-3 me-5">
+                                    <div className="text-gradient display-5 my-3 me-5">
                                         <i className="fas fa-envelope fa-lg"></i>
                                     </div>
                                     <div>
                                         <h4 className="h5 mb-1">Email Us</h4>
-                                        <p className="lead mb-0">hello@eaximo.com <br />support@eaximo.com</p>
+                                        <p className="lead mb-0">info@eaximo.com <br />support@eaximo.com</p>
                                         <hr />
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-start">
-                                    <div className="text-primary display-5 my-3 me-5">
+                                    <div className="text-gradient display-5 my-3 me-5">
                                         <i className="fas fa-phone-alt fa-lg"></i>
                                     </div>
                                     <div>
@@ -78,7 +78,7 @@ const Connect = () => {
                                             <textarea className="form-control shadow-none" id="details" rows="5" placeholder="Tell us about your project..." required=""></textarea>
                                         </div>
                                         <div className="col-12">
-                                            <button type="submit" className="btn btn-primary shadow-none w-100">Send Message</button>
+                                            <button type="submit" className="btn btn-primary shadow-none w-100">WhatsApp Message</button>
                                         </div>
                                     </div>
                                 </form>

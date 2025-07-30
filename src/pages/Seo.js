@@ -27,20 +27,20 @@ const Seo = () => {
 
             <Navbar />
             <main>
-                <section class="seo-hero-section">
+                <header class="py-5">
                     <div class="container">
-                        <div class="row align-items-center">
+                        <div class="row">
                             <div class="col-lg-8">
-                                <h1 class="hero-title display-4 fw-bold mt-5 pt-5">Dominate Search Rankings with Expert SEO Services</h1>
-                                <p class="lead mb-4">Get <strong>more traffic, leads, and sales</strong> with Eaximo's comprehensive digital marketing solutions tailored to your business goals.</p>
+                                <h1 class="hero-title fw-bold mt-5 pt-5">Dominate Search Rankings with Expert SEO Services</h1>
+                                <p class="lead my-5">Get <strong>more traffic, leads, and sales</strong> with Eaximo's comprehensive digital marketing solutions tailored to your business goals.</p>
                                 <div class="d-flex flex-wrap gap-3 mb-5">
                                     <Link to="/services" class="btn btn-primary btn-lg">Explore Services</Link>
-                                    <Link to="/contact" class="btn btn-outline-light btn-lg">Get Free Audit</Link>
+                                    <Link to="/contact" class="btn btn-primary btn-lg">Get Free Audit</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </header>
                 
                 <section class="py-5 my-5" id="services">
                     <div class="container">

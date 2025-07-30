@@ -9,23 +9,47 @@
 /* Web Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Iceland&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
+/* new font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 
-.goldman-regular, h1, h2, h3, h4, h5, h6, .btn, .navbar-brand {
+/* .goldman-regular, h1, h2, h3, h4, h5, h6, .btn, .navbar-brand {
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
+} */
+
+.orbitron-bold, h1, h2, h3, h4, h5, h6, .btn, .navbar-brand, span.stat-number {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.encode-sans-condensed-regular, p, li, a, label {
-  font-family: "Encode Sans Condensed", sans-serif;
+.oxanium-font, p, li, a, label {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+/* .encode-sans-condensed-regular, p, li, a, label {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
 /* Web Fonts */
 
 h2, h3, h3.h5, h3.h4, h4, h5 {
     font-weight: bold;
     color: var(--primary);
+}
+
+h1 strong, .text-gradient, span.stat-number {
+  background: -webkit-linear-gradient(30deg, var(--accent) 0%, var(--primary) 40%, var(--primary) 60%, var(--secondary) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1 .text-primary {
@@ -37,7 +61,29 @@ h1 .text-secondary {
 }
 
 .text-light i {
-    color: var(--secondary) !important;
+    color: var(--accent) !important;
+}
+
+/* header {
+  background: #000B18;
+  background-image:  linear-gradient(#ffffff15 1px, transparent 1px), linear-gradient(to right, #ffffff15 1px, #e5e5f700 1px);
+  background-size: 60px 60px;
+  background-image: url(/public/ai-bot-grdient-line.webp);
+  background-size: auto;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+} */
+
+header {
+  background: #000B18;
+  background-image:  linear-gradient(#ffffff15 1px, transparent 1px), linear-gradient(to right, #ffffff15 1px, #e5e5f700 1px);
+  background-size: 60px 60px;
+}
+
+.stats-section {
+    background: #000B18 !important;
+    background: linear-gradient(90deg, rgba(0, 11, 24, 1) 0%, rgba(0, 38, 72, 1) 30%, rgba(0, 38, 72, 1) 70%, rgba(0, 11, 24, 1) 100%);
 }
 
 .service-card {
@@ -63,8 +109,9 @@ h1 .text-secondary {
 .feature-icon {
     width: 60px;
     height: 60px;
-    background: var(--accent);
-    background: linear-gradient(60deg, var(--accent) 0%, var(--primary) 30%, var(--primary) 70%, var(--secondary) 100%);
+    background-color: #ffffff;
+    /* background: var(--accent);
+    background: linear-gradient(60deg, var(--accent) 0%, var(--primary) 30%, var(--primary) 70%, var(--secondary) 100%); */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -73,9 +120,9 @@ h1 .text-secondary {
     font-size: 1.75rem;
 }
 
-.feature-icon i {
+/* .feature-icon i {
     color: var(--light);
-}
+} */
 
 .testimonial-card {
     border: none;
@@ -95,7 +142,7 @@ h1 .text-secondary {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.gradient-bg, .stats-section, .btn-primary {
+.gradient-bg, .btn-primary {
     border: none !important;
     color: white;
     background: var(--primary);
@@ -143,9 +190,9 @@ h1 .text-secondary {
 
 footer {
     background-color: var(--dark);
-    background-image: url(../public/footer-watermark.webp);
-    color: white;
-    padding: 3rem 0 1rem;
+    /* background-image: url(../public/footer-watermark.webp); */
+    /* color: white; */
+    /* padding: 3rem 0 1rem; */
 }
 
 .social-icon {
@@ -299,3 +346,34 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
+
+/* body, section {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background: linear-gradient(90deg, var(--accent) 0%, var(--primary) 20%, var(--primary) 40%, var(--secondary) 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+} */
+
+/* .service-card {
+    transition: 1s ease-in-out;
+} */
+
+/* .service-card:hover {
+    border: transparent;
+    background: var(--primary);
+    background: linear-gradient(60deg, var(--accent) 0%, var(--primary) 30%, var(--primary) 70%, var(--secondary) 100%);
+    color: #000000;
+}
+
+.service-card:hover h3, .service-card:hover {
+    color: #000000 !important;
+}
+
+.service-card:hover i.fas, .service-card:hover p {
+    color: #ffffff !important;
+} */

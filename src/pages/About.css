@@ -1,4 +1,4 @@
-.hero-about {
+/* .hero-about {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
                 url('https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     color: white;
-}
+} */
 
 .why-card {
     border-left: 4px solid var(--primary);

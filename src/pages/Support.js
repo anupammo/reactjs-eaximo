@@ -28,15 +28,15 @@ const Support = () => {
 
             <Navbar />
             <main>
-                <header className="tech-hero py-5" id="home">
+                <header className="py-5" id="home">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row">
                             <div className="col-lg-8">
-                                <h1 className="display-4 fw-bold mb-4 mt-5">Reliable IT & Tech Support for Your Business Growth</h1>
-                                <p className="lead mb-4">In today's digital-first world, <strong>efficient IT solutions</strong> are crucial for <strong>seamless business operations, security, and productivity</strong>. Eaximo offers <strong>end-to-end IT support, app development, software solutions, and technical consulting</strong> to help businesses <strong>scale with confidence</strong>.</p>
+                                <h1 className="fw-bold mb-4 mt-5 pt-5">Reliable IT & Tech Support for Your Business Growth</h1>
+                                <p className="lead my-5">In today's digital-first world, <strong>efficient IT solutions</strong> are crucial for <strong>seamless business operations, security, and productivity</strong>. Eaximo offers <strong>end-to-end IT support, app development, software solutions, and technical consulting</strong> to help businesses <strong>scale with confidence</strong>.</p>
                                 <div className="d-flex flex-wrap gap-3">
                                     <Link to="/contact" className="btn btn-primary btn-lg px-4">Get IT Support</Link>
-                                    <Link to="/services" className="btn btn-outline-light btn-lg px-4">Our Services</Link>
+                                    <Link to="/services" className="btn btn-primary btn-lg px-4">Our Services</Link>
                                 </div>
                             </div>
                         </div>

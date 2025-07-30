@@ -49,50 +49,57 @@ const About = () => {
 
       <Navbar />
       <main>
-        <header className="hero-about py-5">
-          <div className="container mt-5">
-            <div className="row">
-              <div className="col-lg-8">
-                <h1 className="hero-title display-4 fw-bold pt-5">About eaximo</h1>
-                <p className="lead mt-5">
-                  Transforming brands, boosting online visibility, and driving
-                  business success through innovative digital solutions.
-                </p>
-                <p className="lead mt-4">
-                  Check out our <strong>Best Services</strong>
-                </p>
-                <hr className="w-25" />
-                <div className="d-flex flex-wrap gap-3 my-4">
-                  <div className="d-flex align-items-center">
-                    <div className="me-3 text-primary">
-                      <i className="fas fa-check-circle fa-lg"></i>
+        <header className="boxes py-5">
+          {/* <div className="boxes"> */}
+              {/* <div className="lines">
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+              </div> */}
+            <div className="container mt-5">
+              <div className="row">
+                <div className="col-lg-8">
+                  <h1 className="hero-title display-4 fw-bold pt-5">About eaximo</h1>
+                  <p className="lead mt-5">
+                    Transforming brands, boosting online visibility, and driving
+                    business success through innovative digital solutions.
+                  </p>
+                  <p className="lead mt-4">
+                    Check out our <strong>Best Services</strong>
+                  </p>
+                  <hr className="w-25" />
+                  <div className="d-flex flex-wrap gap-3 my-4">
+                    <div className="d-flex align-items-center">
+                      <div className="me-3 text-primary">
+                        <i className="fas fa-check-circle fa-lg"></i>
+                      </div>
+                      <span>Digital Marketing</span>
                     </div>
-                    <span>Digital Marketing</span>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <div className="me-3 text-primary">
-                      <i className="fas fa-check-circle fa-lg"></i>
+                    <div className="d-flex align-items-center">
+                      <div className="me-3 text-primary">
+                        <i className="fas fa-check-circle fa-lg"></i>
+                      </div>
+                      <span>SEO & Growth</span>
                     </div>
-                    <span>SEO & Growth</span>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <div className="me-3 text-primary">
-                      <i className="fas fa-check-circle fa-lg"></i>
+                    <div className="d-flex align-items-center">
+                      <div className="me-3 text-primary">
+                        <i className="fas fa-check-circle fa-lg"></i>
+                      </div>
+                      <span>Website Design</span>
                     </div>
-                    <span>Website Design</span>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <div className="me-3 text-primary">
-                      <i className="fas fa-check-circle fa-lg"></i>
+                    <div className="d-flex align-items-center">
+                      <div className="me-3 text-primary">
+                        <i className="fas fa-check-circle fa-lg"></i>
+                      </div>
+                      <span>Web Development</span>
                     </div>
-                    <span>Web Development</span>
                   </div>
+                  <Link to="/team" className="btn btn-primary btn-lg mb-5">
+                    Meet Our Team
+                  </Link>
                 </div>
-                <Link to="/team" className="btn btn-primary btn-lg mb-5">
-                  Meet Our Team
-                </Link>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </header>
 
@@ -234,6 +241,8 @@ const About = () => {
 
         <Team />
 
+        <Consultation />
+
         <section className="py-5 my-5">
           <div className="container my-4">
             <div className="row justify-content-center mb-5">
@@ -343,8 +352,6 @@ const About = () => {
             </div>
           </div>
         </section>
-
-        <Consultation />
       </main>
       <Footer />
     </>

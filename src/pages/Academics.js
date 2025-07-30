@@ -17,12 +17,12 @@ const Academics = () => {
             />
             <Navbar />
             <main>
-                <header className="academics-hero-section py-5">
+                <header className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-8">
-                                <h1 className="hero-title fw-bold display-4 mt-5">Upskill with Eaximo's Expert-Led Training Programs</h1>
-                                <p className="lead mb-4">Master digital marketing, branding, web development, AI automation, and more with our professional training programs.</p>
+                                <h1 className="hero-title fw-bold mt-5 pt-5">Upskill with Eaximo's Expert-Led Training Programs</h1>
+                                <p className="lead my-5">Master digital marketing, branding, web development, AI automation, and more with our professional training programs.</p>
                                 <div className="d-flex flex-wrap gap-3">
                                     <Link to="/programs" className="btn btn-primary btn-lg">Explore Programs</Link>
                                     <Link to="/enroll" className="btn btn-outline-light btn-lg">How to Enroll</Link>
@@ -231,31 +231,31 @@ const Academics = () => {
                         <div className="workshop-section">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-center">
-                                    <h2 className="text-white fw-bold display-5 mb-5">Workshop & Live Masterclasses</h2>
+                                    <h2 className="text-white fw-bold  mb-5">Workshop & Live Masterclasses</h2>
                                     <div className="row g-4">
                                         <div className="col-md-3">
-                                            <div className="feature-icon mx-auto">
+                                            <div className="feature-icon mx-auto" style={{color: 'var(--primary)'}}>
                                                 <i className="fas fa-chalkboard-teacher"></i>
                                             </div>
                                             <h3 className="text-white h4">Expert-Led Training</h3>
                                             <p>Live Q&A sessions & interactive learning with industry professionals</p>
                                         </div>
                                         <div className="col-md-3">
-                                            <div className="feature-icon mx-auto">
+                                            <div className="feature-icon mx-auto" style={{color: 'var(--primary)'}}>
                                                 <i className="fas fa-laptop-code"></i>
                                             </div>
                                             <h3 className="text-white h4">Hands-On Projects</h3>
                                             <p>Practical exercises & real-world case studies for applied learning</p>
                                         </div>
                                         <div className="col-md-3">
-                                            <div className="feature-icon mx-auto">
+                                            <div className="feature-icon mx-auto" style={{color: 'var(--primary)'}}>
                                                 <i className="fas fa-certificate"></i>
                                             </div>
                                             <h3 className="text-white h4">Industry Certification</h3>
                                             <p>Validated credentials to enhance your professional profile</p>
                                         </div>
                                         <div className="col-md-3">
-                                            <div className="feature-icon mx-auto">
+                                            <div className="feature-icon mx-auto" style={{color: 'var(--primary)'}}>
                                                 <i className="fas fa-chart-bar"></i>
                                             </div>
                                             <h3 className="text-white h4">Data-Driven Insights</h3>
@@ -319,7 +319,7 @@ const Academics = () => {
                                     </Link>
                                 </div>
                                 <div className="mt-5">
-                                    <h3 className="display-6 fw-bold mb-4">Boost Your Skills & Grow Your Career with Eaximo Today!</h3>
+                                    <h3 className="fw-bold mb-4">Boost Your Skills & Grow Your Career with Eaximo Today!</h3>
                                     <Link to="mailto:academy@eaximo.com" className="btn btn-outline-primary btn-lg px-5">Get Started Now</Link>
                                 </div>
                             </div>

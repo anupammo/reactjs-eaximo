@@ -27,15 +27,15 @@ const Brand = () => {
 
             <Navbar />
             <main>
-                <header className="brand-hero-section pb-5">
+                <header className="py-5">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row">
                             <div className="col-lg-8">
-                                <h1 className="hero-title display-4 fw-bold mt-5 pt-5">Empower Your Brand with Stunning Visuals & Strategy</h1>
-                                <p className="lead mb-4">At <strong>Eaximo</strong>, we craft <strong>unique brand identities, professional designs, and high-quality prints</strong> to help businesses stand out.</p>
+                                <h1 className="fw-bold mt-5 pt-5">Empower Your Brand with Stunning Visuals & Strategy</h1>
+                                <p className="lead my-5">At <strong>Eaximo</strong>, we craft <strong>unique brand identities, professional designs, and high-quality prints</strong> to help businesses stand out.</p>
                                 <div className="d-flex flex-wrap gap-3 mb-5">
                                     <Link to="/branding" className="btn btn-primary btn-lg">Explore Services</Link>
-                                    <Link to="/contact" className="btn btn-outline-light btn-lg">Get Started</Link>
+                                    <Link to="/contact" className="btn btn-primary btn-lg">Get Started</Link>
                                 </div>
                             </div>
                         </div>

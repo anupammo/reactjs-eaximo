@@ -1,8 +1,19 @@
 /* style for StatusNumber component */
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap'); */
 
-.statNumber {
+/* .statNumber {
   font-family: "Macondo", cursive;
   font-weight: 900;
   font-style: normal;
+} */
+
+.statsSection {
+    background: #000B18;
+    background: linear-gradient(90deg, rgba(0, 11, 24, 1) 0%, rgba(0, 38, 72, 1) 30%, rgba(0, 38, 72, 1) 70%, rgba(0, 11, 24, 1) 100%);
+}
+
+.boxes {
+  /* background-color: #000B18; */
+  background-image: linear-gradient(#ffffff15 1px, transparent 1px), linear-gradient(to right, #ffffff15 1px, #e5e5f700 1px);
+  background-size: 60px 60px;
 }
